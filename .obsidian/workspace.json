@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding/Algorithms/KMP.md",
+                "file": "College/Intro to CS/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from KMP"
+              "title": "Outgoing links from Notes"
             }
           },
           {
@@ -156,16 +156,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding/Algorithms/KMP.md",
+                "file": "College/Intro to CS/Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of KMP"
+              "title": "Outline of Notes"
+            }
+          },
+          {
+            "id": "6a29b759c17b39df",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
