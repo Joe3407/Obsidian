@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Intro to CS/Notes.md",
+                "file": "College/Calculus 1/Notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "College/Intro to CS/Notes.md",
+                "file": "College/Calculus 1/Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "College/Intro to CS/Notes.md",
+                "file": "College/Calculus 1/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Intro to CS/Notes.md",
+                "file": "College/Calculus 1/Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,10 +196,10 @@
   },
   "active": "f988323cbd29befa",
   "lastOpenFiles": [
+    "College/Intro to CS/Notes.md",
     "College/Calculus 1/Notes.md",
     "College/Probability & Statistics/Notes.md",
     "College/Physics 1/Notes.md",
-    "College/Intro to CS/Notes.md",
     "Coding/Notes.md",
     "Coding/Trees/Overview.md",
     "Coding/OOP.md",
