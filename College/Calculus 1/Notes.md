@@ -84,6 +84,3 @@
 - **Chain Rule:** $F(x)=f(g(x))$, $F'(x)=f'(g(x))g'(x)$ 
 - **Implicit:** $x^2+2y=1$
 - **Explicit:** $y=\frac{1}{2} (1-x^2)$ 
-
----
-yeah 
