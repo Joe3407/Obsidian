@@ -124,6 +124,14 @@
          - $\sigma_x=\sqrt{npq}$ 
          - **Note:** $p(X>4)=1-p(x \le 4)$
  - **Poisson:**
+	 - **Usage:** It helps in binomial as if we have a huge n and very small p binomial will be very ugly as it will have huge powers and small numbers but Poisson helps here as it takes the average $\lambda =np$, and uses it in its equation, it's used to know the number of outcome during a given interval of time 
      - **Poisson Distribution:** $p(x)=p(X=x)=\frac{e^{-\lambda}\lambda^x}{x!}$, (when x is a non-negative integer) 
      - **Expectation & Variance:** $E[x]=var[x]=\lambda$ 
-     - **Poisson Process:** 
+ - **Poisson Process:** 
+     - **Properties:** 
+         - **Events occur independently:** meaning that if an event happens it doesn't make another event more or less likely to happen, (like if a person goes to a shop then tells his friends how good it was so it's more likely that his friends will increase the number of people who will enter in the next hour)
+         - **Constant $\lambda$:** meaning that in 1hour $\lambda$=5, in 2hours $\lambda$=10, (it's not a Poisson process if customers come at noon faster than midnight)
+         - **No two events occur at the same moment:** meaning that 1 event can occur in 0.00001sec(which is rare), but 2 events are impossible to occur in this exact moment,(it's not Poisson process if we're talking about the messages sent on a group as 2 or more messages can be sent at an instant)
+     - **Probability distribution of Poisson Process:**  $p(N(t)=x)=\frac{e^{-\lambda t}(\lambda t)^x}{x!}$ 
+     -  **Expectation & Variance:** $E[N(t)]=var[N(t)]=\lambda t$ 
+     - **Note:** N(t) it's an object that represents infinite random variables, meaning N(1),N(2), and so on are all random variables but under the same object 
