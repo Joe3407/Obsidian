@@ -134,4 +134,4 @@
          - **No two events occur at the same moment:** meaning that 1 event can occur in 0.00001sec(which is rare), but 2 events are impossible to occur in this exact moment,(it's not Poisson process if we're talking about the messages sent on a group as 2 or more messages can be sent at an instant)
      - **Probability distribution of Poisson Process:**  $p(N(t)=x)=\frac{e^{-\lambda t}(\lambda t)^x}{x!}$ 
      -  **Expectation & Variance:** $E[N(t)]=var[N(t)]=\lambda t$ 
-     - **Note:** N(t) it's an object that represents infinite random variables, meaning N(1),N(2), and so on, are all random variables but under the same object 
+     - **Note:** N(t) it's an object that represents infinite random variables, meaning N(1), N(2), and so on, are all random variables but under the same object 
