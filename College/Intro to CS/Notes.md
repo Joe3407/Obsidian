@@ -130,3 +130,10 @@
      - **Boolean Operators:** `==,!=`
      - **Boolean Operators:** `&&`
      - **Boolean Operators:** `||` 
+
+---
+## 📘Lec 9
+
+- The counter whose initialized inside loop, its scope is only inside the loop and can be used as another variable outside this loop
+- $for(;n<10;) = while(n<10)$ 
+- Be careful about the statements inside the braces, and the position of the semi colon 
