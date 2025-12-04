@@ -117,7 +117,7 @@
      - $\sum F_t=ma_t$
      - $|F_T|=\sqrt{F_c^2+F_t^2}$ 
  - **Applications:**
-     - **Motion in a Horizontal Circle:** $v_{max}=\sqrt{\frac{T_{max}r}{m}}$ 
+     - **Motion in a Horizontal Circle:** $v_{max}=\sqrt{\frac{T_{max}r}{m}}$, (where $T_{max} \to Tension$)
      - **Conical Pendulum:**  
          - $r=lsin(\theta)$ 
          - $v=\sqrt{glsin(\theta)tan(\theta)}$ 
