@@ -136,19 +136,22 @@
 ---
 ## 📘Lec 8
 
-- Work on Constant Force:
+- **Work on Constant Force:**
      - Energy moved through force along displacement, unit $\to$ $Joule$ 
      - Scalar Quantity, +ve $\to$ gain energy(same direction as displacement), -ve $\to$ lose energy(opposite direction as displacement)
      - $W=Fcos(\theta)\Delta r=\vec{F}.\vec{\Delta r}$ 
      - $W_{net}=\sum FS$ 
-     - Note: when F is constant and we draw the graph between F and x then the Work is the area under the graph, so we integrate if the work is on a variable force
- - Work on Variable Force:
+     - **Note:** when F is constant and we draw the graph between F and x then the Work is the area under the graph, so we integrate if the work is on a variable force
+ - **Work on Variable Force:**
      - $W=\int_{xi}^{xf} F_xdx$  
- - Spring(Hook's Law):
+ - **Spring(Hook's Law):**
      - Every string has a unique spring constant(coefficient of elasticity) K that measures the stiffness of the spring, unit $\to$ $N/m$ 
      - Direction of Force is opposite to Direction of Displacement
      - $F_s=-Kx$ 
      - Work will be the integration of the Force, as force is variable
      - $W_s=\int_{xi}^{xf}-Kxdx=\frac{1}{2}K(x_i^2-x_f^2)$ 
- - Kinetic Energy:
+ - **Kinetic Energy:**
      - $W_{net}=\Delta K.E$ 
+ - **Note:** 
+     - $F=0 \to K.E_{max}$ 
+     - $K.E_{attained} \ne \Delta K.E$ 
