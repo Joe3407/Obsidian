@@ -1,3 +1,4 @@
 - **long long:** −2⁶³ → 2⁶³−1, **unsigned long long:** 0 → 2⁶⁴−1
 - $\text{ceil}\left(\frac{x}{y}\right) = \frac{x + y - 1}{y}$ 
 - string takes more memory than array of char and may lead to MLE
+- $x \le y \to x-c \le y-c$,  $x \le y \to c-x \ge c-y$, (where c is a constant)
