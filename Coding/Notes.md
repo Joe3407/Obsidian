@@ -15,3 +15,5 @@
 - Templates $\to$ vector, map, sort,... (all its code is in the header, no separate files)     Non-Templates $\to$ cout, cin (it has separate files)
 
 - How does compiler not crash when including all libraries? when including a library only the essential functions and attributes are only included like the ones in constructor and destructor, and then if we use any other function or attribute it gets included so not everything is included only the ones that we use are
+
+- OOP: in constructor there will always be a default constructor `s1(const Student&)` which is already built in and allows us to use the same class object inside new object of same class, we can delete it by going to .h file and type `Student(const Student&)=delete;`, `Student& operator=(const Student&) = delete;` wont allow us to assign object of a class with another object of the same class `s1=s2` 
