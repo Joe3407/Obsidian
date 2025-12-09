@@ -155,3 +155,19 @@
  - **Note:** 
      - $F=0 \to K.E_{max}$ 
      - $K.E_{attained} \ne \Delta K.E$ 
+
+---
+## 📘Lec 9
+
+- Gravitational Potential Energy($U_g$): 
+     - $U_g=mgh$ 
+ - Elastic Potential Energy($U_s$):
+     - $U_s=\frac{1}{2}kx^2$ 
+ - Conservation of Energy:
+     - Energy cannot be created nor destroyed 
+     - Mechanical Energy(E):
+         - $E=K.E+U_g+U_s$ 
+     - Isolated System(Conservative):
+         - $E_i=E_f$
+     - Non-Isolated System(Non-Conservative):
+         - $E_f-E_i=W_{nc}$ 
