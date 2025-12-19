@@ -137,3 +137,8 @@
 - The counter whose initialized inside loop, its scope is only inside the loop and can be used as another variable outside this loop
 - $for(;n<10;) = while(n<10)$ 
 - Be careful about the statements inside the braces, and the position of the semi colon 
+
+---
+## 📘Lec 10
+
+- LCM: can be calculated by taking the bigger number and see its multiples till one of them is divisible by the other number 

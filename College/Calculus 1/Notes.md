@@ -84,3 +84,30 @@
 - **Chain Rule:** $F(x)=f(g(x))$, $F'(x)=f'(g(x))g'(x)$ 
 - **Implicit:** $x^2+2y=1$
 - **Explicit:** $y=\frac{1}{2} (1-x^2)$ 
+
+---
+## 📘Lec 8
+
+- Absolute Extreme Values $\to$ Abs. Max, Abs. Mini 
+- Absolute = Global
+- **Critical Point:** 
+     - $f'(x)=0$
+     - $f'(x)= DNE$, (corner, vertical line)
+ - **Absolute Extreme Values:**
+     - Find Critical Points
+     - Find the value of $f(x)$, for $x=C.P, a, b$ 
+ - **Local Values:**
+     - Test the values before and after each C.P 
+     - $inc, dec \to local\max$ 
+     - $dec, inc \to local \min$ 
+ - **Inflection Point:**
+     - $f''(x)=0$
+     - $f''(x)=DNE$
+     - Before and after this point $\to concave\ up\ concave\ down\ or\ concave\ down\ concave\ up$ 
+ - **Mean Value Theorem:**
+     - $f\ is\ continuous\ on\ [a,b]$
+     - $f\ is\ differentiable \ on (a,b)$ 
+     - then there exists at least one point c where $f'(c)=\frac{f(b)-f(a)}{b-a}$ 
+ - **Notes:** 
+     - $f''(x)>0 \to local\ min\ and \ concave up$  
+     - $f''(x)<0 \to local \ max\ and\ concave down$   

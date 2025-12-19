@@ -63,7 +63,7 @@
      - $\Delta y = x\Delta tan(\theta_i)- \frac{1}{2}g(\frac{x}{V_icos(\theta_i)})^2$
      - $t_h = \frac{V_isin(\theta_i)}{g}$
      - $t_r=\frac{2V_isin(\theta_i)}{g}$ 
-     - $h=\frac{(V_i)^2 sin^2(\theta_i)}{2g}$
+     - $h=\frac{(V_i)^2 sin^2(\theta_i)}{2g}$ 
      - $R=\frac{V_i^2sin(2\theta_i)}{g}$ 
  - Notes
      - How Far → Magnitude
