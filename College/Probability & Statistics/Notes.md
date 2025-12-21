@@ -135,3 +135,29 @@
      - **Probability distribution of Poisson Process:**  $p(N(t)=x)=\frac{e^{-\lambda t}(\lambda t)^x}{x!}$ 
      -  **Expectation & Variance:** $E[N(t)]=var[N(t)]=\lambda t$ 
      - **Note:** N(t) it's an object that represents infinite random variables, meaning N(1), N(2), and so on, are all random variables but under the same object 
+
+---
+## 📘Lec 8
+
+- Continuous Uniform Distribution: 
+	- It's when all the probabilities in a range are equal 
+	- from x=a to x=b, and the area of this range must equal 1, so the $height=\frac{area}{width}\to height=\frac{1}{b-a}$ 
+	- $P(3 \le x \le 9)=\int_3^9\frac{1}{b-a}dx$, (where $[3,9]\in [a,b]$)
+- Normal (Gaussian) Distribution: 
+	- For Continuous Random Variables, has a bell shaped curve 
+	- Depends on two Parameters:
+		- Mean or Center ($\mu$)
+		- Standard Deviation ($\sigma$) 
+	- $N(x;\mu ,\sigma)=\frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2} (\frac{x-\mu}{\sigma})^2}$ 
+- Area Under the Curve:
+	- $p(x_1<X<x_2)=\int_{x_1}^{x_2}\frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2} (\frac{x-\mu}{\sigma})^2}dx$ 
+	- But since the integration will be complicated so we will assume that the RV Z is equal RV X but the $\mu=0, \sigma=1$, and even then it's still complicated so a Z-Table will be given to get the values of integration 
+- Z-Table: 
+	- $p(Z<a)=directly \ form \ table$
+	- $p(a<Z<b)=p(Z<b)-p(Z<a)$ 
+	- $p(a<Z)=1-p(Z<a)$ 
+	- $p(Z<-a)=p(Z>a)=1-p(Z<a)$ 
+- General Formula:
+	- If we have different values of $\mu, \sigma$ then it will be impossible to get the probability as we will then have infinite number of Tables and graphs, so we have a general rule 
+	- $p(X<a)=p(Z<\frac{a-\mu}{\sigma})$, where($z=\frac{x-\mu}{\sigma}$)
+	- Note: when getting the z value from the table and we find multiple approximations we take the closer one, and if there are multiple with the exact approximation we take the average 
