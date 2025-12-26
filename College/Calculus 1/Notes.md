@@ -112,20 +112,21 @@
      - $f''(x)>0 \to local\ min\ and \ concave up$  
      - $f''(x)<0 \to local \ max\ and\ concave down$   
      - If $f''(x)=0 \to$ The second derivative failed and we must use first derivative 
+     - To Factorize any quadratic equation we use the quadratic formula, $\frac{-b\pm \sqrt{b^2-4ac}}{2a}$ 
 
 ---
 ## 📘Lec 9
 
-- Symmetric:
-     - Graphs: 
+- **Symmetric:**
+     - **Graphs:** 
          - About y-axis $\to (x,y) \to (-x,y)$ 
          - About x-axis $\to$ $(x, y) \to (x, -y)$ 
          - About origin $\to (x,y) \to (-x,-y)$ 
-     - Functions:
+     - **Functions:**
          - Even $\to f(-x)=f(x) \to$ about y-axis
-         - Odd $\to f(-x)=-f(x)\to$ about x-axis
+         - Odd $\to f(-x)=-f(x)\to$ about origin
          - Neither $\to$ No symmetry 
- - Graphing Steps:
+ - **Graphing Steps:**
      - Identify Domain
      - Exploit Symmetry
      - Find First and Second derivatives
@@ -134,16 +135,16 @@
      - Classify Extreme Values (Absolute)
      - Locate Asymptote and behavior 
      - Find x and y intercepts 
- - Slant Asymptote:
+ - **Slant Asymptote:** (ONLY WHEN X is in NUMERATOR & DENOMINATOR) 
      - Bottom Heavy $\to$ Vertical Asymptote at y=0, No Slant Asymptote 
      - equal $\to$ Vertical Asymptote at y=coefficient, No Slant Asymptote 
      - Top Heavy $\to$ No Vertical Asymptote, Slant Asymptote = Long division 
-     - Long Division: 
+     - **Long Division:** 
 	     - Divide
 	     - Multiply
 	     - Subtract
 	     - Down
-	 - Note: When doing long division we stop when the reminder power is less than the power of denominator or if reminder is equal zero 
-- L'Hopital's Rule: 
+	 - **Note:** When doing long division we stop when the reminder power is less than the power of denominator or if reminder is equal zero 
+- **L'Hopital's Rule:** 
 	- $\frac{0}{0} \ or \ \frac{\infty}{\infty} \to$ $lim_{x\to a}\frac{f(x)}{g(x)}= lim_{x\to a}\frac{f'(x)}{g'(x)}$, (where a could be $\infty, \ a^+, \ a^-$)
 	- $0.\infty \ or\ \infty - \infty \to$ We try to rewrite them in the $\frac{0}{0} \ or \ \frac{\infty}{\infty}$ form if we cannot then L'Hopital's Rule isn't the right way for this problem 
