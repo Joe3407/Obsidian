@@ -12,7 +12,8 @@
 - Function tends to go towards y-axis by increasing the power, tends to go towards x-axis by increasing the fraction value in root function 
 - $y=f(x)+d$, the function is shifted vertically by changing the value d 
 - $y=f(x-b)$, the function is shifted horizontally by changing the value of b (if b is positive then it shifts in the positive direction)
-- $y=cf(x)$, the function gets wider when c decreases 
+- $y=cf(x)$, the function gets taller when c increases, scaled vertically, example sin(x)
+- $y=f(cx)$, the function gets wider when c decreases, scaled horizontally, example sin(x)
 - $f \circ g(x)$ → Domain is $f(g(x)) \cap g(x)$ 
 
 ---
@@ -48,8 +49,9 @@
  - **Unbounded Behavior:** $lim_{x \to 0}\frac{1}{x^2} = \infty$, (as we get closer to 0 y increases without bounds so its value is infinity)
  - Asymptotes:
      - Vertical Asymptote:
-         - at x=a $\to$ $den=0, num\ne 0$ (don't simplify the function to avoid mistakes)
-         - Check limit when x tends to a from +ve and -ve, if any of them is +ve or -ve infinity 
+         - Factorize function
+         - Cancel, (if we cancel then the canceled x is a hole)
+         - set denominator=0
      - Horizontal Asymptote:
          - take the limit of the function when x tends to +ve and -ve infinity, and all the values that come is a HA, except if the value is +ve or -ve infinity 
  - **Note:** 
