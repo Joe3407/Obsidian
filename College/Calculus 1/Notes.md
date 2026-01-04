@@ -44,7 +44,7 @@
  - **Determined Values:** $\infty+\infty=\infty, -\infty-\infty=-\infty, 0^\infty=0, 0^{-\infty}=\infty(as \frac{1}{0}=\infty), \infty *\infty=\infty$  
  - **Squeeze Theorem:** $f(x) \le g(x) \le h(x), lim_{x \to a}f(x)=lim_{x \to a}h(x)=L$, then $lim_{x\to a}g(x)=L$ 
  - **One-Sided Limits:** The limit when x tends to a only exists when limit of $f(a^-)=f(a^+)$ 
- - **Trigonometric:** $lim_{x \to a}\frac{sin(ax)}{bx}=\frac{a}{b}$, (this rule came from squeeze theorem), $lim_{x\to a}\frac{1-cos(x)}{x}=0$, (it came from multiplying by the conjugate)
+ - **Trigonometric:** $lim_{x \to 0}\frac{sin(ax)}{bx}=\frac{a}{b}$, (this rule came from squeeze theorem), $lim_{x\to a}\frac{1-cos(x)}{x}=0$, (it came from multiplying by the conjugate)
  - **Oscillating Behavior:** $lim_{x \to 0}sin(\frac{1}{x}) = DNE$, (as the limit approach 0 it starts to oscillate crazy between -1 & 1), but $lim_{x \to 0}xsin(\frac{1}{x}) = 0$, (from squeeze theorem)
  - **Unbounded Behavior:** $lim_{x \to 0}\frac{1}{x^2} = \infty$, (as we get closer to 0 y increases without bounds so its value is infinity)
  - Asymptotes:

@@ -161,3 +161,39 @@
 	- If we have different values of $\mu, \sigma$ then it will be impossible to get the probability as we will then have infinite number of Tables and graphs, so we have a general rule 
 	- $p(X<a)=p(Z<\frac{a-\mu}{\sigma})$, where($z=\frac{x-\mu}{\sigma}$)
 	- Note: when getting the z value from the table and we find multiple approximations we take the closer one, and if there are multiple with the exact approximation we take the average 
+
+---
+## 📘Lec 9
+
+- **Joint Distribution:**
+	- **PMF:** 
+		- $0 \le f(x,y) \le 1$  
+		- $\sum_x \sum_y f(x,y)=1$ 
+		- $p(X=x,Y=y)=f(x,y)$ 
+	- **PDF:**
+		- $f(x,y) \ge 0$ 
+		- $\int_y \int_x f(x,y) dxdy=\int_x \int_y f(x,y) dydx=1$ 
+		- $p[(x,y) \in A]=\int\int_Af(x,y)dxdy$ 
+- **Marginal Distribution:**
+	- **PMF:**
+		- $g(x)=\sum_yf(x,y)$ 
+		- $h(y)=\sum_xf(x,y)$ 
+	- **PDF:**
+		- $g(x)=\int_yf(x,y)dy$ 
+		- $h(y)=\int_xf(x,y)dx$ 
+- **Conditional Distribution:**
+	- **PMF:**
+		- $f(x|y)=p(X=x|Y=y)=\frac{f(x,y)}{h(y)}$ 
+		- $f(y|x)=p(Y=y|X=x)=\frac{f(x,y)}{g(x)}$ 
+		- **Notes:**
+			- $p(X\le 1|Y=0)=p(X=0|Y=0)+p(X=1|Y=0)$ 
+			- $p(X\le 1 | Y\ge 1)=p(A|B)=\frac{p(A \cap B)}{p(B)}=\frac{p(X\le 1,Y\ge 1)}{\sum_{Y\ge 1}h(y)}$  
+	- **PDF:**
+		- $f(x|y)=\frac{f(x,y)}{h(y)}$ 
+		- $f(y|x)=\frac{f(x,y)}{g(x)}$ 
+		- **Notes:**
+			- $p(X=a,Y=b)=p(X=a,b<Y<c)=p(a<X<b,Y=c)=0$ 
+			- $p(X=a|Y=b)=p(X=a|b<Y<c)=0$ 
+			- $p(a<X<b|Y=c)=\frac{p(a<X<b,Y=c)}{p(Y=c)}=\frac{0}{0}$, undefined value, but we can solve it using the rule above of $f(x|y)=\frac{f(x,y)}{h(y)}$ 
+			- $p(a<X<b|Y=c)=\int_a^bf(x|y)|_{y=c}dx$ 
+			- $p(a\le X\le b | c\le Y\le d)=p(A|B)=\frac{p(A \cap B)}{p(B)}=\frac{p(a\le X\le b,c\le Y\le d)}{p(c\le Y\le d)}=\frac{\int_c^d\int_a^bf(x,y)dxdy}{\int_c^dh(y)dy}$  
