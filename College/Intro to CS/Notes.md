@@ -87,7 +87,7 @@
      - **Edit/Create:** writing the source code on the IDE
      - **Preprocessing:** it adds all the headers of included libraries(it does not know what the cout is for, it just prepares the code that there is a cout), it also clarifies the defined objects to its places (like` #define ll long long`, it changes every `ll` to long long)
      - **Compile:** it checks for errors, then it translates the `.cpp file` into a `.obj file` for the computer to understand
-     - **link:** it links the `.obj file`&`.lib file` to a `exe.file` ready for the cpu to understand, (.lib file it now tells the computer the functions of the include header libraries like that the cout is to print the text)
+     - **link:** it links the `.obj file`&`.lib file` to a `exe.file` ready for the cpu to understand, (.lib file it now tells the computer the functions of the included header libraries like that the cout is to print the text)
      - **load:** it loads the .exe file to the main memory so that the cpu can access it faster
      - **Execute:** the cpu runs the code
      - **Note:** lines that has # are called preprocessor directives, that tells the preprocessor to include what's after it 

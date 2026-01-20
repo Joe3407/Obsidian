@@ -43,6 +43,7 @@
      - Making tree diagram having the event and the conditional probabilities 
      - calculating the intersection of each event 
      - taking the sum to know the probability of the defective itself
+     - $P(A \cap B \cap C | D)=P(A|D)P(B|D)P(C|D)$ 
 
 ---
 ## 📘Lec 5
@@ -122,7 +123,7 @@
          - $E[x]=np$
          - $var[x]=npq$
          - $\sigma_x=\sqrt{npq}$ 
-         - **Note:** $p(X>4)=1-p(x \le 4)$
+         - **Note:** $p(X>4)=1-p(X \le 4)$ 
  - **Poisson:**
 	 - **Usage:** It helps in binomial as if we have a huge n and very small p binomial will be very ugly as it will have huge powers and small numbers but Poisson helps here as it takes the average $\lambda =np$, and uses it in its equation, it's used to know the number of outcome during a given interval of time 
      - **Poisson Distribution:** $p(x)=p(X=x)=\frac{e^{-\lambda}\lambda^x}{x!}$, (when x is a non-negative integer) 
@@ -155,7 +156,7 @@
 - Z-Table: 
 	- $p(Z<a)=directly \ form \ table$
 	- $p(a<Z<b)=p(Z<b)-p(Z<a)$ 
-	- $p(a<Z)=1-p(Z<a)$ 
+	- $p(Z>a)=1-p(Z<a)$ 
 	- $p(Z<-a)=p(Z>a)=1-p(Z<a)$ 
 - General Formula:
 	- If we have different values of $\mu, \sigma$ then it will be impossible to get the probability as we will then have infinite number of Tables and graphs, so we have a general rule 
@@ -197,3 +198,23 @@
 			- $p(a<X<b|Y=c)=\frac{p(a<X<b,Y=c)}{p(Y=c)}=\frac{0}{0}$, undefined value, but we can solve it using the rule above of $f(x|y)=\frac{f(x,y)}{h(y)}$ 
 			- $p(a<X<b|Y=c)=\int_a^bf(x|y)|_{y=c}dx$ 
 			- $p(a\le X\le b | c\le Y\le d)=p(A|B)=\frac{p(A \cap B)}{p(B)}=\frac{p(a\le X\le b,c\le Y\le d)}{p(c\le Y\le d)}=\frac{\int_c^d\int_a^bf(x,y)dxdy}{\int_c^dh(y)dy}$  
+- **Statistical Independence:** 
+	- $f(x|y)=g(x)$
+	- $f(y|x)=h(y)$
+	- $f(x,y)=g(x)h(y)$, for all values of x & y within the interval 
+	- $p(a<X<b,c<Y<d)=p(a<X<b)p(c<Y<d)=\int_a^bg(x)dx\int_c^dh(y)dy$ 
+	- $p(a<X<b|c<Y<d)=p(a<X<b)$ 
+
+---
+## 📝Final Notes
+
+- Expected and Variance of binomial Distribution $\to np,\ npq$, respectively 
+- $p(X=a)=0, Continuous$ 
+- $p(X>k)=a \to p(X<k)=1-a$ 
+
+- Events that cannot happen in the same time are called Mutually Exclusive  
+
+- Verify the second condition of the definition of the joint probability $\to \int_y \int_x f(x,y) dxdy=\int_x \int_y f(x,y) dydx=1$ 
+
+- $p(|X|>a)=p(X>a)+p(X<-a)$ 
+- $p(|X|<a)=p(-a<X<a)$ 

@@ -5,8 +5,8 @@
 - $v^2 = u^2 + 2as$  
 - $X_f - X_i = \frac{1}{2} (V_i + V_f) t$
 - $v_{\text{avg}} = \Delta s / \Delta t \ (\text{or } (s_2 - s_1)/(t_2 - t_1))$  
-- $a_{\text{avg}} = \Delta v / \Delta t \ (\text{or } (v_2 - v_1)/(t_2 - t_1))$
-- $x(t) \xrightleftharpoons[\text{integrate}]{\text{differentiate}} v(t) \xrightleftharpoons[\text{integrate}]{\text{differentiate}} a(t)$
+- $a_{\text{avg}} = \Delta v / \Delta t \ (\text{or } (v_2 - v_1)/(t_2 - t_1))$ 
+- $x(t) \xrightleftharpoons[\text{integrate}]{\text{differentiate}} v(t) \xrightleftharpoons[\text{integrate}]{\text{differentiate}} a(t)$ 
 
 ---
 ## 📘Lec 2
@@ -16,7 +16,7 @@
      - $r = \sqrt{x^2 + y^2}$, $\tan(\theta) = \frac{y}{x}$ 
      - $x=rcos(θ)$, $y=rsin(θ)$
  - **Vector Equality:** same magnitude & direction
- - Adding Vectors:
+ - **Adding Vectors:** 
      - **Algebraically:** Resultant → Adding the i's and j's of both vectors, Magnitude → $| \vec{A} \pm \vec{B} | = \sqrt{A^2 + B^2 \pm 2AB\cos\theta}$ 
      - **Graphically:** Connecting the tail of the first vector with the head of the last vector, or by the parallelogram method that places both vectors on the same point and continue the shape of the parallelogram then the resultant is the diagonal
  - **Subtracting Vectors:** 
@@ -76,7 +76,7 @@
 - **Rules:**
      - $\sum F_x=0, \sum F_y=0$ 
      - $\sum F=ma$ 
-     - $N=ma$, (For every reaction there is a reaction equal in magnitude and opposite in direction)
+     - $N=mg$, (For every reaction there is a reaction equal in magnitude and opposite in direction)
      - $F_f=\mu N$, ($F_f\propto N$)
  - **Contact Force:** It's the reaction of the body being pushed by other body 
  - Notes:
@@ -102,6 +102,7 @@
      - **Acceleration:** centripetal acceleration(due to the change in the direction) and tangential acceleration(due to the change of magnitude of velocity)
      - **Rules:**
          - $a_t=\frac{\Delta v}{\Delta t}$ 
+         - $a_t=r\alpha$ 
          - $a=\sqrt{a_c^2+a_t^2}$ 
      - **Note:** 
          - the direction of the tangential acceleration depends on the velocity
@@ -150,6 +151,7 @@
      - $F_s=-Kx$ 
      - Work will be the integration of the Force, as force is variable
      - $W_s=\int_{xi}^{xf}-Kxdx=\frac{1}{2}K(x_i^2-x_f^2)$ 
+     - $W_{external}=-W_s=\frac{1}{2}K(x_f^2-x_i^2)$ 
  - **Kinetic Energy:**
      - $W_{net}=\Delta K.E$ 
  - **Note:** 
@@ -171,3 +173,8 @@
          - $E_i=E_f$
      - Non-Isolated System(Non-Conservative):
          - $E_f-E_i=W_{nc}$ 
+
+---
+## 📝Final Notes
+
+- Circular Motion: Max Velocity at top of roller coaster $\to$ n=0 

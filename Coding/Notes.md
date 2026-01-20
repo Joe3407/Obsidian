@@ -19,3 +19,19 @@
 - OOP: in constructor there will always be a default constructor `s1(const Student&)` which is already built in and allows us to use the same class object inside new object of same class, we can delete it by going to .h file and type `Student(const Student&)=delete;`, `Student& operator=(const Student&) = delete;` wont allow us to assign object of a class with another object of the same class `s1=s2` 
 
 - `getline(cin,s)` $\to$ to cin a string that has spaces 
+
+- `bool → char → short → int → unsigned int → long → unsigned long → long long → float → double → long double` (from weakest to strongest) 
+
+- With operations `char`&`short` always gets promoted to `int` even if  we did `char + char` 
+
+- `unsigned int + int` promotes `int` to `unsigned int` and if the number was negative it gets changed to a huge value 
+
+- `char & short` are slower that `int` when dealing low memory as `char & short` are 2 bytes and 3 bytes respectively and `int` is 4 bytes, but the cpu uses 4 bytes, so for it to use `char & short` it must assign zeros till it becomes 4 bytes, which takes more time, but when dealing with high memory it's best to use `char & short` if possible as they use less memory  
+
+- `Bit → 0, 1` `Nibble → 4 bits` `Byte → 8 bits` 
+
+- `unsigned char → 0:255` characters after 127 are normal characters like `,` or `€` 
+- `signed char → -128:127` negative characters aren't printable unless we cast them as `int`, so only then it will print the negative char as it is but as an integer 
+
+- `Null → char c = '0' or '\0'` and when printing it's invisible not even a space or anything, and when casting it with `int` it prints 0 
+- `string s="Hello\0World" → cout<< s  // prints Hello only ` 

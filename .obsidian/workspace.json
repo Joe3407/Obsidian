@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Probability & Statistics/Notes.md",
+                "file": "Coding/Notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -182,10 +182,10 @@
   },
   "active": "f988323cbd29befa",
   "lastOpenFiles": [
-    "College/Calculus 1/Notes.md",
-    "College/Probability & Statistics/Notes.md",
     "College/Intro to CS/Notes.md",
     "College/Physics 1/Notes.md",
+    "College/Probability & Statistics/Notes.md",
+    "College/Calculus 1/Notes.md",
     "Coding/Notes.md",
     "Coding/Trees/Overview.md",
     "Coding/OOP.md",
