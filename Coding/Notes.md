@@ -26,7 +26,7 @@
 
 - `unsigned int + int` promotes `int` to `unsigned int` and if the number was negative it gets changed to a huge value 
 
-- `char & short` are slower that `int` when dealing low memory as `char & short` are 2 bytes and 3 bytes respectively and `int` is 4 bytes, but the cpu uses 4 bytes, so for it to use `char & short` it must assign zeros till it becomes 4 bytes, which takes more time, but when dealing with high memory it's best to use `char & short` if possible as they use less memory  
+- `char & short` are slower that `int` when dealing low memory as `char & short` are 1 bytes and 2 bytes respectively and `int` is 4 bytes, but the cpu uses 4 bytes, so for it to use `char & short` it must assign zeros till it becomes 4 bytes, which takes more time, but when dealing with high memory it's best to use `char & short` if possible as they use less memory  
 
 - `Bit → 0, 1` `Nibble → 4 bits` `Byte → 8 bits` 
 
@@ -34,4 +34,8 @@
 - `signed char → -128:127` negative characters aren't printable unless we cast them as `int`, so only then it will print the negative char as it is but as an integer 
 
 - `Null → char c = '0' or '\0'` and when printing it's invisible not even a space or anything, and when casting it with `int` it prints 0 
-- `string s="Hello\0World" → cout<< s  // prints Hello only ` 
+- `string s = "Hello\0World" → cout<< s  // prints Hello only ` 
+
+- `vector<vector<char>>v` 
+	- if `v` has a fixed size as `v.resize(n,vector<char>(m))` then we can cin it as strings in one loop
+	- if `v` has a only a fixed size row `v.resize(n)` then we can cin the vector as strings in one loop 
