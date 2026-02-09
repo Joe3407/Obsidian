@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f988323cbd29befa",
+            "id": "28c9662d099dd85d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Notes.md",
+                "file": "College/Semester 1/Calculus 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
-            }
-          },
-          {
-            "id": "0fd03f9dd7c0e2a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Coding/Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Calculus 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Fibonacci",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Calculus 1/Notes.md",
+                "file": "Coding/Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -195,24 +180,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0fd03f9dd7c0e2a2",
+  "active": "28c9662d099dd85d",
   "lastOpenFiles": [
-    "College/Intro to CS/Notes.md",
-    "College/Physics 1/Notes.md",
-    "College/Probability & Statistics/Notes.md",
-    "College/Calculus 1/Notes.md",
-    "Coding/Notes.md",
-    "Coding/Trees/Overview.md",
-    "Coding/OOP.md",
-    "Coding/Algorithms/KMP.md",
-    "Coding/Dynamic Programing/Fibonacci.md",
-    "Coding/Trees",
-    "College/Intro to CS/Lecture 1.md",
-    "College/Physics 1/Chapter 2.md",
     "Welcome.md",
     "Laws.md",
     "2nd law.md",
     "1st law.md",
+    "College/Semester 1/Probability & Statistics.md",
+    "College/Semester 1/Physics 1.md",
+    "College/Semester 1/Intro to CS.md",
+    "College/Semester 1/Calculus 1.md",
+    "College/Physics 1/Physics 1.md",
+    "College/Physics 1/Chapter 2.md",
+    "College/Intro to CS/Lecture 1.md",
+    "College/Calculus 1/Calculus 1.md",
+    "Coding/Notes.md",
+    "College/Intro to CS/Intro to CS.md",
+    "College/Probability & Statistics/Probability & Statistics.md",
+    "College/Semester 1",
+    "College/New folder",
+    "Coding/Trees/Overview.md",
+    "College/Intro to CS/Notes.md",
+    "College/Physics 1/Notes.md",
+    "College/Probability & Statistics/Notes.md",
+    "College/Calculus 1/Notes.md",
+    "Coding/OOP.md",
+    "Coding/Algorithms/KMP.md",
+    "Coding/Dynamic Programing/Fibonacci.md",
+    "Coding/Trees",
     "College/Probability & Statistics",
     "College/Calculus 1",
     "Coding/Dynamic Programing/Knapsack.md",
@@ -221,8 +216,6 @@
     "College/Physics 1",
     "College",
     "Coding/Dynamic Programing",
-    "Coding/Algorithms.md",
-    "Coding/Algorithms",
-    "Coding"
+    "Coding/Algorithms.md"
   ]
 }

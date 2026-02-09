@@ -10,3 +10,12 @@
 - **Ancestor:** every node above it till the root 
 - **Descendent:** every node under it from left to right till the leaf
 - **Depth:** the number of edges till the root 
+
+- **Binary Tree:**
+	- **Perfect:**
+		- All levels are full
+		- All leaves are on the same level
+	- **Full:** 
+		- All nodes have 0 or 2 children 
+	- **Complete:**
+		- All levels are full except last level is filled from left to right 
