@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Semester 1/Calculus 1.md",
+                "file": "Coding/Algorithms/Taylor Series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calculus 1"
+              "title": "Taylor Series"
             }
           }
         ]
@@ -182,6 +182,18 @@
   },
   "active": "28c9662d099dd85d",
   "lastOpenFiles": [
+    "College/Semester 2/Structured Programming.md",
+    "Coding/Notes.md",
+    "College/Semester 2/Electronics.md",
+    "College/Semester 2/Physics 2.md",
+    "College/Semester 1/Calculus 1.md",
+    "Coding/Algorithms/Taylor Series.md",
+    "Attachments/Screenshot_4.png",
+    "Attachments",
+    "attachments",
+    "New folder",
+    "Screenshot_4.png",
+    "College/Semester 2",
     "Welcome.md",
     "Laws.md",
     "2nd law.md",
@@ -189,12 +201,10 @@
     "College/Semester 1/Probability & Statistics.md",
     "College/Semester 1/Physics 1.md",
     "College/Semester 1/Intro to CS.md",
-    "College/Semester 1/Calculus 1.md",
     "College/Physics 1/Physics 1.md",
     "College/Physics 1/Chapter 2.md",
     "College/Intro to CS/Lecture 1.md",
     "College/Calculus 1/Calculus 1.md",
-    "Coding/Notes.md",
     "College/Intro to CS/Intro to CS.md",
     "College/Probability & Statistics/Probability & Statistics.md",
     "College/Semester 1",
@@ -206,16 +216,9 @@
     "College/Calculus 1/Notes.md",
     "Coding/OOP.md",
     "Coding/Algorithms/KMP.md",
-    "Coding/Dynamic Programing/Fibonacci.md",
     "Coding/Trees",
     "College/Probability & Statistics",
     "College/Calculus 1",
-    "Coding/Dynamic Programing/Knapsack.md",
-    "College/Intro to CS",
-    "College/Physics 1/Chapter 2",
-    "College/Physics 1",
-    "College",
-    "Coding/Dynamic Programing",
-    "Coding/Algorithms.md"
+    "College/Intro to CS"
   ]
 }
