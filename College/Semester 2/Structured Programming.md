@@ -21,3 +21,16 @@
 		- Cannot copy array to another array like this `arr1=arr2` 
 
 ---
+## 📘Lec 2
+
+- `#include<cmath>` abs, pow, sqrt, ect... 
+- When function is after main we declare it before main `return_type Fn_name(Parameters)` 
+- `fun()`=`fun(void)` 
+- Name of the variable can be the same as the name of the function inside it 
+- Parameters $\to$ data types of function when building it 
+- Arguments $\to$ Data types of function when calling it in main
+- Swap built-in function calls the parameters by reference 
+- All variables inside a function, and its non-reference parameters are destroyed once the function returns 
+- A variable can be declared with the same name in different scopes(body of if, body a for loop, body of while), and when calling it from a position, it starts from this positions scope and moves to the outer scope till it finds this variable, A variable CAN'T be declared twice with the same name in the same scope 
+
+---
