@@ -28,6 +28,9 @@ $$T(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n$$
 	- After having the value of each derivative alone so by summing them we get the final value 
 - **Why divide by $n!$ ?:**
 	- As we want $T^{(n)}(a)=f^{(n)}(a)$ so by differentiating $(x-a)^n$ gives $n!$, so the coefficient must be divided by $n!$ to ensure $T^{(n)}(a) = f^{(n)}(a)$ exactly
+- **Note:**
+	- $T^{(n)}(a)=f^{(n)}(a)$
+	- $T^{(n)}(x)=f^{(n)}(a)+\sum_{k=n+1}^{\infty}\frac{f^(k)(a)}{(k-n)!}(x-a)^{k-n}$ 
 
 ---
 ## Condition 

@@ -1,0 +1,4 @@
+- When using a pointer in a `.h` file we can forward declaration by `class Class_Name` instead of `#include"Class_Name.h"`, and we include it in `.cpp` file
+- **When to call by reference and pointer**
+	- **By Reference:** when we are sure that it can't be null, and want simpler syntax usage `name.variable` 
+	- **By Pointer:** when we aren't sure that it's a null or not, it is a bit syntax annoying `name->variable` 
