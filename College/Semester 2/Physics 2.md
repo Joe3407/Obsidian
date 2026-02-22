@@ -32,5 +32,30 @@
 
 --- 
 
+## 📘Lec 2
+
+- Simple Pendulum:
+	- $w=\sqrt{\frac{g}{L}},\ \theta \le 15^\circ$   
+	- $(x=Lsin(\theta)) \to (x=L\theta_{rad}), \ when \ (\theta\le 15^\circ)$, (Max angle $\to$ Amplitude) 
+	- $(E=K.E+U_g)\to (\frac{1}{2}mv^2+mgL(1-cos(\theta))),\ where\ (h=L(1-cos(\theta)))$ 
+- Damped Oscillation:
+	- ($b\to$ damping coefficient), ($R\to$ Resistive force), ($w_o \to$ natural or undamped frequency), ($w\to$ damped frequency)
+	- $R=-bv$
+	- $w_o=\sqrt{\frac{k}{m}}$ 
+	- $w=\sqrt{w_o^2-(\frac{b}{2m})^2}$ 
+	- $Amp=Ae^{-\frac{bt}{2m}}$ 
+	- $E=\frac{1}{2}kA^2e^{-\frac{bt}{m}}$ 
+- Notes:
+	- To get percentage $\to$ we need to use any two successive cycles 
+	- $v_{max},\ x_{max} \to \pm$ 
+	- $a_{max} \to +$ 
+	- Start from zero $\to sin$ 
+	- Start from max $\to cos$ 
+	- Moving left $\to -$ 
+	- Moving Right $\to +$ 
+	- $w_{rpm}*\frac{2\pi}{60}\to \frac{rad}{sec}$, ($rpm \to$ revolutions per minute)
+	- $Percentage=\frac{A(T)}{A(0)}$ 
+
+--- 
 
 

@@ -48,3 +48,14 @@
 	- **Resistance:**
 		- **Series:** $R_{eq}=R_1+R_2+R_3$
 		- **Parallel:** $\frac{1}{Req}=\frac{1}{R_1}+\frac{1}{R_2}+\frac{1}{R_3}$ 
+
+---
+## 📘Lec 3
+
+- Current Division:
+	- $I_1=\frac{I_t}{R_t}R_1$ 
+- Node Analysis:
+	- Current is complicated and can't be solved by ohm law
+	- We take each node and do KCL at each node till we get number of equations equal to number of unknowns 
+
+---
