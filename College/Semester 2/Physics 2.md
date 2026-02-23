@@ -1,6 +1,6 @@
 ## 📘Lec 1 
 
-- **Periodic Motion:**
+- **Periodic Motion:** 
 	- Motion that repeats itself after equal intervals of time, (Fan, Earth Orbit)
 	- **Types:**
 		- **Oscillatory Motion:**
@@ -29,6 +29,9 @@
 	- $a=-w^2x$ 
 	- $v=\pm w\sqrt{A^2-x^2}$ 
 	- $E=\frac{1}{2}kA^2$ 
+	- $d=4A\frac{t}{T}$ 
+	- $a_{max}=-Aw^2$, when body starts at equilibrium at moves right 
+	-  $a_{max}=Aw^2$, when body starts at equilibrium at moves left 
 
 --- 
 
