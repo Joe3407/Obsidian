@@ -51,6 +51,7 @@
 	- **Pointer:** 
 		- We use nullptr for pointer and not NULL, if we use NULL it won't be wrong but could cause conflicts, then WHY IS NULL STILL A THING? that is because the golden rule of C++ that old is never destroyed, we can just remove NULL, it will corrupt a lot of 20+ year codes that couldn't be accessed so instead of just removing NULL, they introduced nullptr and gave the choice for the programmer to choose the wright one. WHY NOT JUST MACRO NULL TO nullptr? this will cause errors for codes that are like this `int x = NULL` this will translate to `int x = nullptr` which is compilation error  
 		- Only with the old rule of `int* x = 0` 0 literal integral is allowed meaning that `int c = 0; int* x=c` is illegal and won't work
+		- `nullptr` is considered as a false statement when converted to Boolean, meaning `if(nullptr)` $\to$ `if(false)`, **VERY IMPORTANT NOTE**: `nullptr` is not equal to zero, it's not a literal zero, ONLY when converted to Boolean it's false 
 
 - **macro:** It's when we use for example `#define ll long long`  which will replace every `ll` with `long long` in preprocessing and the compiler never sees `ll` 
 - **hack:** It's when something works by abusing existing rules (by luck), when in fact it needs its own code and conditions to work intendedly 

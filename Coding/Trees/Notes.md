@@ -1,0 +1,5 @@
+- `TreeNode* node`:
+	- `node` itself is a pointer and we can access its attributes by `->val` 
+	- `*node` is a `TreeNode` object that can be accessed by `.val` 
+	- `&node` is the address of the pointer that points to the address of the node 
+	- `node->val`=`(*node).val` 
