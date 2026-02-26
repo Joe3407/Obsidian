@@ -1,6 +1,6 @@
 ## 📘Lec 1
 
-- Exponential Function:
+- **Exponential Function:**
 	- $f(x)=b^x \ where \ b>0,\ b\ne 1$ 
 		- Domain $\to R$ 
 		- Range $\to [0,\infty]$ 
@@ -9,8 +9,27 @@
 	- $f(x)=e^x$ (Natural Exponential function)
 		- $f(x)$ between $2^x \ and\ 3^x$ 
 		- $2<e<3$ 
-
-
+- **Logarithmic Function:**
+	- $f(x)=log_bx\ where\ b>0,\ b\ne 1$ 
+		- Domain $\to$ Range of Exponential function $\to$ $[0,\infty]$ 
+		- Range $\to$ Domain of Exponential function $\to$ $R$ 
+		- Growth $\to b>1$ 
+		- Decay $\to 0<b<1$ 
+	- **Inverse Properties:**
+		- $b^{log_bx}=x, \ e^{lnx}=x$ 
+		- $log_bb^x=x,\ ln(e^x)=x$ 
+	- **Rules:**
+		- $log_b(xy)=log_bx+log_by$
+		- $log_b(\frac{x}{y})=log_bx-log_by$
+		- $log_b(x^y)=ylog_bx$
+		- $log_b=1,\ log_b1=0$ 
+- **Change Bases:**
+	- $b^x=c^{log_c(b^x)}=c^{xlog_cb}$ 
+	- $log_bx=\frac{log_cx}{log_cb}$ 
+- **Derivative Rules:**
+	- $\frac{d}{dx}ln|f(x)|=\frac{f'(x)}{f(x)}$
+	- $\frac{d}{dx}log_b|f(x)|=\frac{f'(x)}{f(x)lnb}$ 
+	- $\frac{d}{dx}b^{f(x)}=b^{f(x)}.lnb.f'(x)$ 
 ---
 ## 📘Lec 2
 

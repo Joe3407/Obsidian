@@ -37,18 +37,18 @@
 
 ## 📘Lec 2
 
-- Simple Pendulum:
+- **Simple Pendulum:**
 	- $w=\sqrt{\frac{g}{L}},\ \theta \le 15^\circ$   
 	- $(x=Lsin(\theta)) \to (x=L\theta_{rad}), \ when \ (\theta\le 15^\circ)$, (Max angle $\to$ Amplitude) 
-	- $(E=K.E+U_g)\to (\frac{1}{2}mv^2+mgL(1-cos(\theta))),\ where\ (h=L(1-cos(\theta)))$ 
-- Damped Oscillation:
+	- $(E=K.E+U_g)\to (E=\frac{1}{2}mv^2+mgL(1-cos(\theta))),\ where\ (h=L(1-cos(\theta)))$ 
+- **Damped Oscillation:**
 	- ($b\to$ damping coefficient), ($R\to$ Resistive force), ($w_o \to$ natural or undamped frequency), ($w\to$ damped frequency)
 	- $R=-bv$
 	- $w_o=\sqrt{\frac{k}{m}}$ 
 	- $w=\sqrt{w_o^2-(\frac{b}{2m})^2}$ 
 	- $Amp=Ae^{-\frac{bt}{2m}}$ 
 	- $E=\frac{1}{2}kA^2e^{-\frac{bt}{m}}$ 
-- Notes:
+- **Notes:**
 	- To get percentage $\to$ we need to use any two successive cycles 
 	- $v_{max},\ x_{max} \to \pm$ 
 	- $a_{max} \to +$ 
@@ -58,6 +58,20 @@
 	- Moving Right $\to +$ 
 	- $w_{rpm}*\frac{2\pi}{60}\to \frac{rad}{sec}$, ($rpm \to$ revolutions per minute)
 	- $Percentage=\frac{A(T)}{A(0)}$ 
+	- Max angular displacement $\to \theta_{rad}$ 
+- **RULES:**
+	-  $w=\sqrt{\frac{g}{L}},\ \theta \le 15^\circ$   
+	- $x=L\theta_{rad}$ 
+	- $E=\frac{1}{2}mv^2+mgL(1-cos(\theta))$ 
+	- $R=-bv$
+	- $w_o=\sqrt{\frac{k}{m}}$ 
+	- $w=\sqrt{w_o^2-(\frac{b}{2m})^2}$ 
+	- $Amp=Ae^{-\frac{bt}{2m}}$ 
+	- $E=\frac{1}{2}kA^2e^{-\frac{bt}{m}}$ 
+	- $Percentage=\frac{A(T)}{A(0)}$ 
+	- $\alpha_{max}=\frac{a_{max}}{L}$ 
+	- $F(t)=F_osin(wt)$, $F_o \to$ amplitude of the force 
+	- $A=\frac{\frac{F_o}{m}}{\sqrt{(w_o^2-w^2)^2}}$ 
 
 --- 
 

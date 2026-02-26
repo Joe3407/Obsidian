@@ -1,0 +1,7 @@
+- **Overview:**
+	- Local Version Control (LVC)
+	- Central Version Control (CVC)
+	- Distributed Version Control (DVC) $\to$ Git 
+	- **Difference between other Version Controls and Git:**
+		- **Other Version Controls:** They took one snapshot for the file first, then they took the delta of changes, meaning if we add a line of code in a file, the new version will only have the incremented line. this was bad as if the file got destroyed it will rebuild it version version, (this was a good solution then as storage was very limited)
+		- **Git:** It takes a snapshot of the whole file each time a change happens, meaning if we add a line of code in a file, the new version will take a snapshot of the whole file with the new changes

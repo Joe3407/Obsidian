@@ -2,3 +2,14 @@
 - **When to call by reference and pointer**
 	- **By Reference:** when we are sure that it can't be null, and want simpler syntax usage `name.variable` 
 	- **By Pointer:** when we aren't sure that it's a null or not, it is a bit syntax annoying `name->variable` 
+- **MVC:**
+	- **Model:** (holds data and logic)
+		- `ExpressionState`
+		- `ExpressionParser`
+		- `Evaluator`
+	- **View:** (only displays things)
+		- `MainWindow`
+	- **Controller:** (handles user input and updates model)
+		- `ButtonHandler` 
+- **DRY:** 
+	- Don't Repeat Yourself 
