@@ -34,3 +34,9 @@
 - A variable can be declared with the same name in different scopes(body of if, body a for loop, body of while), and when calling it from a position, it starts from this positions scope and moves to the outer scope till it finds this variable, A variable CAN'T be declared twice with the same name in the same scope 
 
 ---
+## 📘Lec 3
+
+- Casting:
+	- `double/int`, the cast happens first then the division, `double/int`$\to$`double/double`$\to$`double` 
+- Parameter Default Value:
+	- Must be from right to left, `sum(int a, int b, int c = 10)` 

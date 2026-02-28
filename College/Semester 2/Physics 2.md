@@ -22,6 +22,10 @@
 	- Mechanical Energy:
 		- $(E=K.E+U_s) \to (E=\frac{1}{2}mv^2+\frac{1}{2}kx^2)\to (\frac{1}{2}m\frac{k}{m}A^2sin^2(wt+\phi)+\frac{1}{2}kA^2cos^2(wt+\phi))\to (\frac{1}{2}kA^2(sin^2(wt+\phi)+cos^2(wt+\phi)))\to(\frac{1}{2}kA^2)$ 
 		- $(\frac{1}{2}kA^2=\frac{1}{2}mv^2+\frac{1}{2}kx^2)\to(v^2=\frac{k}{m}(A^2-x^2))\to(v=\pm w\sqrt{A^2-x^2})$ 
+- **Simple Pendulum:**
+	- $w=\sqrt{\frac{g}{L}},\ \theta \le 15^\circ$   
+	- $(x=Lsin(\theta)) \to (x=L\theta_{rad}), \ when \ (\theta\le 15^\circ)$, (Max angle $\to$ Amplitude) 
+	- $(E=K.E+U_g)\to (E=\frac{1}{2}mv^2+mgL(1-cos(\theta))),\ where\ (h=L(1-cos(\theta)))$ 
 - **RULES:**
 	- $x(t)=Acos(wt+\phi)$ 
 	- $v(t)=-wAsin(wt+\phi)$
@@ -30,6 +34,9 @@
 	- $v=\pm w\sqrt{A^2-x^2}$ 
 	- $E=\frac{1}{2}kA^2$ 
 	- $d=4A\frac{t}{T}$ 
+	-  $w=\sqrt{\frac{g}{L}},\ \theta \le 15^\circ$   
+	- $x=L\theta_{rad}$ 
+	- $E=\frac{1}{2}mv^2+mgL(1-cos(\theta))$ 
 	- $a_{max}=-Aw^2$, when body starts at equilibrium at moves right 
 	-  $a_{max}=Aw^2$, when body starts at equilibrium at moves left 
 
@@ -37,10 +44,6 @@
 
 ## 📘Lec 2
 
-- **Simple Pendulum:**
-	- $w=\sqrt{\frac{g}{L}},\ \theta \le 15^\circ$   
-	- $(x=Lsin(\theta)) \to (x=L\theta_{rad}), \ when \ (\theta\le 15^\circ)$, (Max angle $\to$ Amplitude) 
-	- $(E=K.E+U_g)\to (E=\frac{1}{2}mv^2+mgL(1-cos(\theta))),\ where\ (h=L(1-cos(\theta)))$ 
 - **Damped Oscillation:**
 	- ($b\to$ damping coefficient), ($R\to$ Resistive force), ($w_o \to$ natural or undamped frequency), ($w\to$ damped frequency)
 	- $R=-bv$
@@ -59,10 +62,7 @@
 	- $w_{rpm}*\frac{2\pi}{60}\to \frac{rad}{sec}$, ($rpm \to$ revolutions per minute)
 	- $Percentage=\frac{A(T)}{A(0)}$ 
 	- Max angular displacement $\to \theta_{rad}$ 
-- **RULES:**
-	-  $w=\sqrt{\frac{g}{L}},\ \theta \le 15^\circ$   
-	- $x=L\theta_{rad}$ 
-	- $E=\frac{1}{2}mv^2+mgL(1-cos(\theta))$ 
+- **RULES:** 
 	- $R=-bv$
 	- $w_o=\sqrt{\frac{k}{m}}$ 
 	- $w=\sqrt{w_o^2-(\frac{b}{2m})^2}$ 
@@ -75,4 +75,67 @@
 
 --- 
 
+## 📘Lec 3
+
+- **Wave Motion:**
+	- **Overview:**
+		- Conditions:
+			- Source
+			- Medium
+			- Medium has particles that are affected by waves 
+		- **S.H.M vs Wave Motion:**
+			- S.H.M $\to$ 1 dimension 
+			- Wave Motion $\to$ 2 dimension (sinusoidal wave)
+		- **Direction of Propagation:**
+			- **Longitudinal Waves:** Same direction of motion
+			- **Transversal Waves:** Perpendicular to direction of motion 
+	- **Characteristics of Waves:**
+		- **Wavelength ($\lambda$):**
+			- Distance between two successive crests or trough
+			- $k=\frac{2\pi}{\lambda}$, (where $k$ is number of waves, and unit is $rad/m$)
+		- **Speed of Propagation ($v$):**
+			- This is the speed of propagation which is the speed on x-axis 
+			- Velocity is equal to distance of time $\to( v=\frac{\lambda}{T}) \to (v=\lambda f)\to (v=\frac{2\pi}{k}\frac{w}{2\pi})\to(v=\frac{w}{k})$  
+		- $y(x,t)=Asin(kx-wt+\phi)$ 
+			- $kx-wt \to$ right with +ve x-axis
+			- $kx+wt \to$ left with -ve x-axis 
+		- $v_y=\frac{\partial y}{\partial t}=-Awcos(kx-wt+\phi)$ 
+			- $v_{y_{max}}=Aw$, (maximum transverse speed)
+			- As there is two variables when differentiating so we differentiate w.r.t time and consider other variables as constants
+			- Motion is upward $\to v_y\ is  +ve$ 
+			- Motion is downward $\to v_y\ is -ve$ 
+		- $a_y=\frac{\partial v_y}{\partial t}=-Aw^2sin(kx-wt+\phi)$ 
+			- $a_{y_{max}}=Aw^2$, (maximum transverse acceleration)
+	- **Wave in Strings:**
+		- Strings are pulled so there is Tension Force $F_t$, (like guitar) 
+		- **Remember:**
+			- **Linear Density:** Mass over Length
+			- **Surface Density:** Mass over Area
+			- **Density:** Mass over Volume
+		- $\mu=\frac{m}{L}$, where $\mu$ is Linear Density(mass per unit length), and $L$ is length string 
+		- $v=\sqrt{\frac{F_t}{\mu}}=\lambda f=\frac{w}{k}$ 
+		- **Rate of Change in Energy (Power):** 
+			- $P=\frac{E}{T}=\frac{1}{2}\mu w^2A^2v$  
+			- Note: Velocity in power rule is the velocity of propagation, meaning that $v=\lambda f=\frac{w}{k}=\sqrt{\frac{F_t}{\mu}}$ 
+		- **Special Case:**
+			- **If string is a wire:**
+				- $(\rho=\frac{m}{Vol})\to (m=\rho AL)\to(\mu=\frac{m}{L})\to (\mu=\frac{\rho AL}{L})\to(\mu=\rho A=\rho\pi r^2)$ 
+		- **Note:**
+			- Velocity equals distance over time so $v=\frac{L}{t}=\sqrt{\frac{F_t}{\mu}}$ 
+			- $t=\frac{L}{\sqrt{\frac{F_t}{\mu}}}$ 
+- **RULES:**
+	-  $k=\frac{2\pi}{\lambda}$ 
+	- $v_x=\lambda f=\frac{w}{k}$ 
+	- $y(x,t)=Asin(kx-wt+\phi)$ 
+	- $v_y=-Awcos(kx-wt+\phi)$ 
+	-  $a_y=-Aw^2sin(kx-wt+\phi)$ 
+	- **Strings:**
+		-  $\mu=\frac{m}{L}$ 
+		- $v=\sqrt{\frac{F_t}{\mu}}$ 
+		-  $P=\frac{E}{T}=\frac{1}{2}\mu w^2A^2v$  
+		- $t=\frac{L}{\sqrt{\frac{F_t}{\mu}}}$ 
+		- Wire:
+			- $\mu=\rho A=\rho\pi r^2$ 
+
+---
 
