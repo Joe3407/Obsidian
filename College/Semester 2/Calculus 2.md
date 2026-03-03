@@ -39,3 +39,8 @@
 - $\frac{d}{dx}[cot^{-1}(f(x))]=-\frac{f'(x)}{1+(f(x))^2}$ 
 - $\frac{d}{dx}[sec^{-1}(f(x))]=\frac{f'(x)}{|f(x)|\sqrt{(f(x))^2-1)}}$  
 - $\frac{d}{dx}[csc^{-1}(f(x))]=-\frac{f'(x)}{|f(x)|\sqrt{(f(x))^2-1)}}$  
+
+---
+## 📘Lec 3
+
+- 

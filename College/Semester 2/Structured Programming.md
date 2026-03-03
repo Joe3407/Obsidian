@@ -40,3 +40,16 @@
 	- `double/int`, the cast happens first then the division, `double/int`$\to$`double/double`$\to$`double` 
 - Parameter Default Value:
 	- Must be from right to left, `sum(int a, int b, int c = 10)` 
+
+--- 
+## 📘Lec 4
+
+- Struct takes place in memory by the order of its attributes, for example if we had `int age` `float salary`, then in memory it takes 4 bytes for the age then beside it another 4 bytes for float 
+- When declaring the attributes in struct, they don't take space in memory unless we create an object from it
+- By creating struct object before the last semi colon of the struct, then these objects are initialized by zero
+- `Student s1{}`,`Student s1={}` this makes s1 initialized with zero
+- Initializing:
+	- `Student s1={"Ali","3bas",3.4}` 
+	- `Student s1; s1.name="Ali"; s1.address="3bas"; s1.gpa=3.4` 
+- Can't equalize different data types, `Student s1; Emloyee emp;`, so we can't say that `s1=emp` even if they have same attributes
+- `cout<<array;` gives the address of the first element of the array
