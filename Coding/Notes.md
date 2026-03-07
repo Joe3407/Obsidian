@@ -56,3 +56,6 @@
 - **macro:** It's when we use for example `#define ll long long`  which will replace every `ll` with `long long` in preprocessing and the compiler never sees `ll` 
 - **hack:** It's when something works by abusing existing rules (by luck), when in fact it needs its own code and conditions to work intendedly 
 - **literal value:** it's the value that isn't stored in a variable but used directly for example `int x = 42` 
+
+- `is_sorted(x.begin(), x.end())` 
+
