@@ -7,3 +7,16 @@
 - To print an integer digit by digit $123 \to 1\ 2\ 3$, then we can use recursion to call all the function calls then start to cout them `fun(n/10);cout<<n%10;` 
 - **nCr:**
 	- $(nCr=\frac{n!}{(n-r)!} \frac{1}{r!})\to (nCr=nPr\frac{1}{r!})$ 
+
+---
+## Graph 1
+
+- `sort(start,end,[capture](parameters))`:
+	- Capture: takes input from outside, which in sort we don't take anything
+	- Parameters: usually when doing (auto& a, auto& b) it automatically detects what data type is the vector, IF & ONLY IF it's `c++14` or higher 
+	- Note: 
+		- `[capture](parameters)` this is lambda
+- `sort(start,end,cmp)`, `bool cmp(auto& a, auto& b){body}`, this is equivalent to lambda
+
+- Double dfs:
+	- If we wanna know the longest path in a tree, then we can choose any node and dfs from it, and get the furthest node it can reach, then do another dfs on the furthest node to get the longest path (Problem A in ACM, Graph1)

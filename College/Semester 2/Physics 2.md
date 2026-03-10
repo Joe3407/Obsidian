@@ -138,4 +138,44 @@
 			- $\mu=\rho A=\rho\pi r^2$ 
 
 ---
+## 📘Lec 4
 
+---
+## 📘Lec 5
+
+- Doppler Effect:
+	- Source:       $V_s$              $f$ 
+	- Observer:   $V_o$              $f'$ 
+	- Sound in Air is $V$ 
+	- General Rule:
+		- $f=f'(\frac{V\pm V_o}{V\mp V_s})$ 
+	- Conditions:
+		- Both at Rest: 
+			- $V_s=V_o=0$ 
+			- $f=f'$ 
+		- Source is Moving ($V_o=0$):
+			- Towards or Approach $\to$ $f=f'(\frac{V}{V-V_s})$
+			- Away $\to$  $f=f'(\frac{V}{V+V_s})$
+		- Observer is Moving ($V_s=0$):
+			- Towards or Approach $\to$ $f=f'(\frac{V+V_o}{V})$
+			- Away $\to$  $f=f'(\frac{V-V_o}{V})$ 
+		- Both are Moving:
+			- $S\to \gets O$ 
+				- $f=f'(\frac{V+V_o}{V-V_s})$ 
+			- $\gets S\ O\to$  
+				- $f=f'(\frac{V-V_o}{V+V_s})$ 
+			- $S\to \ O\to$  
+				- $f=f'(\frac{V-V_o}{V-V_s})$ 
+			- $\gets S \gets O$ 
+				- $f=f'(\frac{V+V_o}{V+V_s})$ 
+		- Note: 
+			- Toward $\to$ up sign
+			- Away $\to$ down sign 
+	- Eco:
+		- $A_s\to B_o$
+			- $f_1'=f(\frac{V+V_B}{V-V_A})$ 
+		- $A_o\gets B_s$ 
+			- $f_2'=f_1'(\frac{V+V_A}{V-V_B})$ 
+	- Note:
+		- Frequency Beat (difference between frequencies):
+			- $f_b=|f_1-f_2|$ 
