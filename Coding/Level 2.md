@@ -18,5 +18,7 @@
 		- `[capture](parameters)` this is lambda
 - `sort(start,end,cmp)`, `bool cmp(auto& a, auto& b){body}`, this is equivalent to lambda
 
-- Double dfs:
+- **Double dfs:**
 	- If we wanna know the longest path in a tree, then we can choose any node and dfs from it, and get the furthest node it can reach, then do another dfs on the furthest node to get the longest path (Problem A in ACM, Graph1)
+
+- To access the leaf in dfs, it must not have any `!vis[node]` in adjacent nodes, so we can create a Boolean  

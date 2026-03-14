@@ -95,7 +95,7 @@
 			- $k=\frac{2\pi}{\lambda}$, (where $k$ is number of waves, and unit is $rad/m$)
 		- **Speed of Propagation ($v$):**
 			- This is the speed of propagation which is the speed on x-axis 
-			- Velocity is equal to distance of time $\to( v=\frac{\lambda}{T}) \to (v=\lambda f)\to (v=\frac{2\pi}{k}\frac{w}{2\pi})\to(v=\frac{w}{k})$  
+			- Velocity is equal to distance over time $\to( v=\frac{\lambda}{T}) \to (v=\lambda f)\to (v=\frac{2\pi}{k}\frac{w}{2\pi})\to(v=\frac{w}{k})$  
 		- $y(x,t)=Asin(kx-wt+\phi)$ 
 			- $kx-wt \to$ right with +ve x-axis
 			- $kx+wt \to$ left with -ve x-axis 
@@ -140,26 +140,51 @@
 ---
 ## 📘Lec 4
 
+- **Sound Waves:**
+	- **Displacement:** 
+		- $s(x,t)=s_{max}cos(kx-wt)$ 
+	- **Pressure Variation:**
+		- $\Delta P=\Delta P_{max}sin(kx-wt)$ 
+		- $\Delta P_{max}=\rho vws_{max}$,    ($\rho \to$ density of medium(in air $\to 1.2kg/m^3$),   $v\to$ sound speed (in air $\to 344 m/s$))   
+	- **Sound Intensity:**
+		- The sound moves in a spherical shape so the area of a part is equal $A=4\pi r^2$ 
+		- The Intensity is the Energy that affects an area per sec so $(I=\frac{E}{t} \frac{1}{A}) \to (I=\frac{P}{A})$ 
+		- $(I=\frac{1}{2}pv(ws_{max})^2)\to (I=\frac{\Delta P_{max}^2}{2pv})$ 
+	- **Sound Level:**
+		- Intensity Level ($\beta$) $\to$ unit $dB$  (decibels)
+		- $\beta = 10log(\frac{I}{I_o})$,     ($I_o \to$ Reference Intensity $\to$ $10^{-12}W/m^2$)
+		- $I=I_o10^{\frac{\beta}{10}}$ 
+	- **Note:** 
+		- $\beta =db/km \to \beta *d=db$ 
+		- $\Delta \beta=db/km\to \Delta \beta*\Delta d=db$ 
+- **RULES:**
+	- $s(x,t)=s_{max}cos(kx-wt)$ 
+	- $\Delta P=\Delta P_{max}sin(kx-wt)$ 
+	- $\Delta P_{max}=\rho vws_{max}$ 
+	- $I=(\frac{P}{A}) = (\frac{1}{2}pv(ws_{max})^2) = (\frac{\Delta P_{max}^2}{2pv})$ 
+	- $\beta = 10log(\frac{I}{I_o})$
+	-  $I=I_o10^{\frac{\beta}{10}}$ 
+
 ---
 ## 📘Lec 5
 
-- Doppler Effect:
-	- Source:       $V_s$              $f$ 
-	- Observer:   $V_o$              $f'$ 
+- **Doppler Effect:**
+	- **Source:**       $V_s$              $f$ 
+	- **Observer:**   $V_o$              $f'$ 
 	- Sound in Air is $V$ 
-	- General Rule:
+	- **General Rule:**
 		- $f=f'(\frac{V\pm V_o}{V\mp V_s})$ 
-	- Conditions:
-		- Both at Rest: 
+	- **Conditions:**
+		- **Both at Rest:** 
 			- $V_s=V_o=0$ 
 			- $f=f'$ 
-		- Source is Moving ($V_o=0$):
+		- **Source is Moving ($V_o=0$):**
 			- Towards or Approach $\to$ $f=f'(\frac{V}{V-V_s})$
 			- Away $\to$  $f=f'(\frac{V}{V+V_s})$
-		- Observer is Moving ($V_s=0$):
+		- **Observer is Moving ($V_s=0$):**
 			- Towards or Approach $\to$ $f=f'(\frac{V+V_o}{V})$
 			- Away $\to$  $f=f'(\frac{V-V_o}{V})$ 
-		- Both are Moving:
+		- **Both are Moving:**
 			- $S\to \gets O$ 
 				- $f=f'(\frac{V+V_o}{V-V_s})$ 
 			- $\gets S\ O\to$  
@@ -168,14 +193,14 @@
 				- $f=f'(\frac{V-V_o}{V-V_s})$ 
 			- $\gets S \gets O$ 
 				- $f=f'(\frac{V+V_o}{V+V_s})$ 
-		- Note: 
+		- **Note:** 
 			- Toward $\to$ up sign
 			- Away $\to$ down sign 
-	- Eco:
+	- **Eco:**
 		- $A_s\to B_o$
 			- $f_1'=f(\frac{V+V_B}{V-V_A})$ 
 		- $A_o\gets B_s$ 
 			- $f_2'=f_1'(\frac{V+V_A}{V-V_B})$ 
-	- Note:
+	- **Note:** 
 		- Frequency Beat (difference between frequencies):
 			- $f_b=|f_1-f_2|$ 

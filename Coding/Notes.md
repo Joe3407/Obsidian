@@ -62,3 +62,5 @@
 - `memset`:
 	- We can use only 0 and -1, as `memset` fills byte byte, meaning if we have an `int` (4 bytes) and put 0 then it will translate to $00000000\ 00000000\ 00000000\ 00000000$, and if we use -1 then it will be $11111111\ 11111111\ 11111111\ 11111111$, but if we use any other number, like for example 1, it will translate to $00000001\ 00000001\ 00000001\ 00000001$, which is equivalent to 16843009
 
+- Tip: If problem states to do a multiplication operation till we reach a certain number, try reverse the statement and start from the certain number and divide 
+
