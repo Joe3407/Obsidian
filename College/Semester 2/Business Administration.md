@@ -1,6 +1,92 @@
 ## 📘Lec 1
 
+- Companies Form:
+	- It's how big the company is, how many people work in it 
+	- It affects on:
+		- Taxes
+		- Legal liability 
+		- Costs of formation
+		- Operational Costs 
 - Sole Proprietorship:
 	- The business existence is entirely dependent on the owners decision, so when the owner dies, so does the business
 	- Advantages:
-		- 
+		- Easy to set up
+		- Very few requirements (only business license)
+		- Low start up costs 
+		- Controlled by Owner
+		- Owner has flexibility when running the business 
+		- Privacy 
+		- No many tax requirements 
+	- Disadvantages:
+		- Unlimited liability (owner is responsible for all the taxes, debts, ect...)
+		- Limited managerial skills
+		- Few financial resources
+		- Difficulty in raising funds 
+		- No asset protection
+		- Limited life (the owner dies $\to$ the business dies)
+- Partnership:
+	- All partners are 100% liable, even if u invest little you are still responsible for the debts 
+	- Types:
+		- General Partnership: Do not require a formal agreement
+		- Limited Partnership: Require formal agreement stating the roles of each partner 
+	- Advantages:
+		- Easy to set up
+		- Shared control 
+		- Distributed workload
+		- More resources
+		- Cost sharing 
+		- Broader(bigger) skill and experience
+		- Tax advantage 
+	- Disadvantages:
+		- Unlimited liability
+		- Responsible for partner decision 
+		- Issues with expansion, success and termination 
+		- Partnership ends when any partner decides to end it 
+		- Difficulty in transferring partnership
+		- Selling business is difficult, requires finding new partner 
+- Corporation:
+	- Owned by investors who bought shares, they are called shareholders 
+	- Advantages:
+		- Better ability to raise capital
+		- Profits and Losses belong to the whole corporation 
+		- Limited liability
+		- Transfer ownership
+		- Unlimited life 
+	- Disadvantages:
+		- Harder to set up 
+		- Managerial demands (Owners are less involved than Managers)
+		- Possible loss of control 
+		- It's costly
+		- Higher taxes 
+- Multinational Corporation(MNCs):
+	- Pros:
+		- Better paid
+		- Numerous perks 
+		- Less likely to lose your job
+		- Focus on few tasks at a time 
+		- Multinational will look much better than random startup 
+	- Cons:
+		- Recognition is rare (you may feel useless)
+		- Hard to impress 
+		- Little opportunity to improve your skills 
+- Start-ups:
+	- Pros:
+		- Your creativity is noticed, (your ideas are listened to)
+		- Not boring 
+		- Much comfortable and happy
+	- Cons:
+		- High probability to fail
+		- Low paid until u hit that huge investment deal
+		- A lot of responsibility 
+		- The name won't look impressive in CV 
+- Main Points to think about when applying:
+	- Responsibility and Accountability
+	- Recognition
+	-  Learning Curve 
+	-  Perks/Privileges/Advantages
+	-  Work-Life Balance
+	-  Time Period
+	-  Job Security
+	-  Working Atmosphere
+
+---
