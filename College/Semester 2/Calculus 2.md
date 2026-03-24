@@ -1,4 +1,4 @@
-## 📘Lec 1
+## 📘Lec 1 
 
 - **Exponential Function:**
 	- $f(x)=b^x \ where \ b>0,\ b\ne 1$ 
@@ -94,6 +94,55 @@
 	- **Even:**  $\int_{-a}^af(x)dx=2\int_0^af(x)dx$,  like $cos(x)$
 	- **odd:**  $\int_{-a}^af(x)dx=0$ ,    like $sin(x)$ 
 	- **Antiderivative:** $x^2$ is and antiderivative of $2x$, and $x$ is the derivative of $2x$,  so in conclusion antiderivative is the inverse of derivative 
-- Average Value of Function:
+- **Average Value of Function:**
 	- If we have an interval $[a,b]$ and we take the average at point $c$ then  $\overline{f}=f(c)$, so if we wanted area under the graph from $a\to b$ so we can get the area of the rectangle which is base * height which is $(b-a)*\overline{f}$, which is the same as the Integration from $a$ to $b$, as the extra parts will cancel each other 
 	- $\overline{f}=f(c)=\frac{1}{b-a}\int_a^bf(x)dx$ 
+
+---
+## 📘Lec 5
+
+- **Basic Integration:**
+	- **Basic:**
+		- $\int kdx=kx+c$ 
+		- $\int x^ndx=\frac{x^{n+1}}{n+1}+c$, $n\ne -1$ 
+		- $\int e^{ax}dx=\frac{1}{a}e^{ax} +c$ 
+		- $\int f'(x)e^{f(x)}dx=e^{f(x)}+c$ 
+		- $\int a^{kx}dx=\frac{1}{klna}a^{kx}+c$ 
+		- $\int f'(x)a^{f(x)}dx=\frac{1}{lna}a^{f(x)}+c$  
+		- $\int \frac{(ax+b)^{p-1}}{(ax+b)^p}dx=\frac{ln|ax+b|}{a} +c$ 
+	- **Trig:**
+		- $\int cosxdx=sinx+c$
+		- $\int f'(x)cos(f(x))dx=sin(f(x))+c$ 
+		- $\int sinxdx=-cosx+c$
+		- $\int f'(x)sin(f(x))dx=-cos(f(x))+c$  
+		- $\int sec^2xdx=tanx +c$ 
+		- $\int f'(x)sec^2(f(x))dx=tan(f(x))+c$ 
+		- $\int csc^2xdx=-cotx +c$ 
+		- $\int f'(x)csc^2(f(x))dx=-cot(f(x))+c$ 
+		- $\int secxtanxdx=secx+c$ 
+		- $\int f'(x)sec(f(x))tan(f(x))dx=sec(f(x))+c$ 
+		- $\int cscxcotxdx=-cscx+c$ 
+		- $\int f'(x)csc(f(x))cot(f(x))dx=-csc(f(x))+c$ 
+	- **Inverse:**
+		- $\int \frac{1}{\sqrt{1-(f(x))^2}}dx=sin^{-1}x+c$ 
+		- $\int \frac{1}{1+(f(x))^2}dx=tan^{-1}x+c$ 
+		- $\int \frac{1}{|f(x)|\sqrt{(f(x))^2-1}}dx=sec^{-1}x+c$ 
+- **Substitution Rule:**
+	- **Indefinite Integral:** 
+		- $u=g(x)$
+		- $du=g'(x)dx$ 
+		- **Rules:**
+			- $\int tan(ax)dx=\frac{1}{a}ln|sec(ax)|+c$ 
+			- $\int cot(ax)dx=\frac{1}{a}ln|sin(ax)|+c$  
+			- $\int sec(ax)dx=\frac{1}{a}ln|sec(ax)+tan(ax)|+c$  
+			- $\int csc(ax)dx=\frac{-1}{a}ln|csc(ax)+cot(ax)|+c$  
+			- $\int cos^2(x)dx=\frac{1}{2}[x+\frac{1}{2}sin(2x)]+c$ 
+			- $\int sin^2(x)dx=\frac{1}{2}[x-\frac{1}{2}sin(2x)]+c$ 
+	- **Definite Integral:** 
+		- $u=g(x)$
+		- $du=g'(x)dx$ 
+		- $u_{lower}=g(a)$
+		- $u_{upper}=g(b)$ 
+		- $\int_{u_{lower}}^{u_{upper}}f(u)du$ 
+
+---

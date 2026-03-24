@@ -1,15 +1,15 @@
-## 📘Lec 1
+## 📘Lec 1 
 
-- Companies Form:
+- **Companies Form:** 
 	- It's how big the company is, how many people work in it 
-	- It affects on:
+	- **It affects on:**
 		- Taxes
 		- Legal liability 
 		- Costs of formation
 		- Operational Costs 
-- Sole Proprietorship:
+- **Sole Proprietorship:**
 	- The business existence is entirely dependent on the owners decision, so when the owner dies, so does the business
-	- Advantages:
+	- **Advantages:**
 		- Easy to set up
 		- Very few requirements (only business license)
 		- Low start up costs 
@@ -17,19 +17,19 @@
 		- Owner has flexibility when running the business 
 		- Privacy 
 		- No many tax requirements 
-	- Disadvantages:
+	- **Disadvantages:**
 		- Unlimited liability (owner is responsible for all the taxes, debts, ect...)
 		- Limited managerial skills
 		- Few financial resources
 		- Difficulty in raising funds 
 		- No asset protection
 		- Limited life (the owner dies $\to$ the business dies)
-- Partnership:
+- **Partnership:**
 	- All partners are 100% liable, even if u invest little you are still responsible for the debts 
-	- Types:
-		- General Partnership: Do not require a formal agreement
-		- Limited Partnership: Require formal agreement stating the roles of each partner 
-	- Advantages:
+	- **Types:**
+		- **General Partnership:** Do not require a formal agreement
+		- **Limited Partnership:** Require formal agreement stating the roles of each partner 
+	- **Advantages:**
 		- Easy to set up
 		- Shared control 
 		- Distributed workload
@@ -37,49 +37,49 @@
 		- Cost sharing 
 		- Broader(bigger) skill and experience
 		- Tax advantage 
-	- Disadvantages:
+	- **Disadvantages:** 
 		- Unlimited liability
 		- Responsible for partner decision 
 		- Issues with expansion, success and termination 
 		- Partnership ends when any partner decides to end it 
 		- Difficulty in transferring partnership
 		- Selling business is difficult, requires finding new partner 
-- Corporation:
+- **Corporation:**
 	- Owned by investors who bought shares, they are called shareholders 
-	- Advantages:
+	- **Advantages:**
 		- Better ability to raise capital
 		- Profits and Losses belong to the whole corporation 
 		- Limited liability
 		- Transfer ownership
 		- Unlimited life 
-	- Disadvantages:
+	- **Disadvantages:**
 		- Harder to set up 
 		- Managerial demands (Owners are less involved than Managers)
 		- Possible loss of control 
 		- It's costly
 		- Higher taxes 
-- Multinational Corporation(MNCs):
-	- Pros:
+- **Multinational Corporation(MNCs):**
+	- **Pros:**
 		- Better paid
 		- Numerous perks 
 		- Less likely to lose your job
 		- Focus on few tasks at a time 
-		- Multinational will look much better than random startup 
-	- Cons:
+		- Multinational will look much better than random startup in CV 
+	- **Cons:**
 		- Recognition is rare (you may feel useless)
 		- Hard to impress 
 		- Little opportunity to improve your skills 
-- Start-ups:
-	- Pros:
+- **Start-ups:**
+	- **Pros:**
 		- Your creativity is noticed, (your ideas are listened to)
 		- Not boring 
 		- Much comfortable and happy
-	- Cons:
+	- **Cons:**
 		- High probability to fail
-		- Low paid until u hit that huge investment deal
+		- Low paid until you hit that huge investment deal
 		- A lot of responsibility 
 		- The name won't look impressive in CV 
-- Main Points to think about when applying:
+- **Main Points to think about when applying:**
 	- Responsibility and Accountability
 	- Recognition
 	-  Learning Curve 
@@ -90,3 +90,121 @@
 	-  Working Atmosphere
 
 ---
+## 📘Lec 2
+
+- **Business Plan:**
+	- It's a written document explaining every aspect of the business, used to develop a road map, Introduces the idea to investors and stakeholders 
+	- **Why make Business Plan:**
+		- **Internal:** to think through every aspect of the new venture 
+		- **External:** Communicate with investors and stakeholders 
+	- **Elements of a Business Plan:** 
+		- **Executive Summary (Briefly explains what business is about and highlight the main points):**
+			- Short overview of the entire business plan
+			- Includes the organization mission, product, and service
+		- **Business Description and Structure (Explains the business in details):** 
+			- Describe Business goals, products, services, and target customer base. (what the company is, what it sells, and who it serves)
+			-  Details about the industry, trends, and major competitors
+			- Team experience in the industry and what distinguishes the company from competitors
+		- **Market Analysis (Proves that people actually want the product):**
+			- The location of the customers 
+			- Customer problems (pain points)
+			- Needs of the target market(customers) 
+			- Competitors
+		- **Management and Organization Description (Who runs the company & how it's structured):**
+			- Details of business's management
+			- Qualifications & Responsibilities of Company Leaders 
+			- Legal structure of the company 
+		- **Marketing and Sales Plan (How you will attract customers and make sales):**
+			- Advertising methods and Promotion strategies
+			- How products will reach customers 
+		- **Competitive Analysis (Compare your company with competitors):**
+			- Competitors' strengths and weaknesses
+			- Your advantages
+		- **Products and Services Description (Explains What you sell and how it's produced):** 
+			- Product details & lifespan
+			- Production process 
+		- **Operating Plan (How the business will run daily):**
+			- How and where your company will operate 
+			- How many employees it will have 
+		- **Financial projection/expectations and needs (The money side of the business):**
+			- Expected revenue(money earned before expenses), startup costs, funding needs 
+			- Financial statements 
+		- **Exhibits and Appendices (Extra supporting information):**
+			- Resumes, CVs, Pictures of the product, ect... 
+
+--- 
+## 📘Lec 3
+
+- **Manager:**
+	- Coordinates and Oversees people to achieve the organization goals 
+	- **Management Classification:**
+		- **First-Line Managers:** Manage the work of non-managerial employees (supervisor)
+		- **Middle-Managers:**  Manage the work of First-Line managers (store manager)
+		- **Top Managers:** Responsible for making organization-wide decisions, plans, and goals that affect the entire organization (president, managing director)
+	- **Management Functions:**
+		- **Planning:** Define goals
+		- **Organizing:** Arranging and structuring work 
+		- **Leading:** Working with and through people to accomplish goals 
+		- **Controlling:** Monitoring, and correcting work 
+	- **Mintzberg’s Managerial Roles:**
+		- **Interpersonal Roles:**
+			- Leader
+			- Figurehead
+			- Liaison
+		- **Information Roles:**
+			- Monitor
+			- Disseminator 
+			- Spokesperson
+		- **Decisional Roles:**
+			- Entrepreneur 
+			- Disturbance Handler
+			- Resource Allocator 
+			- Negotiator 
+- **Founder:** 
+	- Came up with the business idea, he always remains the same, even if they leave 
+	- **Responsibilities:**
+		- Getting the business off the ground 
+		- Determine companies vision 
+		- Managing finance 
+		- Forming a strong team
+		- Maintain good relationship with board of directors 
+		- Make final decision 
+- **Chief Executive Officer (CEO):** 
+	- Work with the founder to carry out business strategy and vision 
+	- Delegate(distribute) tasks, communicate with board members and investors 
+	- **Responsibilities:**
+		- Implements the companies vision
+		- Coach/Manage/Train the team 
+		- Help to scale business 
+		- Communicate with external and internal parties 
+- **C-Level Executive:**
+	- **COO (Chief Operating Officer):** Ensures business plans are executed and company operations run smoothly
+	- **CFO (Chief Financial Officer):** Manages the company’s finances, budgeting, and financial reporting
+	- **CTO (Chief Technology Officer):** Develops technology products and drives innovation
+	- **CIO (Chief Information Officer):** Oversees internal IT systems and technology planning
+	- **CHRO (Chief Human Resources Officer):** Manages hiring, training, and employee development
+	- **CGO (Chief Growth Officer):** Coordinates teams to drive company growth
+	- **CMO (Chief Marketing Officer):** Leads marketing strategies, advertising, and promotions
+	- **CCO (Chief Content Officer):** Manages content creation and the company’s brand voice
+	- **CSO (Chief Security Officer):** Oversees policies that protect company security
+	- **CDO (Chief Data Officer):** Manages data collection, analysis, and usage
+	- **CINO (Chief Innovation Officer):** Identifies new ideas and opportunities for innovation
+- **Essential Skills for C-Level Executive:**
+	- Leadership skills
+	- Management experience
+	- Decision-making skills
+	- Communication skills
+	- Risk management
+	- Time management and work-life balance
+	- Visionary ideas
+- **How to become a C-Level Executive:** 
+	- Gain experience in your industry
+	- Take leadership roles
+	- Discuss your goals
+	- Track your accomplishments
+	- Demonstrate your expertise
+	- Pursue continuing education
+	- Gain industry and management experience
+	- Take the lead during company changes
+	- Start out as an entrepreneur
+	- Find a mentor

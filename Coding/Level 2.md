@@ -38,3 +38,10 @@
 		- **Detect cycle:**
 			- **dfs:** We can use `vis` to detect it, where 0 won't be visited, 1 currently trying, 2 complete cycle 
 			- **bfs:** We can check at the end of the `bfs` function if `ans.size()!=n`, then there is a cycle 
+
+- **Problem G in ACM, Graph 2 practice & G in ACM, Graph 2 sheet:**
+	- In the practice, the problem wanted the second shortest path, which can be handled by doing 2 `dist` arrays that handle each case, one for the shortest and one for the second best shortest
+	- In the sheet, the problem now wants all k shortest paths, so it's very hard to handle it with separate `dist` arrays, instead we will have a `counter` array, that counts how many times a node have been popped, and each time that the counter is still under $k$, then explore this node further. this will get us all the paths up to $k$ in increasing order 
+
+- **Problem H in ACM, Graph 2 sheet:** 
+	- We didn't know at first what the order of the undirected edges, so we will get the order of the directed nodes first, then sort the rest of the undirected edges with respect to the topological sorting of the directed 

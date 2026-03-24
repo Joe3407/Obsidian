@@ -20,6 +20,7 @@
 - **Note:**
 	- Measuring the Power of Battery if Current **enters** from the -ve part then Current is negative, and if Current **enters** from +ve part then Current is Positive 
 	- With Current source if Current enters from the tail of the arrow(-ve part) then Current is negative and vice versa 
+	- Total Charge is equal integrate the intensity from $0\to t$ 
 
 - Rules:
 	- $I=\frac{Q}{t}$ 
