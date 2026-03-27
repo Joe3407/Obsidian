@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 269.5
   },
   "right": {
     "id": "bd6cfcdc9bcdc718",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,14 +182,14 @@
   },
   "active": "4d87d537c077b38d",
   "lastOpenFiles": [
-    "Coding/Level 2.md",
-    "College/Semester 2/Electronics.md",
+    "College/Semester 2/Physics 2.md",
     "College/Semester 2/Business Administration.md",
     "College/Semester 2/Calculus 2.md",
-    "College/Semester 2/Physics 2.md",
-    "College/Semester 1/Calculus 1.md",
-    "College/Semester 2/Structured Programming.md",
+    "College/Semester 2/Electronics.md",
     "College/Semester 2/Ethics.md",
+    "College/Semester 2/Structured Programming.md",
+    "Coding/Level 2.md",
+    "College/Semester 1/Calculus 1.md",
     "College/Semester 1/Probability & Statistics.md",
     "Coding/Notes.md",
     "Coding/Git.md",

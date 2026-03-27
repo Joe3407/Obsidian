@@ -84,8 +84,8 @@
 	- We can use it as a general equation that gets the net area from a fixed point $a$ to any other point $x$ in one step instead of doing every time integration 
 	- $A(x)=\int_a^xf(t)dt$ 
 	- **The Relation between $A(x)$ and $f(t)$ (Fundamental Theorem of Calculus):** 
-		- **Part one:** $A'(x)=f(t)$       $(\frac{d}{dx}A(x)=\frac{d}{dx}\int_a^xf(t)dt) \to (A'(x)=\frac{d}{dx} (\int f(x) -\int f(t))) \to (A'(x)=f(x))$ 
-		- **Part two:** $\int_a^bf(t)dt=A(b)-A(a)= \int_s^bf(t)dt-\int_s^af(t)dt$ 
+		- **Part one:** $A'(x)=f(x)$       $(\frac{d}{dx}A(x)=\frac{d}{dx}\int_a^xf(t)dt) \to (A'(x)=\frac{d}{dx} (\int f(x) -\int f(a))) \to (A'(x)=f(x))$ 
+		- **Part two:** $\int_a^bf(t)dt=A(b)-A(a)= \int_s^bf(t)dt-\int_s^af(t)dt$, (where s is constant) 
 	- **Rules:**
 		- $\int_a^x\frac{d}{dt}f(t)dt=f(x)$ 
 		- $\int_a^b\frac{d}{dt}f(t)dt=f(b)-f(a)$  
@@ -93,7 +93,7 @@
 - **Notes:**
 	- **Even:**  $\int_{-a}^af(x)dx=2\int_0^af(x)dx$,  like $cos(x)$
 	- **odd:**  $\int_{-a}^af(x)dx=0$ ,    like $sin(x)$ 
-	- **Antiderivative:** $x^2$ is and antiderivative of $2x$, and $x$ is the derivative of $2x$,  so in conclusion antiderivative is the inverse of derivative 
+	- **Antiderivative:** $x^2$ is an antiderivative of $2x$, and $x$ is the derivative of $2x$,  so in conclusion antiderivative is the inverse of derivative 
 - **Average Value of Function:**
 	- If we have an interval $[a,b]$ and we take the average at point $c$ then  $\overline{f}=f(c)$, so if we wanted area under the graph from $a\to b$ so we can get the area of the rectangle which is base * height which is $(b-a)*\overline{f}$, which is the same as the Integration from $a$ to $b$, as the extra parts will cancel each other 
 	- $\overline{f}=f(c)=\frac{1}{b-a}\int_a^bf(x)dx$ 
@@ -144,5 +144,7 @@
 		- $u_{lower}=g(a)$
 		- $u_{upper}=g(b)$ 
 		- $\int_{u_{lower}}^{u_{upper}}f(u)du$ 
+- **Notes:**
+	- $sin(A)cos(B)=\frac{1}{2}[sin(A+B)+sin(A-B)]$ 
 
 ---

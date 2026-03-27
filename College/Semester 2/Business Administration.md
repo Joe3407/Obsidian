@@ -105,11 +105,11 @@
 			- Describe Business goals, products, services, and target customer base. (what the company is, what it sells, and who it serves)
 			-  Details about the industry, trends, and major competitors
 			- Team experience in the industry and what distinguishes the company from competitors
-		- **Market Analysis (Proves that people actually want the product):**
+		- **Market Analysis (Proves that people actually want the product):** 
 			- The location of the customers 
 			- Customer problems (pain points)
 			- Needs of the target market(customers) 
-			- Competitors
+			- Why your product is better than competitors
 		- **Management and Organization Description (Who runs the company & how it's structured):**
 			- Details of business's management
 			- Qualifications & Responsibilities of Company Leaders 
@@ -120,7 +120,7 @@
 		- **Competitive Analysis (Compare your company with competitors):**
 			- Competitors' strengths and weaknesses
 			- Your advantages
-		- **Products and Services Description (Explains What you sell and how it's produced):** 
+		- **Products and Services Description (Explains what you sell and how it's produced):** 
 			- Product details & lifespan
 			- Production process 
 		- **Operating Plan (How the business will run daily):**
@@ -164,7 +164,7 @@
 	- Came up with the business idea, he always remains the same, even if they leave 
 	- **Responsibilities:**
 		- Getting the business off the ground 
-		- Determine companies vision 
+		- Determine company's vision 
 		- Managing finance 
 		- Forming a strong team
 		- Maintain good relationship with board of directors 
@@ -173,7 +173,7 @@
 	- Work with the founder to carry out business strategy and vision 
 	- Delegate(distribute) tasks, communicate with board members and investors 
 	- **Responsibilities:**
-		- Implements the companies vision
+		- Implements the company's vision
 		- Coach/Manage/Train the team 
 		- Help to scale business 
 		- Communicate with external and internal parties 
@@ -208,3 +208,111 @@
 	- Take the lead during company changes
 	- Start out as an entrepreneur
 	- Find a mentor
+
+---
+## 📘Lec 4
+
+- **IT Roles Benefits:** 
+	- Online productivity
+	- Have the software and hardware needed in daily tasks 
+	- Technical support 
+- **Software Development Lifecycle (SDLC):**
+	- **Planning:** Gathering requirements form client 
+	- **Designing product architecture:** Define Software Requirements Specifications (SRS),  functions, classes, ect...     (no code yet)
+	- **Development:** Software components are implemented (coding time)
+	- **Testing:** Corrections are applied 
+	- **Deployment & Maintenance:** Go live, Monitoring for correction and improvements
+- **SDLC Roles:**
+	- **Business Analyst (BA):** Find suitable software solution with best cost 
+	- **Project Manager:** Project planning, Team coordination, Client communication
+	- **UI/UX Designer:** Solve user problem, Create user-friendly software, **UI** $\to$ good looking design, **UX** $\to$ smooth experience 
+	- **Technical Lead:** Lead software development, Technology focused leadership (writes less code)
+	- **Frontend Developer:** Implements UI
+	- **Backend Developer:** Write server APIs, Optimize and secure servers 
+	- **Full Stack Developer:** Has Frontend and Backend developer skills 
+	- **Software Test/Quality Engineer:** Ensures software quality, Lead testing and reports, Improve system performance 
+	- **Security Engineer:** Test, Develop, and Fix software security 
+	- **Technical Support:** Resolve customer issues, Maintain systems and networks, Install and fix problems 
+	- **Database Analyst:** Analyze data and report 
+	- **Data Scientist:** Gold role in SDLC, Interpret data insights, Improve products with data 
+- **IT Roles in Business:**
+	- **Database Administrator (DBA):** Manage database systems, Handle backup and recovery
+	- **Network Administrator:** Maintain network stability, Design and secure networks 
+	- **IT Helpdesk Support:** Solve technical issues
+	- **Hardware Technician:** Install and repair hardware 
+- **AI Related Roles:**
+	- **AI Product Manager:** Turns business needs into AI solutions
+	- **ML Engineer:** Train and optimize models, Integrate AI into systems 
+	- **MLOps Engineer:** Deploy, Monitor, and Retrain AI models, Scale model performance 
+	- **NLP Engineer/ Speech Engineer:** Specialist in Chatbots, Voice assistance 
+	- **Data Engineer:** Build data pipelines, Clean and organize data 
+- **Other Roles for FCIS Graduates:**
+	- **Sales Engineer:** Collaborates with sales team to understand client needs
+	- **Post-Sale Account Manager:** Maintain the relation between software provider & clients 
+	- **Technical Writer:** Works with the project team to produce and maintain world-class documentation
+- **Career Path for Software Developers:**
+	- Trainee Software Engineer $\to$ Junior Software Engineer $\to$ Software Engineer $\to$ Senior Software Engineer $\to$ Lead Software Engineer $\to$ Development Manager 
+
+--- 
+## 📘Lec 5
+
+- **Before Accepting Job Offer:**
+	- **Job Information:** 
+		- Job Title & Description
+		- Team & Department Assignment 
+		- Role, Skill, & Education Requirements 
+		- How performance will be evaluated 
+	- **Compensation and Benefits:**
+		- Annual salary (Gross Salary Vs Net Salary)
+		- Raises, Bonuses
+		- Benefits (Health Benefits)
+	- **Time off, Sick days & Vacation:** 
+		- 21-30 holidays 
+		- The day to give your medical certificate(the first day or when?)
+		- Overtime rules 
+	- **The Schedule and Employment Period:**
+		- Full time/ Part time
+		- Expected working hours
+		- Flexible working hours 
+	- **Termination, Severance & Survival:**
+		- Notice period: 1-3 months period you work before leaving the job 
+- **After Accepting the Job Offer:**
+	- **Program for Production:**
+		- Insist on correctness
+		- Design with tests
+		- Time complexity 
+		- Fail Gracefully 
+		- Improve Legacy code 
+	- **Get your tools in order:**
+		- Optimize your environment 
+		- Know your platform 
+		- Improve your programming languages 
+	- **Manage your self:** 
+		- **Find Mentor:**
+			- **Role:**
+				- Help when stuck 
+				- Model behaviors and skills you want to learn 
+				- Keep your career pointed in the right direction 
+			- **Qualities of a great mentor:**
+				- Interested in your personal growth 
+				- Has domain expertise for the product you're working on
+			- **Mentor Vs Manager:**
+				- A good manager will be your mentor
+				- Ask the manager in more official variety (benefits or pay or critical bug)
+		- **Own the Image you Show:** Don't write things that you can't do 
+		- **Be Visible**
+		- **Seek Performance Review:** Know when to ask your manager on your performance 
+		- **Manage your Stress** 
+		- **Treat your Body Right** 
+	- **Team Work:**
+		- Know Personality Types
+		- Work Together 
+		- Meet Effectively 
+		- Know your Peers (hierarchy of managers on top of you)
+	- **Mind Your Business:**
+		- Get Knowledge about the project
+		- Put yourself in the company's shoes 
+	- **Looking Forward:**
+		- Never stop learning
+
+--- 
