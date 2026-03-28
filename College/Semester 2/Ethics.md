@@ -1,3 +1,20 @@
+
+## 📘Lec 1
+
+- Ethics: Standards expected from an individual 
+- Virtues: Habits of acceptable behavior 
+- Vices: Habits of unacceptable behavior 
+- Morals: One's personal beliefs about right and wrong (according to Religion, Age, Life experiences, ect...)
+- Law: System of rules that tells us what we can and can't do 
+- Integrity: Follow personal principles, Respect everyone equally, Apply consistent morals(the same morals apply in different situations)
+- Four Main Reasons Organizations Care About Ethics:
+	- Gaining Goodwill:
+	- Good Business Practices:
+	- Protection from Legal Actions:
+	- Avoiding Unfavorable Publicity: 
+
+
+---
 ## 📘Lec 4
 
 - Key Privacy and Anonymity issues:
@@ -7,7 +24,7 @@
 		- Phishing:
 		- Spyware: 
 			- Keystroke-logging
-	- Digital Forensics:
+	- Digital Forensics: 
 
 ---
 ## 📘Lec 5
