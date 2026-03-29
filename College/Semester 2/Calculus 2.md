@@ -22,7 +22,7 @@
 		- $log_b(xy)=log_bx+log_by$
 		- $log_b(\frac{x}{y})=log_bx-log_by$
 		- $log_b(x^y)=ylog_bx$
-		- $log_b=1,\ log_b1=0$ 
+		- $log_bb=1,\ log_b1=0$ 
 - **Change Bases:**
 	- $b^x=c^{log_c(b^x)}=c^{xlog_cb}$ 
 	- $log_bx=\frac{log_cx}{log_cb}$ 

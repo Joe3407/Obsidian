@@ -8,10 +8,26 @@
 - Law: System of rules that tells us what we can and can't do 
 - Integrity: Follow personal principles, Respect everyone equally, Apply consistent morals(the same morals apply in different situations)
 - Four Main Reasons Organizations Care About Ethics:
-	- Gaining Goodwill:
+	- Gaining Goodwill: 
+		- Community contributions
+		- Employee benefits
+		- Social responsibility
+		- Makes business easier to conduct
 	- Good Business Practices:
+		- Suppliers prefer ethical partners
+		- Bad ethics = Bad business = declining offers 
 	- Protection from Legal Actions:
+		- Respondeat superior doctrine(An employer can be held responsible for the acts of its employees)
+		- Ethics programs can reduce criminal liability
 	- Avoiding Unfavorable Publicity: 
+		- Public Reputation(Impact on stock value, Consumer perception, Degree of monitoring received from government, Business relationships)
+- Corporate Code of Conduct:
+	- It's a formal document that outlines an organization's ethical standards and expectations for employee behavior
+	- Weak Corporate Code of Conduct:
+		- Cut corners
+		- If there's no Corporate Code of Conduct then I can do illegal actions
+	- Implementing Corporate Code of Conduct:
+		- Creating an Ethical Work Environment
 
 
 ---
