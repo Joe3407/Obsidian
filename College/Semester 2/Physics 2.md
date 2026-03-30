@@ -70,8 +70,8 @@
 	- $E=\frac{1}{2}kA^2e^{-\frac{bt}{m}}$ 
 	- $Percentage=\frac{A(T)}{A(0)}$ 
 	- $\alpha_{max}=\frac{a_{max}}{L}$ 
-	- $F(t)=F_osin(wt)$, $F_o \to$ amplitude of the force 
-	- $A=\frac{\frac{F_o}{m}}{\sqrt{(w_o^2-w^2)^2}}$ 
+	- $F(t)=F_osin(wt)$, $F_o \to$ amplitude of the force, Forced Oscillation 
+	- $A=\frac{\frac{F_o}{m}}{\sqrt{(w_o^2-w^2)^2}}$, Forced Oscillation 
 
 --- 
 
@@ -179,20 +179,20 @@
 			- $V_s=V_o=0$ 
 			- $f=f'$ 
 		- **Source is Moving ($V_o=0$):**
-			- Towards or Approach $\to$ $f=f'(\frac{V}{V-V_s})$
-			- Away $\to$  $f=f'(\frac{V}{V+V_s})$
+			- Towards or Approach $\to$ $f'=f(\frac{V}{V-V_s})$
+			- Away $\to$  $f'=f(\frac{V}{V+V_s})$
 		- **Observer is Moving ($V_s=0$):**
-			- Towards or Approach $\to$ $f=f'(\frac{V+V_o}{V})$
-			- Away $\to$  $f=f'(\frac{V-V_o}{V})$ 
+			- Towards or Approach $\to$ $f'=f(\frac{V+V_o}{V})$
+			- Away $\to$  $f'=f(\frac{V-V_o}{V})$ 
 		- **Both are Moving:**
 			- $S\to \gets O$ 
-				- $f=f'(\frac{V+V_o}{V-V_s})$ 
+				- $f'=f(\frac{V+V_o}{V-V_s})$ 
 			- $\gets S\ O\to$  
-				- $f=f'(\frac{V-V_o}{V+V_s})$ 
+				- $f'=f(\frac{V-V_o}{V+V_s})$ 
 			- $S\to \ O\to$  
-				- $f=f'(\frac{V-V_o}{V-V_s})$ 
+				- $f'=f(\frac{V-V_o}{V-V_s})$ 
 			- $\gets S \gets O$ 
-				- $f=f'(\frac{V+V_o}{V+V_s})$ 
+				- $f'=f(\frac{V+V_o}{V+V_s})$ 
 		- **Note:** 
 			- Toward $\to$ up sign
 			- Away $\to$ down sign 
