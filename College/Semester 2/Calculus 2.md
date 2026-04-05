@@ -148,3 +148,18 @@
 	- $sin(A)cos(B)=\frac{1}{2}[sin(A+B)+sin(A-B)]$ 
 
 ---
+## 📘Lec 6
+
+- **Integration by Part:**
+	-  **Indefinite Integral:**
+		- $u$          , $dv$
+		- $du$         , $v$ 
+		- $uv-\int vdu$ 
+	- **Definite Integral:**
+		- - $u$          , $dv$
+		- $du$         , $\int_a^bv$  
+		- $uv|_a^b-\int_a^b vdu$  
+- **Complete the Square:**
+	- rewriting a quadratic expression in the form $(x+h)^2+k$, to simplify integrals to the standard form of inverse trigonometric 
+- **Integrating Rational Functions:** 
+	- If the degree of the numerator greater than the degree of denominator, then we do long division

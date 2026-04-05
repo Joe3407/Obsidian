@@ -1,64 +1,197 @@
 
 ## 📘Lec 1
 
-- Ethics: Standards expected from an individual 
-- Virtues: Habits of acceptable behavior 
-- Vices: Habits of unacceptable behavior 
-- Morals: One's personal beliefs about right and wrong (according to Religion, Age, Life experiences, ect...)
-- Law: System of rules that tells us what we can and can't do 
-- Integrity: Follow personal principles, Respect everyone equally, Apply consistent morals(the same morals apply in different situations)
-- Four Main Reasons Organizations Care About Ethics:
-	- Gaining Goodwill: 
+- **Ethics:** Standards expected from an individual 
+- **Virtues:** Habits of acceptable behavior 
+- **Vices:** Habits of unacceptable behavior 
+- **Morals:** One's personal beliefs about right and wrong (according to Religion, Age, Life experiences, ect...)
+- **Law:** System of rules that tells us what we can and can't do 
+- **Integrity:** Follow personal principles, Respect everyone equally, Apply consistent morals(the same morals apply in different situations)
+- **Four Main Reasons Organizations Care About Ethics:**
+	- **Gaining Goodwill:** 
 		- Community contributions
 		- Employee benefits
 		- Social responsibility
 		- Makes business easier to conduct
-	- Good Business Practices:
+	- **Good Business Practices:** 
 		- Suppliers prefer ethical partners
 		- Bad ethics = Bad business = declining offers 
-	- Protection from Legal Actions:
+	- **Protection from Legal Actions:**
 		- Respondeat superior doctrine(An employer can be held responsible for the acts of its employees)
 		- Ethics programs can reduce criminal liability
-	- Avoiding Unfavorable Publicity: 
+	- **Avoiding Unfavorable Publicity:** 
 		- Public Reputation(Impact on stock value, Consumer perception, Degree of monitoring received from government, Business relationships)
-- Corporate Code of Conduct:
+- **Corporate Code of Conduct:**
 	- It's a formal document that outlines an organization's ethical standards and expectations for employee behavior
-	- Weak Corporate Code of Conduct:
-		- Cut corners
-		- If there's no Corporate Code of Conduct then I can do illegal actions
-	- Implementing Corporate Code of Conduct:
-		- Creating an Ethical Work Environment
+	- **Weak Corporate Code of Conduct:** Cut corners, If there's no Corporate Code of Conduct then I can do illegal actions
+	- **Implementing Corporate Code of Conduct:** 
+		- **Creating an Ethical Work Environment:** Companies must create a safe environment where employees can seek advice and report unethical behavior
+		- **Board of Director:** Ethical behavior in a company starts with leadership setting the right example
+		- **Corporate Ethics Officer:** Senior-Level Manager who reports directly to the CEO, Ethics needs someone responsible for enforcing it
+		- **Ethics Training:** It teaches employees how to act and report misconduct safely
+		- **Ethical Criteria in Evaluation:** Including ethics in evaluations forces employees to take ethical behavior seriously
+		- **Social Audits:** It evaluates and publicly reports a company’s ethical performance, (“Are we actually ethical or just saying we are?”)
+	- **Characteristics of a Successful Code of Conduct:** Employees seek advice and feel prepared and positive, Reward ethical behavior, Don’t reward unethical success
+- **Corruption:**
+	- Using power for personal benefit instead of doing your duty (Taking bribes, Stealing public money)
+	- **Fighting corruption:**
+		- **Goals:** Reduce corruption, Spread awareness, Build a society that rejects it
+		- **How?:** Policies + laws, Education
+	- **Related Concepts:** 
+		- **Transparency:** Information is open and available
+		- **Accountability:** People are responsible for their actions, (If someone makes a mistake → they are questioned)
+		- **Integrity:** It means acting with honesty and strong moral principles even if no one is looking 
 
+---
+## 📘Lec 2
+
+- **IT Specialist:** System analysts, Software engineers, Database administrators, Testers, Local area network (LAN) administrators
+- **Relationships Between IT Workers and Employers:**
+	- **Agreements:** These are determined before accepting job offer (Job title, Salary, Working hours, ect...)
+	- **Code of Conduct:**
+		- **Software Privacy:** Illegal copying or sharing software, It may lead to huge fines that are more expensive than acquiring the software legally 
+		- **Trade Secrets:** Information not known to the public like the formula of coke, It is protected by requiring employees sign confidentiality agreements (NDA)
+		- **Abuse of Employer Resources:** Using company resources for personal use
+		- **Discrimination:** Unfair treatment without reason, Age Discrimination is favoring younger employees over experienced ones
+- **Relationships Between IT Workers and Clients:** 
+	- **Provides:**
+		- IT Worker: Hardware, Software, services within cost and time
+		- Client: Compensation, Key contacts and data 
+		- **Note:** Relationship is documented in contractual terms (Defines each party's responsibility)
+	- **Trust & Decision Making:**
+		- **Client:** Makes decisions based on Information, Alternatives, and Recommendation from IT Worker, Client trusts IT Worker to act in client’s best interest
+		- **IT Worker:** Trusts that client provides relevant information, Listen and understand, Ask questions, Make good decisions
+	- **Ethical Issues:** 
+		- **Conflict of Interest:** IT worker recommends their own products/services which may not be objective (Just because it's his product he wants to sell it and not because it's the best choice)
+		- **Misrepresentation:** Giving false or incomplete information (lying), Which may lead to cancelling the contract or compensation for damages
+		- **Breach of contract:** One party does not follow contract terms, Other party can Cancel contract or Get money back
+	- **Project Reality:** 
+		- IT projects = joint effort between IT Worker & Client
+		- **Problem:** Hard to know who is at fault, Legal cases take a lot of time money and bad reputation so most cases are settled outside court 
+	- **Common Causes of Problems:**
+		- Client changes requirements
+		- Poor communication
+		- Competitor releases better system
+		- Client hides important system/database info
+		- IT workers lack experience/tools → poor reporting
+- **Relation Between IT Workers and Suppliers:**
+	- Building a Good Relationship: To ensure information exchange and avoid unreasonable demands 
+	- **Ethical Issues:**
+		- **Bribery:** Offering money or benefits to gain a business advantage 
+- **Relation Between IT Workers and Other Professionals:**
+	- **Ethical Issues:**
+		- **Resume Inflation:** Exaggeration of applicant qualifications (Claiming skills or experience you don’t actually have) 
+- **Relation Between IT Workers and IT Users(who uses hardware & software):**
+	- **IT Workers’ Duties:**
+		- Understand Users needs and capabilities 
+		- Deliver products and services that meet those needs
+		- Create Ethical Environment: Discourage software piracy, Minimize inappropriate use of corporate computing resources, Avoid inappropriate sharing of information
+- **Relation Between IT Workers and Society:**
+	- **Society’s Expectations from IT Worker:** Provide significant benefits, Avoid causing harm
+	- **Following code of Ethics will lead to:** Ethical Decision Making, High Standards, Public Trust, Self-Evaluation
+
+--- 
+## 📘Lec 3
+
+- **Vulnerability** $\to$ **Weak point (flaw)** 
+- **Computer Incidents are so Prevalent:**
+	- **Increased computing environment complexity:** The more complex a system is the easier it is for vulnerabilities to exist
+	- **Personal computers connected to massive networks:** Being connected makes systems powerful—but also more exposed to attacks
+	- **Cloud computing environments:** Cloud computing increases convenience but reduces direct control over security
+	- **Reliance on commercial software (with known vulnerabilities):** Unpatched software stays vulnerable and easy to attack
+		- Patch: It's a fix released by developers to close a vulnerability
+	- **Zero-day attack:** A vulnerability exists but no one knows about it yet (not even the developer)
+- **Types of Attacks:**
+	- **Virus:** It spreads through user actions and needs a host file to run(needs file, needs user)
+	- **Worm:** it spreads automatically without user involvement(doesn't need a file, doesn't need user)
+	- **Trojan horse:** 
+		- It hides inside a normal-looking program, images, games or even audio files to trick users into installing it (it binds it self in non-executable files unlike virus)
+		- **Logic Bomb:** It activates once a specific series of keystrokes is typed or by specific time or date 
+	- **Distributed Denial of Service(DDoS):** It crashes a system by flooding it with too many requests
+	- **Rootkit:** It secretly gives attackers full control while hiding its presence
+	- **Spam:** It's unwanted mass messaging, often used for ads or scams
+	- **Phishing:** It's using fake emails and websites that mimic trusted companies to steal personal information, (Smishing $\to$ SMS, Vishing $\to$ calls)
+	- **Social Engineering:** It manipulates people into making security mistakes(“I'm IT support, give me your password”) 
+	- **Dumpster Diving:** Searching someone’s trash to find useful information
+- **Types of Attackers:**
+	- **Adventure seekers:** Just want challenge / fun
+	- **Criminals:** Steal bank data, credit cards
+	- **Industrial spies:** Work for companies, Steal competitors’ secrets
+	- **Terrorists:** Want destruction / fear
+- **Malicious Insiders:** 
+	- People who already have authorized access (Employees, Consultant, Contractors)
+- **Cybersecurity Tracks:**
+	- **Defensive Track (Reactive):** Protect system, Detect attacks, Respond after attack
+	- **Offensive Track (Proactive):** Simulate attacks, Find weaknesses before hackers do
+- **Ethical Hacking:** 
+	- It uses hacking techniques legally to improve security, (You act like attacker, but for good)
+	- **Rules:** Stay legal, Define scope, Report vulnerabilities, Respect data
+	- **Skills:** Programming / scripting, Operating systems, Networking, Security fundamentals
 
 ---
 ## 📘Lec 4
 
-- Key Privacy and Anonymity issues:
-	- Identity Theft:
-		- Data Breaching:
-		- Purchase of personal data:
-		- Phishing:
-		- Spyware: 
-			- Keystroke-logging
-	- Digital Forensics: 
-
+- **Information Privacy:**
+	- **Communication Privacy:** Protecting what you say
+	- **Data Privacy:** Protecting what you are (your data), No one uses my info without my permission
+- **PAPA Rights:** 
+	- **Privacy:** What is the information that I want to reveal to the public, and what information I want to keep private 
+	- **Accuracy:** Is this information accurate or not 
+	- **Property:** Who owns the information 
+	- **Accessibility:** What is the information that people have the right to access it 
+- **Data Collection Policies:**
+	- **Opt-out policy:** Accepting **Terms & Conditions**, Favored by data collectors 
+	- **Opt-in policy:** Organization must obtain specific permission from consumers before collecting any data, Favored by consumers 
+- **Key Privacy and Anonymity issues:**
+	- **Identity Theft:**
+		- **Data Breaching:** Private data gets exposed or stolen, either by hackers or by mistakes (weak password)
+		- **Purchase of personal data:** Selling personal information in black market
+		- **Phishing:** It's using fake emails and websites that mimic trusted companies to steal personal information
+		- **Spyware:** Keystroke-logging(downloading a software without the knowledge of the user, and tracking every click of the keyboard), Works offline until the user is online then the software emails all the captured data
+	- **Digital Forensics:** 
+		- **Investigating digital devices to find evidence**
+		- **Examiner Guidelines:**
+			- Avoid irrelevant information
+			- Never withhold any evidence
+			- Never put yourself in a conflict of interest situation (if the investigation is on one of your relatives)
+	- **Consumer Profiling:**
+		- Companies collecting data about you to understand you and target you, to show you targeted ads 
+		- **How do they collect data:** 
+			- **Forms & surveys:** you give info directly 
+			- **Cookies:** Remember you when you revisit a site
+			- **Tracking software:** Tracking your activity(what you click, how long you stay, ect...)
+		- **Aggregating data:** Combining data from MANY sources
+		- **Personalization Software Types:** (Evaluate how visitors react to new ads)
+			- **Rules-based:** When buying tickets, it starts to give you more ads related to the place you're going(busses, car rentals restaurants) 
+			- **Collaborative filtering:** It gives you ads based on that you are related to some group similarities(I like this writer so it gives me a recommendation on another writer based on that the group that loves this writer also loved the other writer)
+			- **Demographic filtering:** Based on gender, age, ect... (so it recommends girls/boys clothing)
+	- **Treating Consumer Data Responsibly:** How companies should behave with your data (only collect what they need, keep data safe)
+	- **Workplace Monitoring:** Companies watching employees while they work to prevent misuse (wasting time, harassment, leaks), Public-sector employees have far greater private rights than in the private industry
+	- **Advanced Surveillance Technology:** Using technology to track people, so they can give them ads of the nearest restaurants 
+	- **Non-Disclosure Agreement (NDA):** A legal promise to keep secrets
 ---
 ## 📘Lec 5
 
-- 7 White Hat SEO techniques to double traffic :
-	- Mobile First:
-	- Claim your Business listing: to give google private or personal information, like giving legit email  
-	- Focus on UX: improve customer satisfaction 
-	- Keyword Research: to understand the point of view of the targeted market on how they will search to find your website 
-	- Use schema: shows enhanced description to simplify users in opening your website using html tags 
-	- Best Content Marketing Plan: Having useful content, finding the right audience, and then reaching that audience 
-	- Link Building: Links that has relevance to your site  
--  Black Hat SEO techniques:
-	- Link Farms: 
-		- A group of websites that are very low rank, they link each others sites so that they all rank unethically. They try to manipulate Google's algorithm  
-	- Keyword Stuffing: excessively using keywords in your content or meta tags in an attempt to send amplified signals to search engines.
-	- Hidden Text: They hide it by changing its color to white, or put it behind images, or make it zero font 
-	- Misleading Redirects: takes the user to a different webpage, and different topic 
-	- Scraped Content: copying and republishing content from other legit sites without adding any original content 
-	- Spin Content: bots generates several content that all spins around the same words or topics, (hello, hi, good after noon, ect...)
-	- Cloaking: 
+- **Search Engine Results Page (SERP):** It's the list of content returned
+- **How do organic search listings work?** $\to$ by spider or crawler, and based on this data the SE indexes the pages and ranks the websites
+- **Site Rank:** The higher rank the higher chance that that site will be visited by a user
+- **Search Engine Optimization (SEO):** maximizing the number of visitors to website by ensuring that the site appears high in rank 
+- **7 White Hat SEO techniques to double traffic :**
+	- **Mobile First:** Pages where content is not easily accessible on mobile may not rank as highly
+	- **Claim your Business listing:** To give google private or personal information, like giving legit email  
+	- **Focus on UX:** Improve customer satisfaction 
+	- **Keyword Research:** To understand the point of view of the targeted market on how they will search to find your website 
+	- **Use schema:** Shows enhanced description to simplify users in opening your website using html tags 
+	- **Best Content Marketing Plan:** Having useful content, finding the right audience, and then reaching that audience 
+	- **Link Building:** Links that has relevance to your site  
+-  **Black Hat SEO techniques:**
+	- **Link Farms:** A group of websites that are very low rank, they link each others sites so that they all rank unethically. They try to manipulate Google's algorithm  
+	- **Keyword Stuffing:** excessively using keywords in your content or meta tags in an attempt to send amplified signals to search engines.
+	- **Hidden Text:** They hide it by changing its color to white, or put it behind images, or make it zero font 
+	- **Misleading Redirects:** takes the user to a different webpage, and different topic 
+	- **Scraped Content:** copying and republishing content from other legit sites without adding any original content 
+	- **Spin Content:** bots generates several content that all spins around the same words or topics, (hello, hi, good after noon, ect...)
+	- **Cloaking:** It's showing different content to search engines and users to manipulate rankings
+- **Penalties:** Black Listing, Suspension, Algorithm de-prioritization(lowering the rank)
+
+--- 

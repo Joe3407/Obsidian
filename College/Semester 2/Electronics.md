@@ -64,9 +64,6 @@
 
 - **Current Division:**
 	- $I_1=\frac{I_t}{R_t}R_1$ 
-- **Node Analysis:**
-	- Current is complicated and can't be solved by ohm law
-	- We take each node and do KCL at each node till we get number of equations equal to number of unknowns 
 - **Systematic Methods:**
 	- **Node Analysis:**
 		- **Nodal Voltage Analysis:**
