@@ -204,3 +204,21 @@
 	- **Note:** 
 		- Frequency Beat (difference between frequencies):
 			- $f_b=|f_1-f_2|$ 
+
+---
+## 📘Lec 6
+
+- **Revision:**
+	- **Spring:**
+		- **Parallel:**
+			- $k_{eq}=k_1+k_2$                   $\overset{\textstyle k_1----}{k_2----}$    $\overset{\textstyle m}{}$,    $k_1----m----k_2$ 
+		- **Series:** 
+			- $k_{eq}=\frac{k_1k_2}{k_1+k_2}$                       $k_1----k_2----m$ 
+	- Pulse = One Wave
+
+---
+## 📘Lec 7
+
+- Remember:
+	- $sin(a)+sin(b)=2sin(\frac{a+b}{2})cos(\frac{a-b}{2})$ 
+	- $cos(a)+cos(b)=2cos(\frac{a+b}{2})cos(\frac{a-b}{2})$ 

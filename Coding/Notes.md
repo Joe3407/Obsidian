@@ -64,3 +64,17 @@
 
 - Tip: If problem states to do a multiplication operation till we reach a certain number, try reverse the statement and start from the certain number and divide 
 
+- **Data Types:**
+	- **Mantissa:**
+		- **It's the decimal look alike but it binary:**
+			- **Decimal:**  $12345=1.2345×10^4$      
+			- **Binary:**    $1101=1.101×2^3$ 
+			- **Note:** $Number=mantissa×2^{exp}$ 
+	- The decimal data types will have there range up to $2^x$, where x is the number of mantissa, any thing further will give inaccurate values 
+
+| Type          | Storage            | Exact Integer Limit | Approx Value   |
+| ------------- | ------------------ | ------------------- | -------------- |
+| `float`       | 32-bit             | $2^{24}$            | ≈ 1.6 × 10^7   |
+| `double`      | 64-bit             | $2^{53}$            | ≈ 9 × 10^15    |
+| `long double` | 80-bit (GCC/Clang) | $2^{64}$            | ≈ 1.8 × 10^19  |
+| `long long`   | 64-bit integer     | $2^{63 }- 1$        | ≈ 9.22 × 10^18 |
