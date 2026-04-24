@@ -318,8 +318,35 @@
 --- 
 ## 📘Lec 6
 
-- Entrepreneur:
-	- How: 
+- **Entrepreneur:**
+	- Person who takes risks to turn a unique idea into a business despite uncertainty and challenges
+- **Advice to become an Entrepreneur:**
+	- **Decide if it’s the right fit for you:** Ensuring personality matches passion, Risk taking, Confidence, and Flexibility
+	- **Choose an idea and educate yourself:** Select unique idea, Add originality, Solve problems, and Gain knowledge
+	- **Find your target audience:** Identify customers, Ensure demand, Understand needs for effective marketing
+	- **Plan and launch your business:** Create **business plan** and **executive summary** to guide and present business
+	- **Hire great partner(s):** Choose supportive partners to share ideas, responsibilities, and build team culture
+	- **Build your network:** Connect with mentors and professionals for guidance and learning
+	- **Test your idea:** Evaluate market interest and improve product before full launch
+	- **Plan your finances:** Estimate costs, Manage expenses, and Ensure financial sustainability
+	- **Develop a strong brand:** Build strong identity across website and marketing channels
+	- **Create value in your market:** Offer unique value to attract customers and compete effectively
+- **How to start a business:**
+	- **Brainstorm and refine your business idea:** Validate idea, Ensure market demand, Test and Improve based on feedback
+	- **Pick a business name:** Choose memorable, simple, scalable name and ensure availability
+	- **Create a professional website:** Build strong online presence and professional first impression
+	- **Conduct market research:** Analyze customers and industry using primary(Interviews, Surveys) and secondary(Reports, Online data) data
+	- **Write a business plan:** Create roadmap for operations, strategy, and attracting investors
+	- **Build a pitch deck:** Present business idea to investors using clear, structured, and data-driven content for financial support 
+	- **Choose a legal structure:** Select appropriate business form affecting ownership, liability, and taxes (Sole proprietorship, Partnership, Corporation)
+	- **Secure capital(money to start) and cash flow(money moving in and out):** Obtain funding and maintain steady financial resources for operations, (Bootstrapping / Self-financing)
+	- **Check out competitors:** Analyze competitors to understand market, Improve strategy, and Identify opportunities (SWOT analysis is a powerful way to evaluate your competitors)
+	- **Brand your business:** Create business identity using logo, email, and visual elements
+	- **Make your business official:** Register business for legal protection, recognition, and tax benefits
+	- **Apply for tax IDs, licenses and permits:** Obtain legal approvals required for operating and compliance
+	- **Set up an accounting system:** Track finances, manage income and expenses, and organize taxes (Bookkeeping)
+	- **Build a team:** Hire suitable people aligned with goals, budget, and company culture
+	- **Market your business:** Promote business to attract customers, generate leads, and increase sales
 
 ---
 ## 📘Lec 7
@@ -355,7 +382,7 @@
 			- **Mechanistic structure:** Rigid structure with strict control, Clear hierarchy, and High formalization
 			- **Organic structure:** Flexible structure with low formalization, Decentralized decisions, and Adaptability
 - **Groups:**
-	- **Meaning:** It's simply two or more people who interact and depend on each other to achieve a goal
+	- **Meaning:** It's simply two or more people who interact and depend on each other to achieve a goal (**Independent**)
 	- **Types:**
 		- **Formal:** These are official groups created by the organization (like departments)
 		- **Informal:** These are unofficial groups formed naturally based on friendships or social needs (like coworkers who hang out together)
@@ -366,7 +393,7 @@
 		- **Performing:** The group is now fully functional and focuses on getting work done efficiently
 		- **Adjourning:** Final stage for temporary groups — tasks are finished and the group dissolves
 - **Teams:**
-	- **Meaning:** People not only work together but also have shared responsibility, strong coordination, and common goals
+	- **Meaning:** People not only work together but also have shared responsibility, strong coordination, and common goals (**Dependent**)
 	- **Types:**
 		- **Functional:** Teams made of people from the same department, led by a manager who controls everything in a top-down structure
 		- **Cross-Functional:** Teams made of people from different departments working together on a specific project that needs different expertise
