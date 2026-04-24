@@ -316,3 +316,71 @@
 		- Never stop learning
 
 --- 
+## 📘Lec 6
+
+- Entrepreneur:
+	- How: 
+
+---
+## 📘Lec 7
+
+- **Corporate Structure:** 
+	- How a company is organized internally, how it divides work into departments with specialized functions that collaborate together to achieve the company’s goals
+- **Organizational Design:**
+	- **Elements:**
+		- **Organizing:** Management function, Arranging and structuring work to achieve organizational goals              **Action**
+		- **Organizational structure:** The formal arrangement of jobs within an organization                                           **Outcome**
+		- **Organizational chart:** Visual representation showing structure and reporting relationships                             **Visual**
+		- **Organizational design:** Process of creating or changing the organization’s structure                                       **Planning/Changing** 
+	- **Purpose:**
+		- Dividing work, Assigning responsibilities, Coordinating tasks, Grouping jobs, Establishing authority relationships, and Allocating resources efficiently, so that everything runs in a controlled and coordinated way
+	- **Designing Organizational Structure:**
+		- **Work Specializing:** 
+			- **Meaning:** Dividing large jobs into smaller tasks assigned to workers to increase efficiency and productivity
+			- **Advantages:** Task expertise, Higher productivity, Lower costs, Job security, Higher profits
+			- **Disadvantages:** Employee boredom, Job dissatisfaction, Poor quality work, More injuries, High turnover
+		- **Departmentalization:**
+			- **Meaning:** Grouping jobs into departments based on a specific basis
+			- **Types:** Functional (by job type), Product (by product line), Geographical (by location), Process (by steps/stages), Customer based grouping (by customer type)
+		- **Chain of command:**
+		    - **Meaning:** Line of authority from top to bottom showing reporting relationships (who reports to whom)
+		- **Span of control:**
+			- **Meaning:** The number of employees a manager can effectively supervise
+		- **Centralization & Decentralization:**
+			- **Centralization:** decisions made by top management
+			- **Decentralization:** lower-level employees also make decisions
+			- **Employee empowerment:** giving employees authority to make decisions
+		- **Formalization:**  
+			- **Meaning:** Degree to which jobs are standardized and controlled by rules and procedures
+			- **Mechanistic structure:** Rigid structure with strict control, Clear hierarchy, and High formalization
+			- **Organic structure:** Flexible structure with low formalization, Decentralized decisions, and Adaptability
+- **Groups:**
+	- **Meaning:** It's simply two or more people who interact and depend on each other to achieve a goal
+	- **Types:**
+		- **Formal:** These are official groups created by the organization (like departments)
+		- **Informal:** These are unofficial groups formed naturally based on friendships or social needs (like coworkers who hang out together)
+	- **Stages:**
+		- **Forming:** People join the group, get introduced, and understand goals and structure
+		- **Storming:** Conflicts appear (different opinions, power struggles, disagreements)
+		- **Norming:** The group starts to settle, build trust, and agree on how to work together
+		- **Performing:** The group is now fully functional and focuses on getting work done efficiently
+		- **Adjourning:** Final stage for temporary groups — tasks are finished and the group dissolves
+- **Teams:**
+	- **Meaning:** People not only work together but also have shared responsibility, strong coordination, and common goals
+	- **Types:**
+		- **Functional:** Teams made of people from the same department, led by a manager who controls everything in a top-down structure
+		- **Cross-Functional:** Teams made of people from different departments working together on a specific project that needs different expertise
+		- **Self-Managed:** Teams that operate without a manager, where members share responsibility, leadership, and decision-making to achieve a common goal
+		- **Virtual:** Teams where members work from different locations and use technology to communicate and collaborate online
+	- **Benefits of Teamwork:**
+		- **Increase Productivity:** Teams improve productivity by sharing workload, Working toward common goals, and keeping everyone updated on progress
+		- **Discover new ideas:** Teams bring together people with different backgrounds and perspectives, which leads to more creative ideas and better problem-solving
+		- **Improve company culture:** Teamwork improves workplace culture by encouraging collaboration, stronger relationships, and higher employee satisfaction
+	 - **Tips to improve teamwork:** 
+		- **Identify Leadership:** Teams need a leader to provide **direction, structure, and task clarity**
+		- **Communicate Regularly:** Regular communication keeps the team **updated, aligned, and able to solve problems quickly**
+		- **Participate in team-building:** Team-building activities help improve **relationships, trust, and workplace culture**
+		- **Establish boundaries:** Clear boundaries prevent conflict and ensure **respect, balance, and healthy working relationships**
+		- **Clarify group purpose:** A clear purpose gives the team **direction and focus**, improving coordination and productivity
+
+---

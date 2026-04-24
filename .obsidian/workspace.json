@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Semester 2/Calculus 2.md",
+                "file": "College/Semester 2/Business Administration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calculus 2"
+              "title": "Business Administration"
             }
           }
         ]
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,12 +182,14 @@
   },
   "active": "4d87d537c077b38d",
   "lastOpenFiles": [
+    "College/Semester 2/Structured Programming.md",
+    "College/Semester 2/Business Administration.md",
+    "College/Semester 2/Calculus 2.md",
     "Coding/Problems/Number Theory/Sheet.md",
     "Coding/Problems/Number Theory/Practice.md",
     "Coding/Calculator Notes.md",
     "Coding/Level 2.md",
     "Coding/Notes.md",
-    "College/Semester 2/Calculus 2.md",
     "Coding/Trees/Overview.md",
     "Coding/Problems/Number Theory",
     "Coding/Problems/Number Theory.md",
@@ -195,9 +197,7 @@
     "Coding/Trees/Notes.md",
     "College/Semester 2/Physics 2.md",
     "College/Semester 2/Electronics.md",
-    "College/Semester 2/Structured Programming.md",
     "College/Semester 2/Ethics.md",
-    "College/Semester 2/Business Administration.md",
     "College/Semester 1/Calculus 1.md",
     "College/Semester 1/Probability & Statistics.md",
     "Coding/Git.md",

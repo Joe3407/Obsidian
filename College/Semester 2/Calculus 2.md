@@ -163,3 +163,32 @@
 	- rewriting a quadratic expression in the form $(x+h)^2+k$, to simplify integrals to the standard form of inverse trigonometric 
 - **Integrating Rational Functions:** 
 	- If the degree of the numerator greater than the degree of denominator, then we do long division
+
+--- 
+## 📘Lec 7
+
+- **Partial Fractions:**
+	- When the denominator degree is greater than the numerator degree, then we can break it to multiple fractions which are easier to integrate 
+	- $\int \frac{3x}{x^2+2x-8}dx \to \int \frac{1}{x-2} \frac{2}{x+4}dx$ 
+	- **Steps:**
+		- Factorizing denominator                        $\frac{3x}{(x-2)(x+4)}$ 
+		- Partial fraction decomposition                $\frac{3x}{(x-2)(x+4)}= \frac{A}{x-2}+\frac{B}{x+4}$  
+		- Multiply both sides with denominator    $3x=A(x+4)+B(x-2)$ 
+		- Equate like powers of x                            $3x=(A+B)x+(-2A+4B)$ 
+	- **Partial Fractions with repetition:**
+		- **linear:**
+			- $(x-r)^m \to \frac{A_1}{(x-r)^1}+\frac{A_2}{(x-r)^2}+...+\frac{A_m}{(x-r)^m}$ 
+		- **Quadratic:**
+			- $(ax^2+bx+c)^m \to \frac{A_1x+B}{(ax^2+bx+c)^1}+\frac{A_2x+B}{(ax^2+bx+c)^2}+...+\frac{A_mx+B}{(ax^2+bx+c)^m}$ 
+- **Improper Integrals:**
+	- **Infinite:**
+		- $\int_a^{\infty}f(x)dx\to lim_{b\to \infty}\int_a^bf(x)dx$ 
+		- $\int_{-\infty}^bf(x)dx\to lim_{a\to -\infty}\int_a^bf(x)dx$  
+		- $\int_{-\infty}^{\infty}f(x)dx \to lim_{a\to -\infty}\int_a^cf(x)dx+lim_{b\to \infty}\int_b^cf(x)dx$ 
+	- **Unbounded Integrals:**
+		- $(a,b] \to \int_a^bf(x)dx=lim_{c\to a^+}\int_c^bf(x)dx$ 
+		- $[a,b) \to \int_a^bf(x)dx=lim_{c\to b^-}\int_a^cf(x)dx$ 
+		- $[a,b]\ except\ p \to \int_a^bf(x)dx=lim_{c\to p^-}\int_a^cf(x)dx+lim_{d\to p^+}\int_d^bf(x)dx$ 
+	- **Note:**
+		- If limit exists, then the improper integrals **converge** 
+		- If limit DNE, then the improper integrals **diverge** 

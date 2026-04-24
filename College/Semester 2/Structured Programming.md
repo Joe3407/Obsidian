@@ -58,3 +58,26 @@
 ## 📘Lec 5
 
 - Nested Struct: order matters, the inner struct must come before outer struct 
+
+---
+## 📘Lec 6
+
+- **Reference Variable:** It's another name for the variable, It points to the address memory of the other variable, It's value is NOT the address memory
+- Arrays are always passed by reference `void fun(int a[])` 
+- **Note:** 
+	- After finishing function, all variables & reference variables are deleted from memory, but the reference variables effect remains 
+	- When calling arguments by value, their variable must be assigned with a value, but when passing by reference, it's not mandatory to give it a value 
+
+---
+## 📘Lec 7
+
+- In 2D array, the memory location is linear, meaning that elements of array are sorted consecutively in memory 
+- Initializing:
+	- `int a[2][3]={ 1, 2, 3, 11, 12, 13 };` 
+	- `int a[2][3]={ {1, 2, 3}, {11, 12, 13} };` 
+	- `int a[2][3]={ 1, 2, 3, 11, 12 };` it replaces the last element in the last row with zero
+	- `int a[2][3]={ {1}, {11, 12} };` it replaces the second and third elements in the first row with zeros, and replaces the last element in last row with zero 
+	- `int a[][SZ]={};` Must at least give the column size for it to work 
+- When passing 2D array to a function the column size must be declared `void fun(int arr[][SZ])`  
+
+--- 
