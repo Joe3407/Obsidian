@@ -1,4 +1,3 @@
-
 ## 📘Lec 1
 
 - **Ethics:** Standards expected from an individual 
@@ -195,3 +194,57 @@
 - **Penalties:** Black Listing, Suspension, Algorithm de-prioritization(lowering the rank)
 
 --- 
+## 📘Lec 6
+
+---
+## 📘Lec 7
+
+- **Key Intellectual Property Issues:** 
+	- **Plagiarism:** 
+		- **Meaning:** Using others’ ideas or work without credit and presenting them as your own
+		- **Plagiarism Detection:** 
+			- **Meaning:** Comparing submitted work with large databases of online content and previous documents
+			- **Reduce:** Through awareness and proper citation(giving proper credit using correct referencing especially for online content)
+	- **Reverse engineering:**
+		- **Meaning:** Taking a system apart to understand, copy, or improve it, especially software
+		- **Ethical:**
+			- **Allowed:** Used on in-house software or for system compatibility and interoperability purposes(ability of different systems or software to work together and exchange information smoothly)
+			- **Unethical:** Considered unethical when applied to purchased/licensed software to copy or steal its design without ownership rights
+		- **Compiler:** Translates source code into machine language for computer execution
+		- **Decompiler:** Converts machine language back into source code for analysis
+	- **Open Source Code:**
+		- **Meaning:** Software with publicly available source code that can be used, modified, and improved by anyone
+		- **Why open source is created:** For reputation, reciprocity, client attraction, future services, and sharing useful but unmarketed software
+		- **Open Source License:** Legal protection ensuring software and its modifications remain free and open for users instead of becoming proprietary (Not to lose credit)
+	- **Competitive Intelligence:**
+		- **Meaning:** Legal collection of competitor information to gain business advantage while avoiding illegal spying activities(industrial espionage)
+		- **Competitive Intelligence Cycle:** Continuous process of planning, collecting, analyzing, and sharing competitor information to support business decisions
+	- **Trademark infringement:** 
+		- **Meaning:** Using a company’s protected symbol, name, or design (or similar one) that confuses consumers and violates brand identity rights
+	- **Cybersquatting:**
+		- **Meaning:** Registering domain names of famous brands to sell later at profit or misuse them (take .com, .org, .info, then sell them to the brand), (ICANN, helps brand at first to avoid this)
+		- **Typosquatting:** Registering misspelled versions of popular websites to trick users into fake or malicious sites (`guthib`)
+
+---
+## 📘Lec 8
+
+- **Ethical Decision Making:**
+	- **Develop Problem Statement:**
+		- **Meaning:** Clear, Specific, and Measurable description of a problem including causes, affected people, frequency, and impact (time, cost, severity)
+		- **Example:**
+			- **Weak:** Boarding system is slow
+			- **Strong:** Wastes 4 minutes per session → 20 hours/day → $146,000/year loss
+	- **Identify, Evaluate, and Choose an Alternative:**
+		- **Meaning:** Generate solutions (Brainstorming), Evaluate them based on ethics, laws, and consequences, then Select the best ethical and effective solution
+	- **Case Example:**
+		- A cereal company wants to market a product as **“75% less sugar”** to attract parents, when in reality it's just a few calories less than other cereal companies 
+		- **Smell Test:** Quick ethical check by asking if the action would look bad or unacceptable to the public
+		- **Approaches to Ethical Decision Making:**
+			- **Virtue Ethics Approach:** Making decisions based on moral character and values (what a good person/company would do), (differs from a person to another) 
+			- **Utilitarian Approach:** Choosing the action that produces the greatest overall benefit and least harm for the most people
+			- **Fairness Approach:** Making decisions by ensuring equal and fair treatment of all people affected
+			- **Common Good Approach:** Making decisions that benefit society as a whole and support shared systems and values
+	- **Implement the Decision and Evaluate the Results:**
+		- Apply the chosen solution effectively, communicate it clearly, then monitor results and refine if needed
+
+---

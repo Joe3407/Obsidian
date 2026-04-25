@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Semester 2/Business Administration.md",
+                "file": "College/Semester 2/Ethics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Business Administration"
+              "title": "Ethics"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "4d87d537c077b38d",
   "lastOpenFiles": [
-    "College/Semester 2/Structured Programming.md",
     "College/Semester 2/Business Administration.md",
+    "College/Semester 2/Structured Programming.md",
     "College/Semester 2/Calculus 2.md",
     "Coding/Problems/Number Theory/Sheet.md",
     "Coding/Problems/Number Theory/Practice.md",
