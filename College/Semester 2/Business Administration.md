@@ -180,8 +180,8 @@
 - **C-Level Executive:**
 	- **COO (Chief Operating Officer):** Ensures business plans are executed and company operations run smoothly
 	- **CFO (Chief Financial Officer):** Manages the company’s finances, budgeting, and financial reporting
-	- **CTO (Chief Technology Officer):** Develops technology products and drives innovation
-	- **CIO (Chief Information Officer):** Oversees internal IT systems and technology planning
+	- **CTO (Chief Technology Officer):** Develops technology products and drives innovation,       **External** 
+	- **CIO (Chief Information Officer):** Oversees internal IT systems and technology planning,     **Internal** 
 	- **CHRO (Chief Human Resources Officer):** Manages hiring, training, and employee development
 	- **CGO (Chief Growth Officer):** Coordinates teams to drive company growth
 	- **CMO (Chief Marketing Officer):** Leads marketing strategies, advertising, and promotions
@@ -217,24 +217,28 @@
 	- Have the software and hardware needed in daily tasks 
 	- Technical support 
 - **Software Development Lifecycle (SDLC):**
-	- **Planning:** Gathering requirements form client 
+	- **Planning:** Gathering requirements from client 
 	- **Designing product architecture:** Define Software Requirements Specifications (SRS),  functions, classes, ect...     (no code yet)
 	- **Development:** Software components are implemented (coding time)
 	- **Testing:** Corrections are applied 
 	- **Deployment & Maintenance:** Go live, Monitoring for correction and improvements
 - **SDLC Roles:**
-	- **Business Analyst (BA):** Find suitable software solution with best cost 
-	- **Project Manager:** Project planning, Team coordination, Client communication
-	- **UI/UX Designer:** Solve user problem, Create user-friendly software, **UI** $\to$ good looking design, **UX** $\to$ smooth experience 
-	- **Technical Lead:** Lead software development, Technology focused leadership (writes less code)
-	- **Frontend Developer:** Implements UI
-	- **Backend Developer:** Write server APIs, Optimize and secure servers 
-	- **Full Stack Developer:** Has Frontend and Backend developer skills 
-	- **Software Test/Quality Engineer:** Ensures software quality, Lead testing and reports, Improve system performance 
-	- **Security Engineer:** Test, Develop, and Fix software security 
-	- **Technical Support:** Resolve customer issues, Maintain systems and networks, Install and fix problems 
-	- **Database Analyst:** Analyze data and report 
-	- **Data Scientist:** Gold role in SDLC, Interpret data insights, Improve products with data 
+	- **Planning & Designing product architecture:**
+		- **Business Analyst (BA):** Find suitable software solution with best cost 
+		- **Project Manager:** Project planning, Team coordination, Client communication
+		- **UI/UX Designer:** Solve user problem, Create user-friendly software, **UI** $\to$ good looking design, **UX** $\to$ smooth experience 
+	- **Development:**
+		- **Technical Lead:** Lead software development, Technology focused leadership (writes less code)
+		- **Frontend Developer:** Implements UI
+		- **Backend Developer:** Write server APIs, Optimize and secure servers 
+		- **Full Stack Developer:** Has Frontend and Backend developer skills 
+	- **Testing:**
+		- **Software Test/Quality Engineer:** Ensures software quality, Lead testing and reports, Improve system performance 
+		- **Security Engineer:** Test, Develop, and Fix software security 
+		- **Technical Support:** Resolve customer issues, Maintain systems and networks, Install and fix problems 
+	- **Deployment & Maintenance:**
+		- **Database Analyst:** Analyze data and report 
+		- **Data Scientist:** Gold role in SDLC, Interpret data insights, Improve products with data 
 - **IT Roles in Business:**
 	- **Database Administrator (DBA):** Manage database systems, Handle backup and recovery
 	- **Network Administrator:** Maintain network stability, Design and secure networks 
@@ -376,7 +380,7 @@
 		- **Centralization & Decentralization:**
 			- **Centralization:** decisions made by top management
 			- **Decentralization:** lower-level employees also make decisions
-			- **Employee empowerment:** giving employees authority to make decisions
+			- **Employee Empowerment:** giving employees authority to make decisions
 		- **Formalization:**  
 			- **Meaning:** Degree to which jobs are standardized and controlled by rules and procedures
 			- **Mechanistic structure:** Rigid structure with strict control, Clear hierarchy, and High formalization
@@ -409,5 +413,37 @@
 		- **Participate in team-building:** Team-building activities help improve **relationships, trust, and workplace culture**
 		- **Establish boundaries:** Clear boundaries prevent conflict and ensure **respect, balance, and healthy working relationships**
 		- **Clarify group purpose:** A clear purpose gives the team **direction and focus**, improving coordination and productivity
+
+---
+## 📘Lec 8
+
+- **Accounting (Language of Business):** Information system that identifies, Records, and Communicates economic events to users
+- **Economic Events:** Financial transactions measurable in money, Identified, Recorded, and Communicated through accounting
+- **Main types of Accounting:**
+	- **Financial Accounting:** Records and Reports historical financial data for **external users**
+	- **Management Accounting:** Provides financial information for **internal** decision making and planning
+	- **Cost Accounting:** Managerial accounting process that analyzes and controls costs to reduce expenses and improve efficiency
+	- **Tax Accounting:** Handles financial records for tax purposes following legal regulations
+	- **Forensic Accounting:** Investigates financial records to detect fraud and support legal cases
+	- **Governmental Accounting:** Records and manages public funds to ensure transparency and efficiency
+	- **International Accounting:** Manages financial activities across countries following global regulations
+- **Basic Accounting Equation:**
+	- $Assets\ =\ Liabilities\ +\ Owner's\ Equity$ 
+	- **Assets:** Everything the business owns that have value or will provide future benefit (cash, equipment, building)              $100k$$
+	- **Liabilities:** Claims against assets of those to whom the company owes money (the money lent to buy assets)                  $20k$$ lent
+	- **Owner’s Equity (Owner’s capital, Residual equity, Net worth):** Claims of owners (owner personal money)                       $80k$$ of owner money 
+- **Economic Entity Assumption:** Business treated separately from owner and other entities to ensure accurate financial reporting, the business is treated like a different person, Business money is not Owner's money
+- **Financial Accounting:**
+	- **External Users:** 
+		- **Investors** → Decide to buy/sell shares
+		- **Creditors** → Decide to lend money or give credit
+	- **Accounting Cycle:** Process of recording transactions and preparing financial statements, Includes 8 steps 
+	- **Financial Statements:** 
+		- **Meaning:** Reports showing financial performance and position used for decision making
+		- **Four Financial Statements:**
+			- **Income Statement:** Shows **revenues** and **expenses** to determine net income or net loss over a period
+			- **Owner’s Equity Statement:** Shows changes in owner’s equity from investments, income, and drawings
+			- **Balance Sheet:** Shows assets, liabilities, and equity at a specific date following accounting equation (snapshot)
+			- **Statement of Cash Flows:** Shows cash inflows and outflows to explain changes in cash position
 
 ---
