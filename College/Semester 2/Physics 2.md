@@ -222,3 +222,62 @@
 - Remember:
 	- $sin(a)+sin(b)=2sin(\frac{a+b}{2})cos(\frac{a-b}{2})$ 
 	- $cos(a)+cos(b)=2cos(\frac{a+b}{2})cos(\frac{a-b}{2})$ 
+- Superposition Principle:
+	- Resultant Wave:
+		- Given:
+			- $y_1=Asin(kx-wt)$, $y_2=Asin(kx-wt+\phi)$ 
+		- Result:
+			- $y=2Acos(\frac{\phi}{2})sin(kx-wt+\frac{\phi}{2})$ 
+		- Amplitude:
+			- $Amp=2Acos(\frac{\phi}{2})$,   by covering the $sin$ as it has the time variable, the rest is considered the Amplitude 
+		- Note:
+			- Two waves are coherent, meaning that they have the same amplitude, $k$, and $w$  
+	- Interference:
+		- General Wave Interference:
+			- Constructive:
+				- $Amplitude=\pm 2A \to cos(\frac{\phi}{2})=\pm1$ 
+				- $\phi=2n\pi$, $n\in {0,1,2,3,4,...}$             (**In Phase**)
+			- Destructive:
+				- $Amplitude=0\to cos(\frac{\phi}{2})=0$ 
+				- $\phi=(2n+1)\pi$, $n\in {0,1,2,3,4,...}$    (**Out of Phase**)
+			- Note:
+				- The phase difference determines whether interference is constructive or destructive 
+		- Sound Wave Interference:
+			- Overview:
+				- If we have two pipes connected in the form of a rectangle, and a person screamed from both pipes, then the result wave that will occur to the other person will either be constructive (and the person will hear), or destructive (and the person won't hear). By that we are sure that both waves are coherent since the source is the same sound of the person 
+			- Rule:
+				- Both waves will travel so let the distance of each wave be $r1, r2$ respectively 
+				- $\Delta r=\frac{\phi}{2\pi}\lambda$ 
+			- Constructive:
+				-  $\phi=2n\pi\to \Delta r=\frac{2n\pi}{2\pi}\lambda$ 
+				- $\Delta r=n\lambda$,, $n\in {0,1,2,3,4,...}$ 
+			- Destructive:
+				- $\phi=(2n+1)\pi \to \Delta r=\frac{(2n+1)\pi}{2\pi}\lambda$ 
+				- $\Delta r=(2n+1)\frac{\lambda}{2}$, $n\in {0,1,2,3,4,...}$  
+	- Standing Wave:
+		- Sine:
+			- Given:
+				- $y_1=Asin(kx-wt)$, $y_2=Asin(kx+wt)$ 
+			- Result:
+				- $y=2Asin(kx)cos(wt)$ 
+			- Amplitude:
+				- $Amp=2Asin(kx)$ 
+			- Antinode (Max Amplitude):
+				- $Amp=2A\to sin(kx)=\pm1$ 
+				- $kx=(2n+1)\frac{\pi}{2}\to \frac{2\pi}{\lambda}x=(2n+1)\frac{\pi}{2}$ 
+				- $x=(2n+1)\frac{\lambda}{4}$, $n\in {0,1,2,3,4,...}$
+			- Node (Zero Amplitude):
+				- $Amp=0\to sin(kx)=0$
+				- $kx= n\pi\to \frac{2\pi}{\lambda}x=n\pi$ 
+				- $x=n\frac{\lambda}{2}$, $n\in {0,1,2,3,4,...}$ 
+		- Cosine:
+			- Given:
+				-  $y_1=Acos(kx-wt)$, $y_2=Acos(kx+wt)$ 
+			- Result:
+				- $y=2Acos(kx)cos(wt)$
+			- Amplitude:
+				- $Amp=2Acos(kx)$ 
+			- Antinode:
+				- $x=n\frac{\lambda}{2}$, $n\in {0,1,2,3,4,...}$                        (The min of sine, as cosine is its reverse)
+			- Node:
+				- $x=(2n+1)\frac{\lambda}{4}$, $n\in {0,1,2,3,4,...}$             (The max of sine, as cosine is its reverse)

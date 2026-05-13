@@ -124,9 +124,9 @@
 		- $\int cscxcotxdx=-cscx+c$ 
 		- $\int f'(x)csc(f(x))cot(f(x))dx=-csc(f(x))+c$ 
 	- **Inverse:**
-		- $\int \frac{1}{\sqrt{1-(f(x))^2}}dx=sin^{-1}x+c$ 
-		- $\int \frac{1}{1+(f(x))^2}dx=tan^{-1}x+c$ 
-		- $\int \frac{1}{|f(x)|\sqrt{(f(x))^2-1}}dx=sec^{-1}x+c$ 
+		- $\int \frac{f'(x)}{\sqrt{a^2-(f(x))^2}}dx=sin^{-1}(\frac{f(x)}{a})+c$  
+		- $\int \frac{f'(x)}{a^2+(f(x))^2}dx=\frac{1}{a}tan^{-1}(\frac{f(x)}{a})+c$ 
+		- $\int \frac{f'(x)}{|f(x)|\sqrt{(f(x))^2-a^2}}dx=sec^{-1}(\frac{|f(x)|}{a})+c$  
 - **Substitution Rule:**
 	- **Indefinite Integral:** 
 		- $u=g(x)$
@@ -160,7 +160,8 @@
 		- $du$         , $\int_a^bv$  
 		- $uv|_a^b-\int_a^b vdu$  
 - **Complete the Square:**
-	- rewriting a quadratic expression in the form $(x+h)^2+k$, to simplify integrals to the standard form of inverse trigonometric 
+	- Rewriting a quadratic expression in the form $(x+h)^2+k$, to simplify integrals to the standard form of inverse trigonometric 
+	- **Note:** Take half of the coefficient of $x$ and let it be $a$,  then it will be $(x+a)^2-a^2$ 
 - **Integrating Rational Functions:** 
 	- If the degree of the numerator greater than the degree of denominator, then we do long division
 
@@ -192,3 +193,44 @@
 	- **Note:**
 		- If limit exists, then the improper integrals **converge** 
 		- If limit DNE, then the improper integrals **diverge** 
+
+--- 
+## 📘Lec 8
+
+- **Integrating Powers of $sin x$ or $cos x$:**
+	- **Odd Power:**
+		- $(\int cos^nxdx)\to (\int cos^{n-1}xcosxdx)\to (\int (cos^2x)^{\frac{n-1}{2}}cosxdx) \to (\int (1-sin^2x)^{\frac{n-1}{2}}cosxdx)$ 
+		- $(\int sin^nxdx)\to (\int sin^{n-1}xsinxdx)\to (\int (sin^2x)^{\frac{n-1}{2}}sinxdx) \to (\int (1-cos^2x)^{\frac{n-1}{2}}sinxdx)$ 
+	- **Even Power:**
+		- $(\int cos^nxdx)\to (\int (cos^2x)^{\frac{n}{2}}dx) \to (\int (\frac{1+cos2x}{2})^{\frac{n}{2}}dx)$ 
+	- **What if the power is $n>2 \to$ we use Integration by part:**
+		- $\int cos^nxdx=\frac{1}{n}[cos^{n-1}x.sinx+(n-1)I_{n-2}]+C$ 
+		- $\int sin^nxdx=\frac{1}{n}[-sin^{n-1}x.cosx+(n-1)I_{n-2}]+C$ 
+- **Integrating Products of Powers of $sin x$ and $cos x$:**
+	- **Power of $sinx$ is odd:**
+		- $(\int sin^mxcos^nxdx)\to (\int (1-cos^2x)^{\frac{m-1}{2}}cos^nxsinx)dx$ 
+	- **Power of $cosx$ is odd:**
+		- $(\int sin^mxcos^nxdx)\to (\int sin^mx (1-sin^2x)^{\frac{n-1}{2}}cosx)dx$ 
+	- **Power of $sinx$ & $cosx$ are even:**
+		- $sin^mx=(\frac{1-cos2x}{2})^{\frac{m-1}{2}}$,     $cos^nx=(\frac{1+cos2x}{2})^{\frac{n-1}{2}}$ 
+- **Integration of power of $tanx$ and power of $secx$:** 
+	- **Main Rule:** $tan^2x=sec^2x-1$ 
+	- **Integrating $tanx$ with odd power:** $tan^nx=(sec^2x-1)^{\frac{n-1}{2}}tanx$ 
+	- **Integrating $tanx$ with even power:** $tan^nx=(sec^2x-1)tan^{n-2}x$  
+	- **Integrating Products of Powers of $tanx$ and $secx$:** 
+		- **Power of $secx$ is even:** $sec^nx=(1+tan^2x)sec^{n-2}x$ 
+		- **Power of $tanx$ is odd:** $tan^mx=tan^{m-1}xtanx$ 
+- **Integrating products of $sinx$ & $cosx$ with different angles:**
+	- $\sin(mx)\sin(nx) = \frac{1}{2}\left[\cos((m-n)x) - \cos((m+n)x)\right]$ 
+	- $\cos(mx)\cos(nx) = \frac{1}{2}\left[\cos((m-n)x) + \cos((m+n)x)\right]$ 
+	- $\sin(mx)\cos(nx) = \frac{1}{2}\left[\sin((m-n)x) + \sin((m+n)x)\right]$ 
+
+---
+## 📘Lec 9
+
+- **Trigonometric Substitution:**
+	- $\sqrt{a^2-x^2}  \to x=asin(\theta)$ 
+	- $\sqrt{a^2+x^2}\to x=atan(\theta)$ 
+	- $\sqrt{x^2-a^2}\to x=asec(\theta)$ 
+- **Length of Curve:**
+	- $\int_a^b\sqrt{1+(f'(x))^2}dx$ 

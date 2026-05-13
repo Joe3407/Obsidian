@@ -49,7 +49,7 @@
 	- **Number:**
 		- We can say `int x = NULL` which means `int x = 0`, as NULL is a macro which means it is `#define NULL 0 or 0L`, when preprocessing it blindly changes every NULL to 0 or 0L, meaning that the compiler never sees NULL. So the problem is when dealing with pointers, if we say `int* x = NULL` this was a special rule back then that if we wanted to point to nothing we can use zero, but this made a lot of conflicts especially with overloaded functions for example if we say `f(int) & f(int*) & f(long)`, then call `f(NULL)`, WHICH ONE WILL IT CALL? this is why modern C++ (C++11) introduced nullptr which fixes all that
 	- **Pointer:** 
-		- We use nullptr for pointer and not NULL, if we use NULL it won't be wrong but could cause conflicts, then WHY IS NULL STILL A THING? that is because the golden rule of C++ that old is never destroyed, we can just remove NULL, it will corrupt a lot of 20+ year codes that couldn't be accessed so instead of just removing NULL, they introduced nullptr and gave the choice for the programmer to choose the wright one. WHY NOT JUST MACRO NULL TO nullptr? this will cause errors for codes that are like this `int x = NULL` this will translate to `int x = nullptr` which is compilation error  
+		- We use `nullptr` for pointer and not `NULL`, if we use `NULL` it won't be wrong but could cause conflicts, then WHY IS NULL STILL A THING? that is because the golden rule of C++ that old is never destroyed, we can just remove NULL, it will corrupt a lot of 20+ year codes that couldn't be accessed so instead of just removing NULL, they introduced nullptr and gave the choice for the programmer to choose the wright one. WHY NOT JUST MACRO NULL TO nullptr? this will cause errors for codes that are like this `int x = NULL` this will translate to `int x = nullptr` which is compilation error  
 		- Only with the old rule of `int* x = 0` 0 literal integral is allowed meaning that `int c = 0; int* x=c` is illegal and won't work
 		- `nullptr` is considered as a false statement when converted to Boolean, meaning `if(nullptr)` $\to$ `if(false)`, **VERY IMPORTANT NOTE**: `nullptr` is not equal to zero, it's not a literal zero, ONLY when converted to Boolean it's false 
 
@@ -66,7 +66,7 @@
 
 - **Data Types:**
 	- **Mantissa:**
-		- **It's the decimal look alike but it binary:**
+		- **It's the decimal look alike but in binary:**
 			- **Decimal:**  $12345=1.2345×10^4$      
 			- **Binary:**    $1101=1.101×2^3$ 
 			- **Note:** $Number=mantissa×2^{exp}$ 

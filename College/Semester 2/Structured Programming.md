@@ -81,3 +81,46 @@
 - When passing 2D array to a function the column size must be declared `void fun(int arr[][SZ])`  
 
 --- 
+## 📘Lec 8
+
+- **Pointers:**
+	- **Overview:**
+		- **Given:** `int x = 10;` `int* p = &x;`
+		- **Pointer Variable:** `p`
+		- **Pointer Value:** `&x` 
+		- **Note:**
+			- The pointer itself has its own address in memory 
+	- **Initialization:**
+		- A pointer must point to a valid memory before dereferencing 
+		- **Wrong:**
+			- `int* p;` `*p = 10;` 
+			- This is illegal as when we create the pointer, it's pointing to garbage address, then we try to tell it put the value of 10 in the garbage address, which is wrong 
+		- **Correct (solution):**
+			- We must equalize the pointer with a valid memory like a variable, `int x = 10;` `int* p = &x;`
+			- Or we use dynamic memory (heap) which allows us to create a place in heap memory to store the value in it, `int* p = new int(10);` 
+	- **Dereferencing:**
+		- **Given:** `int x = 10;` `int* p = &x;`
+		- **Code:**
+			- `cout<<p;`      gives the address the pointer is pointing to 
+			- `cout<< *p;`  gives the value the pointer is pointing to (10)      <----- Dereference 
+			- `cout<< &p;`  gives the address of the pointer itself in memory 
+	- **Arithmetic:**
+		- Incrementing location in memory $\to$ `ptr++`
+		- Incrementing value $\to$ `*ptr++` 
+		- Wrong $\to$ `int add=ptr+1;` 
+		- **Note:**
+			- When incrementing the location in memory, the pointer moves according to its data type, meaning it moves 4 bits if its an integer and so on 
+			- The size of the pointer it self in memory is according to the system or platform (32-bit or 64-bit) 
+- **Dynamic Variables:**
+	- **Overview:**
+		- Dynamic Variables are stored in heap unlike normal ones which are stored in stack 
+		- Dynamic Variables don't depend on the function(scope its in) to end for it to get deleted, the heap keeps it independent from the scope termination, and only ends when using delete  
+	- **Declaration:**
+		- `int* p = new int(10);` or `int* p = new int; *p = 10;` 
+		- **Note:**
+			- Normal variables can be declared like that `int x(10);` 
+			- In heap when the memory is full it may cause issues, so we use this check to be safe `int* ptr = new int; if(ptr==NULL)` if the `ptr` is `NULL` then the memory is full and it couldn't find a place in memory, but if it gives an address then it found space in memory. Now modern compilers handle this error and may terminate if it detects the problem, but it's best practice to use this condition at least for readability
+	- **Deleting:**
+		- After creating a dynamic variable, and allocating it with address having a value, then we finished using the pointer, it's best to delete the memory created so that if the pointer is overwritten with another memory address, the old one will be deleted and won't lead to memory leak(which means a part in memory which is impossible to reach), so we do `delete ptr;`, after that we are left with a dangling pointer so if we try and do `cout<< ptr<<' '<<*ptr;` it will output the original address it pointed to, but the value will lead to printing garbage , so to avoid that, it best to equalize the deleted pointer with `NULL` 
+
+---
