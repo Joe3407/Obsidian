@@ -72,7 +72,7 @@
 ## 📘Lec 7
 
 - In 2D array, the memory location is linear, meaning that elements of array are sorted consecutively in memory 
-- Initializing:
+- **Initializing:**
 	- `int a[2][3]={ 1, 2, 3, 11, 12, 13 };` 
 	- `int a[2][3]={ {1, 2, 3}, {11, 12, 13} };` 
 	- `int a[2][3]={ 1, 2, 3, 11, 12 };` it replaces the last element in the last row with zero
@@ -124,3 +124,18 @@
 		- After creating a dynamic variable, and allocating it with address having a value, then we finished using the pointer, it's best to delete the memory created so that if the pointer is overwritten with another memory address, the old one will be deleted and won't lead to memory leak(which means a part in memory which is impossible to reach), so we do `delete ptr;`, after that we are left with a dangling pointer so if we try and do `cout<< ptr<<' '<<*ptr;` it will output the original address it pointed to, but the value will lead to printing garbage , so to avoid that, it best to equalize the deleted pointer with `NULL` 
 
 ---
+## 📘Lec 9
+
+- Note:
+	- `cout<<arr` this prints the address of the first element in the array, and this address is equivalent to `const int*` so we can't do `arr=ptr` but we can do `ptr=arr`
+	- `arr[i]` is equivalent to `*(arr+i)` 
+- Dynamic Array:
+	- Declaration:
+		- `int* arr = new int[size];`
+	- Initializing:
+		- `int* arr = new int[size]();` all its values are initialized with zeros 
+	- De allocating (deleting):
+		- `delete [] arr;` 
+		- `arr = NULL;` 
+	- Note:
+		- When passing dynamic array to a function, it must be passed by pointer, `void fun(int* arr)` OR `void fun(int arr[])`(as the complier handles it like a pointer so both are the same thing)

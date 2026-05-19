@@ -234,3 +234,23 @@
 	- $\sqrt{x^2-a^2}\to x=asec(\theta)$ 
 - **Length of Curve:**
 	- $\int_a^b\sqrt{1+(f'(x))^2}dx$ 
+
+---
+## 📘Lec 10
+
+- **Area Between Two Curves:**
+	- **Integration with respect with $x$:**
+		- **Riemann Sum:** $A=lim_{n\to \infty }\sum_{k=1}^n(f(x_k^*)-g(x_k^*))\Delta x$ 
+		- **Rule:** $A=\int_a^b(f(x)-g(x))dx$,   where $f(x)>g(x)$ 
+	- **Integration with respect with $y$:**
+		- **Riemann Sum:** $A=lim_{n\to \infty }\sum_{k=1}^n(f(y_k^*)-g(y_k^*))\Delta y$ 
+		- **Rule:** $A=\int_c^d(f(y)-g(y))dy$,   where $f(y)>g(y)$ 
+	- **Note:**
+		- **How to know the top function:**
+			- Equalize both functions
+			- Get the $x$ values 
+			- Determine its ranges, meaning  from $x_1\to x_2$ 
+			- Substitute at any number in the range in both functions
+			- The greater function is top
+
+---

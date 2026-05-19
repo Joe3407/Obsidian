@@ -281,3 +281,41 @@
 				- $x=n\frac{\lambda}{2}$, $n\in {0,1,2,3,4,...}$                        (The min of sine, as cosine is its reverse)
 			- Node:
 				- $x=(2n+1)\frac{\lambda}{4}$, $n\in {0,1,2,3,4,...}$             (The max of sine, as cosine is its reverse)
+	- Standing Waves in Strings:
+		- Overview:
+			- A whole cycle is considered two $n$, where $n$ is number of half wavelengths (eye like shape)
+		- Given:
+			- $L=\frac{1}{2}\lambda, n=1$, $L=\frac{2}{2}\lambda, n=2$, $L=\frac{3}{2}\lambda, n=3$ 
+		- Conclusion:
+			- $L=\frac{n}{2}\lambda_n$ 
+			- $\lambda_n=\frac{2L}{n}$ 
+		- Remember:
+			- $v=\lambda f=\sqrt{\frac{F_t}{\mu}}$ 
+		- Conclusion:
+			- $f=\frac{v}{\lambda} \to f=\frac{n}{2L}\sqrt{\frac{F_t}{\mu}}$ 
+			- $f_n=\frac{n}{2L}\sqrt{\frac{F_t}{\mu}}$          <----- Harmonic Frequency
+
+---
+## 📘Lec 8
+
+- Continue Standing Waves in Strings:
+	- $f_n=nf_1$ 
+	- $f_{n+1}-f_n=f_1$ 
+	- Note:
+		- $f_1\to$ fundamental frequency OR $1^{st}$ harmonic, is always bigger than zero 
+		- $f_2\to$ $2^{nd}$ harmonic 
+- Standing Waves in air columns (Pipes):
+	- Opened:
+		- $f_n=\frac{n}{2L}V_{air}$, where $n\in {1,2,3,4,...}$ & $L=\frac{1}{2}\lambda$ 
+		- $\Delta f=f_1$ 
+	- Closed:
+		- $f_n=\frac{n}{4L}V_{air}$, where $n\in 1,3,5,7,...$ & $L=\frac{1}{4}\lambda$ 
+		- $\Delta f=2f_1$ 
+	- Note:
+		- If pipe is closed from both sides, then its solved same equations as the opened 
+- Beat frequency:
+	- $f_b=|f_1-f_2|$ 
+- Note:
+	- If we have a vibrator, then the frequency is constant, so $n$ & $L$ only change 
+
+---
