@@ -93,7 +93,7 @@
 - **Notes:**
 	- **Even:**  $\int_{-a}^af(x)dx=2\int_0^af(x)dx$,  like $cos(x)$
 	- **odd:**  $\int_{-a}^af(x)dx=0$ ,    like $sin(x)$ 
-	- **Antiderivative:** $x^2$ is an antiderivative of $2x$, and $x$ is the derivative of $2x$,  so in conclusion antiderivative is the inverse of derivative 
+	- **Antiderivative:** $x^2$ is an antiderivative of $2x$, and $2$ is the derivative of $2x$,  so in conclusion antiderivative is the inverse of derivative 
 - **Average Value of Function:**
 	- If we have an interval $[a,b]$ and we take the average at point $c$ then  $\overline{f}=f(c)$, so if we wanted area under the graph from $a\to b$ so we can get the area of the rectangle which is base * height which is $(b-a)*\overline{f}$, which is the same as the Integration from $a$ to $b$, as the extra parts will cancel each other 
 	- $\overline{f}=f(c)=\frac{1}{b-a}\int_a^bf(x)dx$ 
@@ -159,11 +159,12 @@
 		- - $u$          , $dv$
 		- $du$         , $\int_a^bv$  
 		- $uv|_a^b-\int_a^b vdu$  
-- **Complete the Square:**
+- **Complete the Square:** 
 	- Rewriting a quadratic expression in the form $(x+h)^2+k$, to simplify integrals to the standard form of inverse trigonometric 
 	- **Note:** Take half of the coefficient of $x$ and let it be $a$,  then it will be $(x+a)^2-a^2$ 
 - **Integrating Rational Functions:** 
 	- If the degree of the numerator greater than the degree of denominator, then we do long division
+	- After long division, we integrate the number resulted at the top plus the reminder from the bottom divided the denominator,  $\int top+\frac{bottom}{denominator}dx$ 
 
 --- 
 ## 📘Lec 7
@@ -185,7 +186,7 @@
 	- **Infinite:**
 		- $\int_a^{\infty}f(x)dx\to lim_{b\to \infty}\int_a^bf(x)dx$ 
 		- $\int_{-\infty}^bf(x)dx\to lim_{a\to -\infty}\int_a^bf(x)dx$  
-		- $\int_{-\infty}^{\infty}f(x)dx \to lim_{a\to -\infty}\int_a^cf(x)dx+lim_{b\to \infty}\int_b^cf(x)dx$ 
+		- $\int_{-\infty}^{\infty}f(x)dx \to lim_{a\to -\infty}\int_a^cf(x)dx+lim_{b\to \infty}\int_c^bf(x)dx$ 
 	- **Unbounded Integrals:**
 		- $(a,b] \to \int_a^bf(x)dx=lim_{c\to a^+}\int_c^bf(x)dx$ 
 		- $[a,b) \to \int_a^bf(x)dx=lim_{c\to b^-}\int_a^cf(x)dx$ 
@@ -254,3 +255,15 @@
 			- The greater function is top
 
 ---
+## 📝Exam Notes
+
+- $tanx \to [-\frac{\pi}{2},\frac{\pi}{2}]$, therefore $tan^{-1}x$ is defined at $[-\frac{\pi}{2},\frac{\pi}{2}]$ 
+- $cotx \to [0,\pi]$, therefore $cot^{-1}x$ is defined at $[0,\pi]$ 
+- Length of curve:  $\int_a^b\sqrt{1+(f'(x))^2}dx$ 
+- $\int secx dx\to$ multiply by $\frac{secx+tanx}{secx+tanx}$,  $\int cscx dx\to$ multiply by $\frac{cscx+cotx}{cscx+cotx}$ 
+- $\int lnxdx\to$  Integration by part
+- $\sin(mx)\sin(nx) = \frac{1}{2}\left[\cos((m-n)x) - \cos((m+n)x)\right]$ 
+- $\cos(mx)\cos(nx) = \frac{1}{2}\left[\cos((m-n)x) + \cos((m+n)x)\right]$ 
+- $\sin(mx)\cos(nx) = \frac{1}{2}\left[\sin((m-n)x) + \sin((m+n)x)\right]$ 
+- $\int sec^3xdx\to$ $u=secx$   $dv=sec^2xdx$ 
+- $a^{lnx}=x^{lna}$ 
