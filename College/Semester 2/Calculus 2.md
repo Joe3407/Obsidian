@@ -259,6 +259,10 @@
 
 - $tanx \to [-\frac{\pi}{2},\frac{\pi}{2}]$, therefore $tan^{-1}x$ is defined at $[-\frac{\pi}{2},\frac{\pi}{2}]$ 
 - $cotx \to [0,\pi]$, therefore $cot^{-1}x$ is defined at $[0,\pi]$ 
+- $sinx\to [-\frac{\pi}{2},\frac{\pi}{2}]$, therefore $sin^{-1}x$ is defined at $[-\frac{\pi}{2},\frac{\pi}{2}]$ 
+- $cosx \to [0,\pi]$, therefore $cos^{-1}x$ is defined at $[0,\pi]$ 
+- $secx\to [0,\pi ]$ \ {$\frac{\pi}{2}$}, therefore $sec^{-1}x$ is defined at $[0,\pi ]$ \ {$\frac{\pi}{2}$}
+- $cscx \to [-\frac{\pi}{2},0) \cup (0,\frac{\pi}{2}]$, therefore $csc^{-1}x$ is defined at $[-\frac{\pi}{2},0) \cup (0,\frac{\pi}{2}]$ 
 - Length of curve:  $\int_a^b\sqrt{1+(f'(x))^2}dx$ 
 - $\int secx dx\to$ multiply by $\frac{secx+tanx}{secx+tanx}$,  $\int cscx dx\to$ multiply by $\frac{cscx+cotx}{cscx+cotx}$ 
 - $\int lnxdx\to$  Integration by part
