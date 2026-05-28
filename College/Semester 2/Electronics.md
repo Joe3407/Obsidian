@@ -65,7 +65,7 @@
 - **Current Division:**
 	- $I_1=\frac{I_t}{R_t}R_1$ 
 - **Systematic Methods:**
-	- **Node Analysis:**
+	- **Node Analysis (KCL + Ohm's Law):**
 		- **Nodal Voltage Analysis:**
 			- **Independent Current Source:** 
 				- **Steps to determine Voltage node:**
@@ -77,8 +77,8 @@
 					- Solve equations together 
 				- **Short-cuts:**
 					- Don't label the current and name it
-					- Instead assume all current directions go out from the node and use the current rule at once $i=\frac{v_+-v_-}{R}$ 
-			- **Independent Current Source:**
+					- Instead assume all current directions go out from the node and use the current rule at once $i=\frac{v_+-v_-}{R}$  
+			- **Dependent Current Source:**
 				- **CCCS:** Express the controlling current in terms of node voltages using Ohm's Law
 				- **VCCS:** Express the controlling voltage directly in terms of node voltages
 			- **Voltage Source:**
@@ -89,3 +89,75 @@
 					- It's taking 2 or more voltage nodes, and considering them as one node
 
 ---
+## 📘Lec 4
+
+- **Systematic Methods:**
+	- **Mesh Analysis (KVL + Ohm's Law):**
+		- **Overview:**
+			- **Medium:** It works only on planar circuits ($2d$)
+			- **Loop:** Any closed path in circuit, and doesn't path on same node more than once 
+			- **Mesh:** Loop that contains no other loop inside it, (smallest closed loop)
+			- **Independent Loop:** Any loop that provides new independent KVL equations 
+		- **Steps:**
+			- Identify meshes, and assume them clockwise, so that if we have a common resistor, the answer will be $R(i_1-i_2)$ (the difference between meshes)
+			- Apply KVL
+			- Solve equations to get mesh currents
+			- Use mesh currents to get branch currents, and Voltage by doing KVL, and putting the unknown voltage in the place we want to calculate 
+		- **Source Types:**
+			- **Voltage Source:**
+				- **CCVS:** Express the controlling current directly in terms of mesh currents 
+				- **VCVS:** Express the controlling voltage in terms of mesh currents using Ohm's Law 
+			- **Current Source:**
+				- **Exists in One Branch:** Directly substitute the mesh current with current source 
+				- **Exists Between Two Meshes:** We use **Super Mesh**  
+			- **Super Mesh:**
+				- Treat two or more meshes as one extended mesh 
+				- **Note:**
+					- The third equation is resulted from $I_{current source}=i_1\pm i_2$ 
+					- If we wanna know voltage on current source, we substitute it with an unknown voltage and do KVL 
+
+---
+## 📘Lec 5
+
+- **Remember:**
+	- **No Independent Sources:**
+		- Linear System remains at absolute zero 
+		- All nodal voltages equal zero
+		- All currents equal zero 
+		- No power delivered 
+- **Linearity Principle:**
+	- **Overview:** A circuit is called linear if changing the input changes the output in the same way
+	- **Types:**
+		- **Additivity:** $f(x+y)=f(x)+f(y)$ 
+		- **Homogeneity (Scaling):** $f(kx)=kf(x)$  
+- **Superposition Principle:**
+	- **Overview:** Used to know how each independent source contributes to the circuit, based on **Linearity Principle**
+	- **Rule:** We kill all independent sources except one, so that we know how much current and voltage does this source contribute to the circuit 
+	- **Note:**
+		- When killing the sources, Current Source $\to$ Open circuit, Voltage Source $\to$ Short circuit 
+		- Superposition only works on linear equations, meaning that Power can't be directly calculated by this principle as there is an extra $2i_1i_2$ in $(i_1+i_2)^2$ 
+
+--- 
+## 📘Lec 6
+
+- Circuit Simplification:
+	- Series-Parallel Combinations 
+	- Source Transformation
+- Source Transformation:
+	- Overview:
+		- It doesn't affect the rest of the circuit 
+		- It can be applied to dependent and independent sources
+		- Current source arrow points towards positive terminal 
+	- Conditions:
+		- Ideal Voltage Source: Can't have $R=0$, as when transforming it the current will be $\infty$ 
+		- Ideal Current Source: Can't have $R=\infty$, as when transforming it the voltage will be $\infty$ 
+	- Rule:
+		- We can transform a **Series** Voltage Source and Resistance to **Parallel** Current Source and Resistance 
+	- After Transformation:
+		- Voltage and Current on Resistance change, so it has a new voltage and current as it has been rearranged internally 
+		- Always evaluate at terminals $a-b$, meaning that terminal voltage and current remains the same 
+	- Notes:
+		- When applying source transformation, don't include the resistor of interest
+
+--- 
+

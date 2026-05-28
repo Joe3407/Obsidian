@@ -319,3 +319,48 @@
 	- If we have a vibrator, then the frequency is constant, so $n$ & $L$ only change 
 
 ---
+## 📘Lec 9
+
+- Overview:
+	- Proton: Charge($q$) $\to$ $1.6*10^{-19}C$, Mass($m$) $\to$ $1.67*10^{-27}kg$ 
+	- Electron: Charge($q$) $\to$ $-1.6*10^{-19}C$, Mass($m$) $\to$ $9.11*10^{-31}kg$ 
+	- Coulomb's Constant($k_e$) $\to$ $9*10^{9}$,  $k_e=\frac{1}{4\pi \epsilon_o}$ 
+- Electric Force Between Two Charges ($F$):
+	- $F=k_e\frac{|q_1||q_2|}{r^2}$, <----  Coulomb's Law 
+		- $q \to$ charge of each particle
+		- $r\to$ distance between particles 
+	- $N=\frac{Q_T}{q}$ 
+		- $N\to$ number of particles 
+		- $Q_T\to$ total charge
+		- $q\to$   charge of one particle 
+	- Direction of Electric Force:
+		- Repulsive:  $\pm$ -------------- $\pm$ 
+		- Attraction: $\pm$ -------------- $\mp$ 
+		- Note: $F$ is same in both charges 
+	- Total Electric Force on a Charge:
+		- $\sum F$, by resolution 
+- Electric Field ($E$):
+	- $E=k_e\frac{|q|}{r^2}$,  $N/C$ 
+		- $q\to$ charge of particle 
+		- $r\to$ distance between particle and point 
+	- Direction of Field:
+		- Always assume the point with positive, and see if it repels or attracts 
+		- $+\to$ away, $-\to$ toward 
+	- Total Electric Field at a point:
+		- $\sum E$, by resolution 
+- Motion of a Charged Particle in a Uniform Electric Field:
+	- $F=|q|E$ 
+		- $q\to$ charge of particle
+		- $E\to$ electric field 
+	- Direction:
+		- $q\to$ positive,  $F_{direction}$ same as $E_{direction}$ 
+		- $q\to$ negative, $F_{direction}$ opposite to $E_{direction}$ 
+	- Conclusion:
+		- Since there is Force, therefore there is Motion, therefore there is Acceleration which takes projection shape 
+		- $a=\frac{|q|E}{m}$,  from $F=ma$, so $ma=|q|E$ 
+		- Note:
+			- acceleration direction same as Electric Field 
+- Note:
+	- $tan^{-1}\theta=\frac{E_y}{E_x}=\frac{F_y}{F_x}$ <----- direction 
+
+---
