@@ -79,7 +79,7 @@
 
 - **Wave Motion:**
 	- **Overview:**
-		- Conditions:
+		- **Conditions:**
 			- Source
 			- Medium
 			- Medium has particles that are affected by waves 
@@ -173,7 +173,7 @@
 	- **Observer:**   $V_o$              $f'$ 
 	- Sound in Air is $V$ 
 	- **General Rule:**
-		- $f=f'(\frac{V\pm V_o}{V\mp V_s})$ 
+		- $f'=f(\frac{V\pm V_o}{V\mp V_s})$ 
 	- **Conditions:**
 		- **Both at Rest:** 
 			- $V_s=V_o=0$ 
@@ -219,113 +219,114 @@
 ---
 ## 📘Lec 7
 
-- Remember:
+- **Remember:**
 	- $sin(a)+sin(b)=2sin(\frac{a+b}{2})cos(\frac{a-b}{2})$ 
 	- $cos(a)+cos(b)=2cos(\frac{a+b}{2})cos(\frac{a-b}{2})$ 
-- Superposition Principle:
-	- Resultant Wave:
-		- Given:
+- **Superposition Principle:**
+	- **Resultant Wave:**
+		- **Given:**
 			- $y_1=Asin(kx-wt)$, $y_2=Asin(kx-wt+\phi)$ 
-		- Result:
+		- **Result:**
 			- $y=2Acos(\frac{\phi}{2})sin(kx-wt+\frac{\phi}{2})$ 
-		- Amplitude:
+		- **Amplitude:**
 			- $Amp=2Acos(\frac{\phi}{2})$,   by covering the $sin$ as it has the time variable, the rest is considered the Amplitude 
-		- Note:
+		- **Note:**
 			- Two waves are coherent, meaning that they have the same amplitude, $k$, and $w$  
-	- Interference:
-		- General Wave Interference:
-			- Constructive:
+	- **Interference:**
+		- **General Wave Interference:**
+			- **Constructive:**
 				- $Amplitude=\pm 2A \to cos(\frac{\phi}{2})=\pm1$ 
 				- $\phi=2n\pi$, $n\in {0,1,2,3,4,...}$             (**In Phase**)
-			- Destructive:
+			- **Destructive:**
 				- $Amplitude=0\to cos(\frac{\phi}{2})=0$ 
 				- $\phi=(2n+1)\pi$, $n\in {0,1,2,3,4,...}$    (**Out of Phase**)
-			- Note:
+			- **Note:**
 				- The phase difference determines whether interference is constructive or destructive 
-		- Sound Wave Interference:
-			- Overview:
+		- **Sound Wave Interference:**
+			- **Overview:**
 				- If we have two pipes connected in the form of a rectangle, and a person screamed from both pipes, then the result wave that will occur to the other person will either be constructive (and the person will hear), or destructive (and the person won't hear). By that we are sure that both waves are coherent since the source is the same sound of the person 
-			- Rule:
+			- **Rule:**
 				- Both waves will travel so let the distance of each wave be $r1, r2$ respectively 
 				- $\Delta r=\frac{\phi}{2\pi}\lambda$ 
-			- Constructive:
+			- **Constructive:**
 				-  $\phi=2n\pi\to \Delta r=\frac{2n\pi}{2\pi}\lambda$ 
 				- $\Delta r=n\lambda$,, $n\in {0,1,2,3,4,...}$ 
-			- Destructive:
+			- **Destructive:**
 				- $\phi=(2n+1)\pi \to \Delta r=\frac{(2n+1)\pi}{2\pi}\lambda$ 
 				- $\Delta r=(2n+1)\frac{\lambda}{2}$, $n\in {0,1,2,3,4,...}$  
-	- Standing Wave:
-		- Sine:
-			- Given:
+	- **Standing Wave:**
+		- **Sine:**
+			- **Given:**
 				- $y_1=Asin(kx-wt)$, $y_2=Asin(kx+wt)$ 
-			- Result:
+			- **Result:**
 				- $y=2Asin(kx)cos(wt)$ 
-			- Amplitude:
+			- **Amplitude:**
 				- $Amp=2Asin(kx)$ 
-			- Antinode (Max Amplitude):
+			- **Antinode (Max Amplitude):**
 				- $Amp=2A\to sin(kx)=\pm1$ 
 				- $kx=(2n+1)\frac{\pi}{2}\to \frac{2\pi}{\lambda}x=(2n+1)\frac{\pi}{2}$ 
 				- $x=(2n+1)\frac{\lambda}{4}$, $n\in {0,1,2,3,4,...}$
-			- Node (Zero Amplitude):
+			- **Node (Zero Amplitude):**
 				- $Amp=0\to sin(kx)=0$
 				- $kx= n\pi\to \frac{2\pi}{\lambda}x=n\pi$ 
 				- $x=n\frac{\lambda}{2}$, $n\in {0,1,2,3,4,...}$ 
-		- Cosine:
-			- Given:
+		- **Cosine:**
+			- **Given:**
 				-  $y_1=Acos(kx-wt)$, $y_2=Acos(kx+wt)$ 
-			- Result:
+			- **Result:**
 				- $y=2Acos(kx)cos(wt)$
-			- Amplitude:
+			- **Amplitude:**
 				- $Amp=2Acos(kx)$ 
-			- Antinode:
+			- **Antinode:**
 				- $x=n\frac{\lambda}{2}$, $n\in {0,1,2,3,4,...}$                        (The min of sine, as cosine is its reverse)
-			- Node:
+			- **Node:**
 				- $x=(2n+1)\frac{\lambda}{4}$, $n\in {0,1,2,3,4,...}$             (The max of sine, as cosine is its reverse)
-	- Standing Waves in Strings:
-		- Overview:
+	- **Standing Waves in Strings:**
+		- **Overview:**
 			- A whole cycle is considered two $n$, where $n$ is number of half wavelengths (eye like shape)
-		- Given:
+		- **Given:**
 			- $L=\frac{1}{2}\lambda, n=1$, $L=\frac{2}{2}\lambda, n=2$, $L=\frac{3}{2}\lambda, n=3$ 
-		- Conclusion:
+		- **Conclusion:**
 			- $L=\frac{n}{2}\lambda_n$ 
 			- $\lambda_n=\frac{2L}{n}$ 
-		- Remember:
+		- **Remember:**
 			- $v=\lambda f=\sqrt{\frac{F_t}{\mu}}$ 
-		- Conclusion:
+		- **Conclusion:**
 			- $f=\frac{v}{\lambda} \to f=\frac{n}{2L}\sqrt{\frac{F_t}{\mu}}$ 
 			- $f_n=\frac{n}{2L}\sqrt{\frac{F_t}{\mu}}$          <----- Harmonic Frequency
 
 ---
 ## 📘Lec 8
 
-- Continue Standing Waves in Strings:
+- **Continue Standing Waves in Strings:**
 	- $f_n=nf_1$ 
 	- $f_{n+1}-f_n=f_1$ 
-	- Note:
+	- **Note:**
 		- $f_1\to$ fundamental frequency OR $1^{st}$ harmonic, is always bigger than zero 
 		- $f_2\to$ $2^{nd}$ harmonic 
-- Standing Waves in air columns (Pipes):
-	- Opened:
+- **Standing Waves in air columns (Pipes):**
+	- **Opened:**
 		- $f_n=\frac{n}{2L}V_{air}$, where $n\in {1,2,3,4,...}$ & $L=\frac{1}{2}\lambda$ 
 		- $\Delta f=f_1$ 
-	- Closed:
+	- **Closed:**
 		- $f_n=\frac{n}{4L}V_{air}$, where $n\in 1,3,5,7,...$ & $L=\frac{1}{4}\lambda$ 
+		- $f_n=\frac{2n-1}{4L}V_{air}$, where $n \in 1,2,3,4,...$ 
 		- $\Delta f=2f_1$ 
-	- Note:
+	- **Note:**
 		- If pipe is closed from both sides, then its solved same equations as the opened 
-- Beat frequency:
+- **Beat frequency:**
 	- $f_b=|f_1-f_2|$ 
-- Note:
+- **Note:**
 	- If we have a vibrator, then the frequency is constant, so $n$ & $L$ only change 
 
 ---
 ## 📘Lec 9
 
-- Overview:
-	- Proton: Charge($q$) $\to$ $1.6*10^{-19}C$, Mass($m$) $\to$ $1.67*10^{-27}kg$ 
-	- Electron: Charge($q$) $\to$ $-1.6*10^{-19}C$, Mass($m$) $\to$ $9.11*10^{-31}kg$ 
+- **Overview:**
+	- **Proton:** Charge($q$) $\to$ $1.6*10^{-19}C$, Mass($m$) $\to$ $1.67*10^{-27}kg$ 
+	- **Electron:** Charge($q$) $\to$ $-1.6*10^{-19}C$, Mass($m$) $\to$ $9.11*10^{-31}kg$ 
 	- Coulomb's Constant($k_e$) $\to$ $9*10^{9}$,  $k_e=\frac{1}{4\pi \epsilon_o}$ 
-- Electric Force Between Two Charges ($F$):
+- **Electric Force Between Two Charges ($F$):**
 	- $F=k_e\frac{|q_1||q_2|}{r^2}$, <----  Coulomb's Law 
 		- $q \to$ charge of each particle
 		- $r\to$ distance between particles 
@@ -333,34 +334,75 @@
 		- $N\to$ number of particles 
 		- $Q_T\to$ total charge
 		- $q\to$   charge of one particle 
-	- Direction of Electric Force:
-		- Repulsive:  $\pm$ -------------- $\pm$ 
-		- Attraction: $\pm$ -------------- $\mp$ 
-		- Note: $F$ is same in both charges 
-	- Total Electric Force on a Charge:
+	- **Direction of Electric Force:**
+		- **Repulsive:**  $\pm$ -------------- $\pm$ 
+		- **Attraction:** $\pm$ -------------- $\mp$ 
+		- **Note:** $F$ is same in both charges 
+	- **Total Electric Force on a Charge:**
 		- $\sum F$, by resolution 
-- Electric Field ($E$):
+- **Electric Field ($E$):**
 	- $E=k_e\frac{|q|}{r^2}$,  $N/C$ 
 		- $q\to$ charge of particle 
 		- $r\to$ distance between particle and point 
-	- Direction of Field:
+	- **Direction of Field:**
 		- Always assume the point with positive, and see if it repels or attracts 
 		- $+\to$ away, $-\to$ toward 
-	- Total Electric Field at a point:
+	- **Total Electric Field at a point:**
 		- $\sum E$, by resolution 
-- Motion of a Charged Particle in a Uniform Electric Field:
+- **Motion of a Charged Particle in a Uniform Electric Field:**
 	- $F=|q|E$ 
 		- $q\to$ charge of particle
 		- $E\to$ electric field 
-	- Direction:
+	- **Direction:**
 		- $q\to$ positive,  $F_{direction}$ same as $E_{direction}$ 
 		- $q\to$ negative, $F_{direction}$ opposite to $E_{direction}$ 
-	- Conclusion:
+	- **Conclusion:**
 		- Since there is Force, therefore there is Motion, therefore there is Acceleration which takes projection shape 
 		- $a=\frac{|q|E}{m}$,  from $F=ma$, so $ma=|q|E$ 
-		- Note:
+		- **Note:**
 			- acceleration direction same as Electric Field 
-- Note:
+- **Note:**
 	- $tan^{-1}\theta=\frac{E_y}{E_x}=\frac{F_y}{F_x}$ <----- direction 
 
 ---
+## 📘Lec 10
+
+- **Magnetic Field ($B$):**
+	- Unit: Tesla ($T$)
+- **Magnetic Force on Moving Charge ($F$):**
+	- **Overview:**
+		- Relation between $F$ & $B,V$ is always perpendicular 
+		- $F$ direction is same as acceleration direction,  $\vec{F}=m\vec{a}$ 
+	- **Rule:**
+		- $\vec{F}=q(\vec{V}\times \vec{B})$ 
+		- $F=qVBsin(\theta)$ 
+	- **Note:**
+		-               $\hat{i}$                        To know
+		     $\hat{k}$           $\hat{j}$                 Direction
+		- Up $\to$ positive z, Down $\to$ negative z
+- **Motion of a Charged Particle in a Magnetic Field:**
+	- $F=qVB=ma_c$ 
+	- $qVB=m\frac{v^2}{r}$ 
+	- $r=\frac{mv}{qB}$ 
+	- $v=\frac{qBr}{m}$ 
+	- $w=\frac{qB}{m}$,    since $w=\frac{v}{r}$ 
+	- $T=\frac{2\pi m}{qB}$,  since $T=\frac{2\pi}{w}$ 
+	- **Note:**
+		- **Momentum ($p$):** $p=mv=qBr$ 
+- **Magnetic Force on a Current Carrying Conductor:**
+	- $\vec{F}=I(\vec{L}\times \vec{B})$ 
+	- $F=BILsin(\theta)$ 
+	- **Notes:**
+		- Direction of wire is direction of Ampere ($I$)
+		- Closed Wire $\to F=0, \tau=value$ 
+		- If wire is not straight, then we integrate, $\int_a^bdF=\int_a^bI(ds\times B)$, where $ds$ is a very small part of the wire
+- **Notes:**
+	- **Velocity Filter:**
+		- $F_B=F_E$ $\to$ $qE=qBv$ 
+---
+## 📝Exam Notes 
+
+- Phase difference ($\Delta \phi$): $\Delta \phi=\phi_2-\phi_1$ 
+- Path difference ($\Delta x$): $\frac{\Delta \phi}{360}=\frac{\Delta x}{\lambda}$ 
+- Angular Frequency: $\omega$ 
+

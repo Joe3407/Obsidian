@@ -140,24 +140,89 @@
 --- 
 ## 📘Lec 6
 
-- Circuit Simplification:
+- **Circuit Simplification:**
 	- Series-Parallel Combinations 
 	- Source Transformation
-- Source Transformation:
-	- Overview:
+- **Source Transformation:**
+	- **Overview:**
 		- It doesn't affect the rest of the circuit 
 		- It can be applied to dependent and independent sources
 		- Current source arrow points towards positive terminal 
-	- Conditions:
-		- Ideal Voltage Source: Can't have $R=0$, as when transforming it the current will be $\infty$ 
-		- Ideal Current Source: Can't have $R=\infty$, as when transforming it the voltage will be $\infty$ 
-	- Rule:
+	- **Conditions:**
+		- **Ideal Voltage Source:** Can't have $R=0$, as when transforming it the current will be $\infty$ 
+		- **Ideal Current Source:** Can't have $R=\infty$, as when transforming it the voltage will be $\infty$ 
+	- **Rule:**
 		- We can transform a **Series** Voltage Source and Resistance to **Parallel** Current Source and Resistance 
-	- After Transformation:
+	- **After Transformation:**
 		- Voltage and Current on Resistance change, so it has a new voltage and current as it has been rearranged internally 
 		- Always evaluate at terminals $a-b$, meaning that terminal voltage and current remains the same 
-	- Notes:
+	- **Notes:**
 		- When applying source transformation, don't include the resistor of interest
 
 --- 
+## 📘Lec 7
 
+- **Introduction:**
+	- **Signal:** A quantity carrying information that varies with time (voltage, current)
+	- **Waveform:** The shape of signal when plotted as a function of time 
+- **Sinusoidal:**
+	- **Overview:** The sine function can describe a sinusoidal signal, where $sin(\theta)\to sin(\omega t)$ 
+	- $v(t)=V_msin(\omega t)$ 
+		- $V_m\to$ Peak value
+		- $\omega \to$ Angular frequency 
+		- Note:
+			- $v(t+T)=v(t)$, as $v(t+T)=V_msin(\omega t+\omega\frac{2\pi}{\omega})$ 
+	- **Phase ($\phi$):** It's the space between two sinusoidal waves having same frequency on x-axis 
+	- **Time Shift ($t_o$):** It's when the x-axis is $t$ instead of $\omega t$, so we equalize it $\phi=\omega t_o\to \phi=2\pi ft_o$ 
+	- **Note:**
+		- We can compare two sinusoidal waves by there amplitude or phase difference if they have the **Same Frequency** 
+		- $\phi_2-\phi_1=0\to$ in phase, otherwise they are out of phase 
+		- $sin(wt+\phi)\to$ shift left 
+		- $sin(wt -\phi)\to$ shift right
+	- **Lead & Lag:**
+		- If sinusoidal reaches peak first then it **Leads**, otherwise it **Lags** 
+		- We take the smallest angle between two waves ($\le 180^\circ$)
+		- The bigger $\phi$, is the one that leads 
+	- **Common Language:**
+		- We always use Cosine
+		- **Rules:**
+			- $sin(\omega t+\phi)=cos(\omega t + \phi - 90^\circ)$ 
+			- $-cos(\omega t+\phi)=cos(\omega t+\phi \pm 180^\circ)$ 
+- **Phasor:**
+	- **Overview:** It's changing the function into Rectangular, Polar, or Exponential Form, so that we can apply operations easily 
+	- **Remember:**
+		- **Introduction:**
+			- $z=x+iy$   <--- Rectangular Form
+			- $z=r\angle \phi$      <--- Polar Form 
+			- $z=re^{i\phi}$      <--- Exponential Form 
+			- $r=\sqrt{x^2+y^2}$,  $\phi=tan^{-1}\frac{y}{x}$ 
+		- **Operations:**
+			- Adding & Subtracting $\to$ Rectangular Form
+			- Multiplying & Dividing $\to$ Polar Form
+			- **Rules:**
+				- **Given that:**
+					- $z_1 = x_1 + i y_1 = r_1 \angle \phi_1$
+					- $z_2 = x_2 + i y_2 = r_2 \angle \phi_2$ 
+				- **Then:**
+					- $z_1 + z_2 = (x_1 + x_2) + i(y_1 + y_2)$ 
+					- $z_1 - z_2 = (x_1 - x_2) + i(y_1 - y_2)$
+					- $z_1 z_2 = r_1 r_2 \angle (\phi_1 + \phi_2)$
+					- $\frac{z_1}{z_2} = \frac{r_1}{r_2} \angle (\phi_1 - \phi_2)$
+					- $\frac{1}{z} = \frac{1}{r} \angle (-\phi)$
+					- $\sqrt{z} = \sqrt{r} \angle (\phi/2)$
+					- $z^* = x - i y = r \angle (-\phi) = r e^{-i\phi}$ 
+				- **Note:**
+					- $5 + i0 = 5 \angle 0^\circ$
+					- $-3 + i0 = 3 \angle 180^\circ$
+					- $0 + i4 = 4 \angle 90^\circ$
+					- $0 - i2 = 2 \angle -90^\circ$ 
+	- **Phasor:**
+		- $v(t)=V_mcos(wt + \phi)\to V=V_m\angle \phi$ 
+		- **Adding Sinusoidal Using Phasor:**
+			- Covert time-domain sinusoid to phasor form 
+			- Add the phasors using Complex rules
+			- Convert to Polar form 
+			- Convert back to time-domain sinusoid  
+		- **Note:** time-domain sinusoid $\to v(t)=V_mcos(wt+\phi)$ 
+- Phasor Relationships with Circuit Elements:
+	- 
