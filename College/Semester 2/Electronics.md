@@ -224,5 +224,193 @@
 			- Convert to Polar form 
 			- Convert back to time-domain sinusoid  
 		- **Note:** time-domain sinusoid $\to v(t)=V_mcos(wt+\phi)$ 
-- Phasor Relationships with Circuit Elements:
-	- 
+- **Phasor Relationships with Circuit Elements:**
+	- **Resistance ($R$):**
+		- **Time-domain:**
+			- $i(t)=I_mcos(\omega t+\phi)$ 
+			- $v(t)=Ri(t)\to v(t)=RI_mcos(\omega t+\phi)$ 
+		- **Phasor:**
+			- $I=I_m\angle \phi$ 
+			- $V=RI_m\angle \phi$ 
+		- **Representation:**
+			- Voltage and Current have same angle $\to$ No phase difference
+			- **Phasor Diagram:** Both $V,I$ have the same angle so there is no lag nor lead 
+			- **Time-domain Diagram:** Both are identical, the difference is in the Amplitude 
+	- **Capacitor ($C$):**
+		- **Remember:**
+			- $q=CV$ 
+			- $C=\frac{\epsilon A}{d}$, where $A\to$ Area of plate, $d\to$ distance between two plates, $C\to$ Capacitance (Farad ($F$)) 
+		- **Time-domain:**
+			- $i(t)=\pm C\frac{dv}{dt}$,         $(q=CV)\to (\frac{dq}{dt}=C\frac{dv}{dt})\to (i(t)=C\frac{dv}{dt})$,    $\pm\to$ according to the side the current is going into 
+			- $v(t)=V_msin(\omega t+\phi)$ 
+			- $i(t)=\omega CV_mcos(\omega t+\phi)$ 
+		- **Phasor:**
+			- $V=V_m\angle (\phi-90^\circ)$ 
+			- $I=\omega CV_m\angle \phi$ 
+			- $I=j\omega CV$,        $\frac{I}{V}=\frac{\omega CV_m \angle (\phi)}{V_m\angle (\phi-90^\circ)}\to \frac{I}{V}=\omega C\angle 90^\circ\to I=jwCV$ 
+		- **Representation:**
+			- Since current angle is bigger, therefore $I$ leads $V$ by $90^\circ$ 
+			- **Phasor Diagram:** $I$ passes on a point first, before $V$ by $90^\circ$ 
+			- **Time-domain Diagram:** They both differ in amplitude and there is phase difference 
+		- **Note:**
+			- If Voltage is constant (DC), then when differentiating $i(t)=0$, which means it acts as open circuit 
+			- Voltage can't be changed quickly at an instant(imagine a straight vertical line which its differentiation is $\infty$), so voltage must increase slowly (can't change abruptly)
+	- **Inductor:**
+		- **Time-domain:**
+			- $v(t)=L\frac{di(t)}{dt}$ 
+			- $i(t)=I_msin(\omega t+\phi)$ 
+			- $v(t)=\omega LI_mcos(\omega t+\phi)$ 
+		- **Phasor:**
+			- $I=I_m\angle (\phi-90^\circ)$ 
+			- $V=\omega LI_m\angle\phi$ 
+			- $V=j\omega LI$,       $\frac{V}{I}=\frac{\omega LV_m \angle (\phi)}{I_m\angle (\phi-90^\circ)}\to \frac{V}{I}=\omega L\angle 90^\circ\to V=jwLI$ 
+		- **Representation:**
+			- Since Voltage angle is bigger, therefore $V$ leads $I$ by $90^\circ$ 
+			- **Phasor Diagram:** $V$ passes on a point first, before $I$ by $90^\circ$ 
+			- **Time-domain Diagram:** They both differ in amplitude and there is phase difference
+		- **Note:**
+			- If Current is constant (DC), then when differentiating $v(t)=0$, which means it acts as short circuit 
+			- Current can't be changed quickly at an instant(image a straight vertical line which its differentiation is $\infty$), so current must increase slowly (can't change abruptly)
+- **Impedance & Admittance:**
+	- **Remember:**
+		- $V=RI$ 
+		- $V=j\omega LI$ 
+		- $V=-j\frac{I}{\omega C}$ 
+	- **Impedance ($Z$):**
+		- **Overview:** 
+			- It's a frequency dependent quantity
+			- It's the ratio of Voltage phasor to Current phasor 
+			- Although it's the ration of two phasors, it's not itself a phasor 
+		- **Rules:**
+			- $Z_L=j\omega L$
+			- $Z_C=-j\frac{1}{\omega C}$ 
+		- **Effect of frequency:**
+			- **DC ($\omega = 0$):**
+				- $Z_L=0$ 
+				- $Z_C=\infty$ 
+			- **High frequency ($\omega =\infty$):**
+				- $Z_L=\infty$
+				- $Z_C=0$ 
+		- **Impedance in Complex form:**
+			- $Z=R+jX$,     $X\to$ the summation of $X_L,X_C$,  If $jX$ positive $\to X_L$, If negative $\to X_C$ 
+	- **Admittance:**
+		- $Y=\frac{1}{Z}$ 
+		- $Y=G+jB$ 
+
+--- 
+## 📘Lec 8
+
+- **Semiconductors:** Low temperature $\to$ Insulators, High temperature $\to$ Conductors 
+- **Diode Physical Behavior:**
+	- **Forward Biasing:** $V_D>0$ 
+	- **Reverse Biasing:** $V_D<0$ 
+	- **Reverse Breakdown Region:** It's the region where large reverse-bias voltage is applied, and current begins to flow 
+- **Diode Ideal Model:**
+	- **Forward Biasing:** ON,   $I_D>0$,   $V_D=0$ 
+	- **Reverse Biasing:** OFF,   $I_D=0$,   $V_D<0$ 
+- **Solving:**
+	- Assume that the diode is ON or OFF 
+	- If the assumption resulted in all its conditions are true, then assumption was correct 
+	- And if the assumption was wrong, then we redo everything but with assuming the opposite of the first assumption 
+- **Clippers:**
+	- **Rules:**
+		- $V_o=V_D+V_B$ 
+		- $V_o=V_i-IR$ 
+		- **Note:** They change according to the circuit, so we do KVL once for OFF diode, and another for ON diode, According to the givens we have, we choose the working equation
+	- **Conditions:**
+		- $ON\to V_D=0 \to V_o=V_B$ 
+		- $OFF\to I_D=0 \to V_o=V_i$ 
+	- **Note:**
+		- **When Having two Diodes There is Three Phases:**
+			- $V_i>V_{B_1}\to D_1=ON,\ D_2=OFF\to V_o=V_{B_1}$  
+			- $V_i<-V_{B_2}\to D_1=OFF,\ D_2=ON\to V_o=-V_{B_2}$ 
+			- $-V_{B_2}<V_i<V_{B_1}\to D_1=OFF,\ D_2=OFF\to V_o=V_i$ 
+
+---
+## 📘Lec 9
+
+- **Rectifiers:**
+	- **Half Wave Rectifier:**
+		- **Overview:** It converts half of the AC to Pulsating DC, and the other half is blocked and lost 
+		- **Steps:**
+			- **Using Single Diode:** It's responsible for taking the positive AC signal only and blocking the negative signal 
+			- **Using Capacitor:**
+				- It acts as a filter, smoothing out the peaks 
+				- $V_i>V_C \to$ Charging the capacitor
+				- $V_C>V_i\to$ The capacitor starts discharging, which makes the voltage decrease slower
+				- **Ripple Factor:** It's the difference between the max voltage and the min voltage of the discharged capacitor voltage
+				- **Note:**
+					- As the Capacitance($C$) increase the Ripple Factor($V_r$) decrease,   $V_r \propto \frac{1}{RC}$  
+		- **Note:**
+			- As the input voltage might be very high relative to what we need, so a **Transformer** is used to increase/decrease the input voltage 
+	- **Full Wave Rectifier:**
+		- **Overview:** It converts All of the AC to Pulsating DC 
+		- **Steps:**
+			- **Connections:** We connect three wires with the transformer, the top and bottom wires are positive and contain a diode each, then the middle wire is called **Center Tap** and it's negative, which contains a resistor 
+			- **Direction:**
+				- **Positive Voltage:** $D_{top}=ON,\ D_{bottom}=OFF$, so the direction of the current goes threw the top wire and into the Center Tap from **Right** to **Left** 
+				- **Negative Voltage:** $D_{top}=OFF,\ D_{bottom}=OFF$, so the direction of the current goes threw the bottom wire and into the Center Tap from **Right** to **Left** 
+			- **Conclusion:**
+				- When Input Voltage is positive current flows in the same direction as when the input voltage is negative, which means we converted AC to Pulsating Positive DC
+		- **Adding Capacitor:**
+			- By adding the capacitor, it discharges in time less that Half Wave Rectifier, as all the Input voltage is changed to Pulsating DC, so the Ripple Factor is smaller 
+
+---
+## 📘Lec 10
+
+- **Clamping:**
+	- **Overview:**
+		- Clampers move the whole signal Up/Down by using DC source, or Capacitors 
+		- Using DC source we get $V_o=V_i-V_B$
+	- **Using Capacitors instead of DC Source:**
+		- **Negative Clamper:** $V_o-V_i+V_C=0$    $\to$    $V_o=V_i-V_C$    $\to$    $V_o=V_i-V_{max}$ 
+		- **Positive Clamper:** $V_o-V_i+V_C=0$    $\to$    $V_o=V_i-V_C$    $\to$    $V_o=V_i-(-V_{max})$    $\to$     $V_o=V_i+V_{max}$ 
+- **Filters:**
+	- **AC Passive Filters:**
+		- **Overview:**
+			- It selectively filters one frequency or range of frequencies (band) out of mix of different frequencies
+			- Filter alters (changes) amplitude and/or Phase characteristic of the input signal with respect to the frequency
+			- Filter doesn’t add new frequencies to input signal, nor change component frequency of the signal
+		- **Types:**
+			- **Low Pass Filter:** Allows low frequency, Blocks high frequency 
+			- **High Pass Filter:** Allows high frequency, Blocks low frequency
+			- **Band Pass Filter:** Allows specific range of frequencies 
+			- **Band Reject Filter:** Rejects specific range of frequencies 
+		- Denoising: If we have $f_1$ and there is a noise frequency $f_2$, then the voltage gain of $f_2$ is very low compared to $f_1$, almost removing $f_2$ and $f_1$ almost remains 
+		- **Filter Gain ($A_v$):**
+			- $A_v(\omega)=\frac{V_{out}(\omega)}{V_{in}(\omega)}$ 
+			- $0\le A_v\le 1$ 
+		- **Cut off Frequency ($\omega_o$):**
+			- It's the frequency where $V_o=\frac{1}{\sqrt{2}}V_i$ 
+	- **Rules:**
+		- **Low Pass Filter:**
+			- $A_V(\omega)=\frac{1}{1+j\omega RC}$
+			- $|A_V(\omega)|=\frac{1}{\sqrt{1+(\omega RC)^2}}$
+			- **Cutoff Frequency:**
+				- $\omega_o=\frac{1}{RC}$
+			- **Phase Shift:**
+				- $\phi(\omega)=0-tan^{-1}(\omega CR)$ 
+		- **High Pass Filter:**
+			- $A_V(\omega)=\frac{j\omega RC}{1+j\omega RC}$ 
+			- $|A_V(\omega)|=\frac{1}{\sqrt{1+(\frac{1}{\omega RC})^2}}$ 
+			- **Cutoff Frequency:**
+				- $\omega_o=\frac{1}{RC}$ 
+			- **Phase Shift:**
+				- $\phi(\omega)=90-tan^{-1}(\omega CR)$ 
+		- **Band Pass Filter:**
+			- $A_V(\omega)=\frac{j\omega RC}{(1+j\omega RC)^2+j\omega RC}$ 
+			- $|A_V(\omega)|=\frac{\omega RC}{\sqrt{(\omega RC)^4+7(\omega RC)^2+1}}$ 
+			- **Center Frequency:**
+				- $\omega_o=\frac{1}{RC}$ 
+			- **Cutoff Frequency:**
+				- $f_{high\ filter}=0.3\omega_o$
+				- $f_{low\ filter}=3.3\omega_o$
+			- **Bandwidth:**
+				- $B.W=f_{low\ filter}-f_{high\ filter}=3\omega_o$ 
+			- **Phase Shift:** $\phi(\omega)=90-tan^{-1}(\frac{3\omega CR}{1-\omega^2R^2C^2})$ 
+		- **Band Reject Filter:**
+			- $\omega_o=\frac{1}{\sqrt{LC}}$ 
+		- **Quality Factor:** 
+			- $Q=\frac{f_c}{BW}=\frac{\omega_o}{3\omega_o} =\frac{1}{3}$ 
+
+---

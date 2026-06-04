@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Semester 2/Physics 2.md",
+                "file": "College/Semester 2/Electronics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Physics 2"
+              "title": "Electronics"
             }
           }
         ]
@@ -182,7 +182,13 @@
   },
   "active": "4d87d537c077b38d",
   "lastOpenFiles": [
+    "Coding/Calculator Notes.md",
+    "Coding/Trees/Overview.md",
+    "Coding/Trees/Notes.md",
+    "Coding/Problems/Graph 1/Practice.md",
+    "Coding/Problems/Number Theory/Practice.md",
     "College/Semester 2/Electronics.md",
+    "Coding/Problems/Graph 1",
     "College/Semester 2/Physics 2.md",
     "College/Semester 2/Calculus 2.md",
     "College/Semester 2/Structured Programming.md",
@@ -192,16 +198,12 @@
     "College/Semester 2/Business Administration.md",
     "College/Semester 1/Intro to CS.md",
     "Coding/Notes.md",
-    "Coding/Calculator Notes.md",
     "Coding/Algorithms/Taylor Series.md",
     "Coding/Problems/Number Theory/Sheet.md",
-    "Coding/Problems/Number Theory/Practice.md",
     "Coding/Level 2.md",
-    "Coding/Trees/Overview.md",
     "Coding/Problems/Number Theory",
     "Coding/Problems/Number Theory.md",
     "Coding/Problems",
-    "Coding/Trees/Notes.md",
     "Coding/Git.md",
     "College/Semester 1/Physics 1.md",
     "Coding/Algorithms/KMP.md",
@@ -215,10 +217,8 @@
     "Laws.md",
     "2nd law.md",
     "1st law.md",
-    "College/Physics 1/Physics 1.md",
     "College/Semester 1",
     "College/New folder",
-    "Coding/Trees",
-    "College/Probability & Statistics"
+    "Coding/Trees"
   ]
 }
