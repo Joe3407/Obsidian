@@ -29,4 +29,7 @@ https://cses.fi/problemset/task/1194
 #### Link
 https://codeforces.com/problemset/problem/1676/G
 
+#### Similar Questions 
+https://codeforces.com/problemset/problem/1843/D
+
 ---
