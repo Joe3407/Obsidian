@@ -139,3 +139,12 @@
 		- `arr = NULL;` 
 	- Note:
 		- When passing dynamic array to a function, it must be passed by pointer, `void fun(int* arr)` OR `void fun(int arr[])`(as the complier handles it like a pointer so both are the same thing)
+
+---
+## 📘Lec 10
+
+- **Recursion:**
+	- **Base Case:** To stop the recursion calls
+	- **Recursion Case:** The function call 
+
+---

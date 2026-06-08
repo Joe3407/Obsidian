@@ -63,7 +63,7 @@
 ## 📘Lec 3
 
 - **Current Division:**
-	- $I_1=\frac{I_t}{R_t}R_1$ 
+	- $I_1=\frac{I_t}{R_t}R_2$ 
 - **Systematic Methods:**
 	- **Node Analysis (KCL + Ohm's Law):**
 		- **Nodal Voltage Analysis:**

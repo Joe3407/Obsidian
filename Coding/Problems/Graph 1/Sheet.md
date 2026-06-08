@@ -29,3 +29,18 @@ https://www.spoj.com/problems/PT07Z/en/
 https://codeforces.com/problemset/problem/520/B
 
 ---
+# Arboris Contractio
+
+#### Pattern Recognition 
+
+- Reshaping Tree 
+
+#### Techniques
+
+- Work Backwards 
+- Don't focus on how to do the complex operation, instead focus on what will the end shape look like 
+
+#### Link
+https://codeforces.com/problemset/problem/2131/D
+
+---
