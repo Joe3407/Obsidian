@@ -447,3 +447,44 @@
 			- **Statement of Cash Flows:** Shows cash inflows and outflows to explain changes in cash position
 
 ---
+## 📘Lec 9
+
+- Managerial Accounting: 
+	- Overview: Provides internal financial information (costs and revenues) to help managers make informed business decisions and evaluate the results of those decisions
+	- Internal Users:
+		- **Managers** who plan, organize, and run a business
+		- They include **marketing managers**, **production supervisors**, **finance directors**, **company owners**
+		- Internal users need detailed information on **timely basis** 
+	- Restaurant Example: 
+		- Example: The manager had a special request, to make **2000 sandwiches**, where each sandwich is $38\$$ instead of $40\$$ 
+		- Situation: The manager must calculate the profit(by knowing the costs and revenue) quickly so that he takes the right decision at the right time 
+		- $Total\ Profit\ Formula=Total\ Revenue - Total\ Cost$ 
+		- Cost Concepts:
+			- Cost: It's an optional sacrifice with economic resources (the money for the ingredients)
+			- Cost Object: Anything we want to measure (one sandwich)
+			- Activity Level: Number of object, This is the factor that causes costs to increase or decrease (2000 sandwiches)
+		- Cost Behavior: 
+			- Overview: It's the study of how specific costs respond to changes in the level of business activity
+			- Helps Managers in: 
+				- Predict cost at any level of activity 
+				- Plan operations and decide between alternative courses of action
+		- Cost Classification:
+			- Variable Cost: Vary in total directly and proportionately with changes in the activity level
+			- Fixed Cost: Costs that remain the same
+			- Mixed Cost: Both a variable and a fixed-cost
+		- Answer to Restaurant Example:
+			- $Total\ Cost=Total\ Variable\ Cost\ per\ unit * Units+Fixed\ Cost$ 
+			- $Total\ Revenue=Selling\ Price* Units\ Sold$ 
+			- If $Total\ Revenue > Total\ Cost\to$ Accept 
+- Difference between Financial & Managerial Accounting:
+
+| Aspect                          | Financial Accounting                                                             | Managerial Accounting                                                   |
+| ------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| **Users**                       | External persons (investors, creditors, regulators) who make financial decisions | Managers who plan for and control an organization                       |
+| **Time Focus**                  | Historical perspective                                                           | Future emphasis                                                         |
+| **Verifiability vs. Relevance** | Emphasis on verifiability                                                        | Emphasis on relevance for planning and control                          |
+| **Precision vs. Timeliness**    | Emphasis on precision                                                            | Emphasis on timeliness (probabilities)                                  |
+| **Subject**                     | Primary focus is on the whole organization                                       | Focuses on segments of an organization (products, departments, regions) |
+| **Requirements**                | Must follow GAAP and prescribed formats                                          | Need not follow GAAP or any prescribed format                           |
+- Finance:
+	- 

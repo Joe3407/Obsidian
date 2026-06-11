@@ -44,3 +44,21 @@ https://codeforces.com/problemset/problem/520/B
 https://codeforces.com/problemset/problem/2131/D
 
 ---
+# Tree Coloring (Easy Version)
+
+#### Pattern Recognition 
+
+- If a problem asks for the **minimum number of operations**, where:
+	- Each operation selects a subset of valid elements,
+	- Elements in the same operation must satisfy some compatibility constraints
+
+#### Techniques
+
+- Find an obvious lower bound $\to$ Assume the lower bound is achievable $\to$ Ask: What prevents equality? $\to$ Characterize the obstruction
+- The final answer is often the lower bound plus exactly what the obstruction forces
+- If there is a group that share one operation, and so on with the rest of groups, then we could **assume that each operation is a Color** 
+
+#### Link
+https://codeforces.com/problemset/problem/2183/D1
+
+---
