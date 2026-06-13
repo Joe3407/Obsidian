@@ -235,8 +235,8 @@
 	- **Testing:**
 		- **Software Test/Quality Engineer:** Ensures software quality, Lead testing and reports, Improve system performance 
 		- **Security Engineer:** Test, Develop, and Fix software security 
-		- **Technical Support:** Resolve customer issues, Maintain systems and networks, Install and fix problems 
 	- **Deployment & Maintenance:**
+		- **Technical Support:** Resolve customer issues, Maintain systems and networks, Install and fix problems 
 		- **Database Analyst:** Analyze data and report 
 		- **Data Scientist:** Gold role in SDLC, Interpret data insights, Improve products with data 
 - **IT Roles in Business:**
@@ -449,30 +449,30 @@
 ---
 ## 📘Lec 9
 
-- Managerial Accounting: 
-	- Overview: Provides internal financial information (costs and revenues) to help managers make informed business decisions and evaluate the results of those decisions
-	- Internal Users:
+- **Managerial Accounting:** 
+	- **Overview:** Provides internal financial information (costs and revenues) to help managers make informed business decisions and evaluate the results of those decisions
+	- **Internal Users:**
 		- **Managers** who plan, organize, and run a business
 		- They include **marketing managers**, **production supervisors**, **finance directors**, **company owners**
 		- Internal users need detailed information on **timely basis** 
-	- Restaurant Example: 
-		- Example: The manager had a special request, to make **2000 sandwiches**, where each sandwich is $38\$$ instead of $40\$$ 
-		- Situation: The manager must calculate the profit(by knowing the costs and revenue) quickly so that he takes the right decision at the right time 
+	- **Restaurant Example:** 
+		- **Example:** The manager had a special request, to make **2000 sandwiches**, where each sandwich is $38\$$ instead of $40\$$ 
+		- **Situation:** The manager must calculate the profit(by knowing the costs and revenue) quickly so that he takes the right decision at the right time 
 		- $Total\ Profit\ Formula=Total\ Revenue - Total\ Cost$ 
-		- Cost Concepts:
-			- Cost: It's an optional sacrifice with economic resources (the money for the ingredients)
-			- Cost Object: Anything we want to measure (one sandwich)
-			- Activity Level: Number of object, This is the factor that causes costs to increase or decrease (2000 sandwiches)
-		- Cost Behavior: 
-			- Overview: It's the study of how specific costs respond to changes in the level of business activity
-			- Helps Managers in: 
+		- **Cost Concepts:**
+			- **Cost:** It's an optional sacrifice with economic resources (the money for the ingredients)
+			- **Cost Object:** Anything we want to measure (one sandwich)
+			- **Activity Level:** Number of object, This is the factor that causes costs to increase or decrease (2000 sandwiches)
+		- **Cost Behavior:** 
+			- **Overview:** It's the study of how specific costs respond to changes in the level of business activity
+			- **Helps Managers in:** 
 				- Predict cost at any level of activity 
 				- Plan operations and decide between alternative courses of action
-		- Cost Classification:
-			- Variable Cost: Vary in total directly and proportionately with changes in the activity level
-			- Fixed Cost: Costs that remain the same
-			- Mixed Cost: Both a variable and a fixed-cost
-		- Answer to Restaurant Example:
+		- **Cost Classification:**
+			- **Variable Cost:** Vary in total directly and proportionately with changes in the activity level
+			- **Fixed Cost:** Costs that remain the same
+			- **Mixed Cost:** Both a variable and a fixed-cost
+		- **Answer to Restaurant Example:**
 			- $Total\ Cost=Total\ Variable\ Cost\ per\ unit * Units+Fixed\ Cost$ 
 			- $Total\ Revenue=Selling\ Price* Units\ Sold$ 
 			- If $Total\ Revenue > Total\ Cost\to$ Accept 
@@ -486,5 +486,67 @@
 | **Precision vs. Timeliness**    | Emphasis on precision                                                            | Emphasis on timeliness (probabilities)                                  |
 | **Subject**                     | Primary focus is on the whole organization                                       | Focuses on segments of an organization (products, departments, regions) |
 | **Requirements**                | Must follow GAAP and prescribed formats                                          | Need not follow GAAP or any prescribed format                           |
-- Finance:
-	- 
+- **Finance:**
+	- **Overview:** It's the study of the management, movement, and raising of money, (if a business has money, how can it invest in it so that it gets more money)
+	- **Difference:**
+		- **Accounting:** Focuses on the day-to-day flow of money
+		- **Finance:** It's a broader term for the management of assets and liabilities and the planning of future growth
+	- **Why we study finance:** 
+		- Decision-making tool, through analytical thinking
+		- Estimates value through an assessment of the timing, magnitude, and risk of cash flows for long-term projects
+		- Immediate activities such as the development of budgets to assure timely distribution of cash flows
+		- Provides knowledge of financial markets and investment opportunities (stocks, bonds, real estate, cryptocurrencies, etc.)
+		- Enables financial planning, helping organizations understand funding needs, achieve goals, and adapt to unexpected events
+	- **Basic Areas in Finance:**
+		- **Financial markets and institutions:** Firms and regulatory agencies that monitor our financial system
+		- **Investments:** Products and processes used to create and grow wealth
+		- **Business finance:** Looks at how managers can apply financial principles to maximize the value of a firm in a risky environment, using **Capital Budgeting** 
+	-  **Capital Budgeting:**
+		- **Overview:** It's the process of determining which long-term or fixed assets to acquire to maximize shareholder value
+		- **Capital Budgeting Techniques:**
+			- **Payback Period:** 
+				- **Overview:** Simple calculation to know whether to go threw investment or not 
+				- **Advantages:** Easy to calculate, Provides an indication of project’s risk and liquidity
+				- **Disadvantages:** Ignores cash flow after payback period, Doesn’t consider time value of money
+			- Net present value
+			- Profitability index
+			- Discounted cash flow
+
+---
+## 📘Lec 10
+
+- **Software Marketing:**
+	- Strategies and techniques used to promote their products and services to **potential customers**
+	- Creating a unique brand identity, Identifying target markets, Developing marketing campaigns, and Measuring the success of those campaigns
+- **Marketing in the software Industry:**
+	- Marketing is critical because software products are **intangible** (Can't be physically touched) and complex, therefore, effective marketing is essential to communicate the value proposition of their products
+	- **Challenges:**
+		- Fast-paced nature, which means that the company must constantly adapt to new technologies 
+		- Software products often require ongoing updates and support
+	- **Traditional and Digital Marketing:** 
+		- **Traditional:** Attending trade shows and conferences, Advertising in industry publications, and Using direct mail campaigns
+		- **Digital:** Uses online channels like search engine marketing, Paid advertising, Content marketing
+		- **Note:** Digital allows wider audience, measure the effectiveness of campaigns in real-time, and **tailor messaging** (adapt message for special audience) to specific customer segments
+- **Factors to consider before choosing the right strategy:** 
+	- **Decide your goals:** Set goals (e.g., brand awareness, lead generation, **drive conversions** (encourage people to go from free to paid plans), or sales)
+	- **Finalize the target audience:** Identify the target audience and understand their needs and problems
+	- **Create a marketing budget:** Create a marketing budget and estimate the expected **ROI** (how much profit earned to how much you spent)
+	- **Analyze resources bandwidth:** Assess available resources (team, time, and expertise) to choose realistic strategies
+- **Marketing Tactics:** 
+	- **Content Marketing:** Build brand awareness, and Drive traffic to their website, by creating and distributing valuable, relevant, and consistent content, including blog posts, eBooks, whitepapers, videos, and infographics
+	- **Search Engine Optimization (SEO):** Improve the ranking of your website, Attract **organic traffic** (people from free search engine) to their website and generate leads
+	- **Email Marketing:** Sending targeted emails to customers to promote products, generate leads, and maintain customer engagement
+	- **Influencer Marketing:** Using influencers to promote products to their followers and attract potential customers
+	- **Paid Ads:** Quickly reach a targeted audience with flexible advertising options to increase visibility and sales
+	- **Free Trials and Freemium:** Free access attracts users and increases conversions, but free features should be balanced to encourage paid upgrades
+	- **Free Tools and Experiences:** Offer useful tools to attract the right audience, build brand awareness, and generate potential customers
+	- **Customer Success Stories:** Use genuine customer experiences to build trust and increase sales
+	- **Video Marketing:** Use videos to promote products, build brand awareness, and connect with potential customers
+	- **Partnerships and Integrations:** Work with compatible companies or products to expand reach and provide more value to customers
+	- **Community Marketing:** Help people in online communities to build trust, attract customers, and gain insights into their needs
+	- **Guest Blogging:** Write articles on other trusted blogs to build expertise, increase brand awareness, and drive traffic
+	- **Social Media Marketing:** Use social platforms to share updates, interact with users, and build brand awareness and trust
+	- **Product Demos:** Let users try or see the product in action to understand its value and encourage them to buy
+	- **Tutorials and Guides:** Help users use the software effectively through step-by-step instructions and keep them updated
+
+---
