@@ -113,10 +113,10 @@
 	- **Social Engineering:** It manipulates people into making security mistakes(“I'm IT support, give me your password”) 
 	- **Dumpster Diving:** Searching someone’s trash to find useful information
 - **Types of Attackers:**
-	- **Adventure seekers:** Just want challenge / fun
-	- **Criminals:** Steal bank data, credit cards
-	- **Industrial spies:** Work for companies, Steal competitors’ secrets
-	- **Terrorists:** Want destruction / fear
+	- **Adventure seekers (Hacker):** Just want challenge / fun
+	- **Criminals (Cracker):** Steal bank data, credit cards
+	- **Industrial spies (Hacktivist):** Work for companies, Steal competitors’ secrets
+	- **Terrorists (Cyberterrorist):** Want destruction / fear
 - **Malicious Insiders:** 
 	- People who already have authorized access (Employees, Consultant, Contractors)
 - **Cybersecurity Tracks:**
@@ -166,7 +166,7 @@
 			- **Demographic filtering:** Based on gender, age, ect... (so it recommends girls/boys clothing)
 	- **Treating Consumer Data Responsibly:** How companies should behave with your data (only collect what they need, keep data safe)
 	- **Workplace Monitoring:** Companies watching employees while they work to prevent misuse (wasting time, harassment, leaks), Public-sector employees have far greater private rights than in the private industry
-	- **Advanced Surveillance Technology:** Using technology to track people, so they can give them ads of the nearest restaurants 
+	- **Advanced Surveillance Technology:** Using technology to track people, so they give them ads of the nearest restaurants, **Camera surveillance**, **Global positioning system (GPS)**
 	- **Non-Disclosure Agreement (NDA):** A legal promise to keep secrets
 ---
 ## 📘Lec 5
@@ -196,6 +196,76 @@
 --- 
 ## 📘Lec 6
 
+- **Non-Traditional Workers:**
+	- **Overview:** Working with this company temporarily, Companies need these workers as IT jobs are growing quickly, but there may not be enough skilled traditional workers available
+	- **Ethical decision:** Should companies hire temporary/foreign/offshore workers, or invest in training their own staff?
+	- **Types:**
+		- **Contingent Workers:** 
+			- **Contingent work:** It's a job situation in which an individual does not have an explicit or implicit contract for long-term employment
+			- **Includes:**
+				- **Independent contractors:** Hired by the company to do a specific job, They are not part of the company’s normal staff, For example, a freelance programmer
+				- **Temporary workers through employment agencies:** Recruit, train, and test employees in a wide range of job categories and skill level 
+				- **On-Call or day laborers:** Once called, must attend 
+			- **Notes:** Workers hired for the life of the project only
+			- **Employment agencies:** Recruit, train, and test employees in a wide range of job categories and skill level
+			- **Co-employment relationship:** Two employers have actual/potential legal rights and duties with respect to an employee
+			- **Advantages:** 
+				- The business does not pay for benefits/training costs
+				- Can continually adjust the number of contingent workers to match business needs 
+				- Use of contingent workers is a good approach when staffing is truly temporary 
+			- **Disadvantages:**
+				- Low commitment to the company and high turnover rate
+				- Loss of valuable experience when workers leave 
+				- Risk of exposing corporate processes and strategies to potential competitors 
+		- **H-1B Workers:**
+			- **Overview:** Non-immigrant visa in U.S. allows employers to temporarily employ foreign workers in specialty occupations, (Top five: India, China, Canada, Philippines, Korea)
+			- **Maximum continuous period of 6 years:**
+				- After six years, the foreign worker must remain outside the US for one year before another H-1B petition can be approved
+			- **Benefits:**
+				- Meet critical business needs
+				- Have essential technical skills and knowledge not readily found in the U.S.
+			- **Challenges:**
+				- Language barriers may cause isolation and hurt team morale 
+				- Salary abuse, as they get paid less that U.S. workers in similar roles 
+		- **Outsourcing:**
+			- **Overview:** Long-term business arrangement where the company contracts with an outside organization that has expertise in providing a specific function
+			- **Advantages:**
+				- Co-employment legal problems are minimal
+				- Lower costs
+				- Keep staff focused on core skills
+			- **Offshore Outsourcing:**
+				- **Overview:** Services provided by an organization whose employees are in a **foreign country**
+				- **Advantages:** 
+					- Low wages
+					- Dramatically speeds up development efforts
+				- **Challenges:**
+					- New Expenses (Vendor selection, travel, communications)
+					- Communication difficulties due to distance, culture, and language 
+					- Similar ethical issues like contingent and H-1B (salary abuse)
+				- **Strategies for successful offshore outsourcing:**
+					- Expertise in technologies
+					- High-quality on-site managers
+					- Project manager speaks native language of employer
+					- Large staff available
+					- State-of-the-art telecommunications
+					- Implement a formal version-control process, coordinated through a quality assurance
+					- Obtain advance agreement on the structure and content of documentation
+- **Whistle-blowing:**
+	- **Overview:** Employee attracts attention to a careless, illegal, unethical, abusive, or dangerous act that threatens the public interest
+	- **Steps:**
+		- Assess the seriousness
+		- Begin documentation
+		- Address the situation internally
+		- Escalating internally
+		- Evaluate implications 
+		- Use experienced resources to develop action plan (legal counsel)
+		- Execute the action plan, potentially anonymously 
+		- Live with the consequences
+	- **Rights:**
+		- May file claims for retaliatory termination
+		- May be entitled to jury trial and penal damage awards
+		- National Whistleblowers Center offers legal referrals and education 
+
 ---
 ## 📘Lec 7
 
@@ -204,11 +274,11 @@
 		- **Meaning:** Using others’ ideas or work without credit and presenting them as your own
 		- **Plagiarism Detection:** 
 			- **Meaning:** Comparing submitted work with large databases of online content and previous documents
-			- **Reduce:** Through awareness and proper citation(giving proper credit using correct referencing especially for online content)
+			- **Reduce:** Through awareness and proper citation (giving proper credit using correct referencing especially for online content)
 	- **Reverse engineering:**
 		- **Meaning:** Taking a system apart to understand, copy, or improve it, especially software
 		- **Ethical:**
-			- **Allowed:** Used on in-house software or for system compatibility and interoperability purposes(ability of different systems or software to work together and exchange information smoothly)
+			- **Allowed:** Used on in-house software or for system compatibility and interoperability purposes (ability of different systems or software to work together and exchange information smoothly)
 			- **Unethical:** Considered unethical when applied to purchased/licensed software to copy or steal its design without ownership rights
 		- **Compiler:** Translates source code into machine language for computer execution
 		- **Decompiler:** Converts machine language back into source code for analysis
@@ -217,7 +287,7 @@
 		- **Why open source is created:** For reputation, reciprocity, client attraction, future services, and sharing useful but unmarketed software
 		- **Open Source License:** Legal protection ensuring software and its modifications remain free and open for users instead of becoming proprietary (Not to lose credit)
 	- **Competitive Intelligence:**
-		- **Meaning:** Legal collection of competitor information to gain business advantage while avoiding illegal spying activities(industrial espionage)
+		- **Meaning:** Legal collection of competitor information to gain business advantage while avoiding illegal spying activities (industrial espionage)
 		- **Competitive Intelligence Cycle:** Continuous process of planning, collecting, analyzing, and sharing competitor information to support business decisions
 	- **Trademark infringement:** 
 		- **Meaning:** Using a company’s protected symbol, name, or design (or similar one) that confuses consumers and violates brand identity rights
