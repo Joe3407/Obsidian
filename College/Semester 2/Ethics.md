@@ -48,14 +48,14 @@
 - **Relationships Between IT Workers and Employers:**
 	- **Agreements:** These are determined before accepting job offer (Job title, Salary, Working hours, ect...)
 	- **Code of Conduct:**
-		- **Software Privacy:** Illegal copying or sharing software, It may lead to huge fines that are more expensive than acquiring the software legally 
+		- **Software Piracy:** Illegal copying or sharing software, It may lead to huge fines that are more expensive than acquiring the software legally 
 		- **Trade Secrets:** Information not known to the public like the formula of coke, It is protected by requiring employees sign confidentiality agreements (NDA)
 		- **Abuse of Employer Resources:** Using company resources for personal use
 		- **Discrimination:** Unfair treatment without reason, Age Discrimination is favoring younger employees over experienced ones
 - **Relationships Between IT Workers and Clients:** 
 	- **Provides:**
-		- IT Worker: Hardware, Software, services within cost and time
-		- Client: Compensation, Key contacts and data 
+		- **IT Worker:** Hardware, Software, services within cost and time
+		- **Client:** Compensation, Key contacts and data 
 		- **Note:** Relationship is documented in contractual terms (Defines each party's responsibility)
 	- **Trust & Decision Making:**
 		- **Client:** Makes decisions based on Information, Alternatives, and Recommendation from IT Worker, Client trusts IT Worker to act in client’s best interest
@@ -74,7 +74,7 @@
 		- Client hides important system/database info
 		- IT workers lack experience/tools → poor reporting
 - **Relation Between IT Workers and Suppliers:**
-	- Building a Good Relationship: To ensure information exchange and avoid unreasonable demands 
+	- **Building a Good Relationship:** To ensure information exchange and avoid unreasonable demands 
 	- **Ethical Issues:**
 		- **Bribery:** Offering money or benefits to gain a business advantage 
 - **Relation Between IT Workers and Other Professionals:**
@@ -316,5 +316,68 @@
 			- **Common Good Approach:** Making decisions that benefit society as a whole and support shared systems and values
 	- **Implement the Decision and Evaluate the Results:**
 		- Apply the chosen solution effectively, communicate it clearly, then monitor results and refine if needed
+
+---
+## 📘Lec 9
+
+- **Software:** It's a **non-physical** set of instructions, data, or programs that tell a computer how to perform specific tasks
+- **Engineering Quality Software:** It includes characteristics like **performance**, **reliability**, **maintainability**, and **user-friendliness** 
+- **Software Defect (Software Bug):** They range from trivial to serious and may be **functional**, **logical**, or **workflow-related** 
+- **Why Poor Quality:**
+	- **Reason:** Many developers **do not know** how to design quality into software from the start, Or **do not take the time** to do so
+	- **Solution:** Define and follow **severe engineering principles**, Learn from **past mistakes**, Understand system operating environment, Design systems relatively immune to human error
+- **Warranty:** assures buyers that a product meets certain standards of quality
+- **Breach of warranty claim:** 
+	- When the product fails to meet the terms of its warranty
+	- The claimant must have a valid contract that the supplier did not fulfill
+	- It can be extremely difficult to prove because the software supplier writes the warranty to limit liability
+- **Software Development Methodology:** It's a process that enables programmers to make **controlled** and **orderly** progress in developing **high-quality software** 
+- **Software Development Process Advantage:** 
+	- **Overview:** Easier and cheaper to avoid software problems at the beginning than to attempt to fix damages
+	- **Software Quality Assurance (QA):** 
+		- **Overview:** Methods within the development cycle that guarantee reliable operation of the product, are applied at each stage, and include testing before the product ships
+		- **Types:**
+			- **Dynamic Testing:**
+				- **Overview:** Check the operational behavior of a software unit by entering test data and comparing results to the expected results
+				- **Opacity (view of code):**
+					- **Black-box Testing:** Testing where the tester has no knowledge of code. Often done by someone other than the coder
+					- **White-box Testing:** Testing all possible logic paths in the software unit, with thorough knowledge of the logic
+				- **Operational:**
+					- **Unit Testing:** test every small unit
+					- **Integration Testing:** link between units, then test them to ensure that all linkages among various subsystems work successfully
+					- **System Testing:** tests the entire system as a complete entity
+					- **User Acceptance Testing:** Independent testing performed by trained end users
+				- **Non-Operational:**
+					- **Availability Testing:** Examine failure events and repair times for a running application and compare to original service level agreement
+					- **Load Testing:** Determine system performance under different loads
+					- **Recovery Testing:** Determine how quickly system recovers after it has gone through forced system crash or HW failure
+					- **Security Testing:** Check whether system is secured and protects the data
+					- **Portability Testing:** Check the ease of moving a SW component from one environment to another (different Operating Systems)
+			- **Static Testing:**
+				- **Overview:** Manual or automated review of code, requirements, and design documents performed before compilation. The objective is prevention of errors
+- **Capability Maturity Model Integration (CMMI):**
+	- **Overview:** Defines five levels of software development maturity and identifies critical issues to software quality and process improvement
+	- **Levels:** 
+		- **Initial:** Processes unpredictable, poorly controlled and reactive
+		- **Managed:** Processes characterized for projects and is often reactive
+		- **Defined:** Processes characterized for the organization and is proactive 
+		- **Quantitatively Managed:** Processes measured and controlled 
+		- **Optimizing:** Focus on Process improvement 
+- **Safety-Critical Systems:** 
+	- **Overview:** A system whose failure may cause injury or death. Safe operation relies on flawless software performance
+	- **Tasks Require:** 
+		- **Project safety engineer:** Explicit responsibility for the system’s safety. Use a logging and monitoring system to track hazards from the project’s start to finish
+		- **Hazard log:** Used at each stage of the software development process to assess how the project team has accounted for detected hazards
+		- **Safety reviews:** Held throughout the development process
+		- **Safety documentation:** Including verification reviews and signatures
+		- **Ethical dilemmas:** Increased time and expense can draw developers into ethical dilemmas
+	- **Risk:** Probability of an undesirable event occurring times the cost of the event’s consequences. Consequences can include damage to property, injury, or death
+	- **Redundancy:** Provision of multiple interchangeable components to perform a single function. Used to cope with failures and errors
+	- **N-version Programming:** Involves the execution of a series of program instructions simultaneously by two different systems using **different algorithms** to achieve the same result
+	- **If the level of risk is judged to be too great:**
+		- Make system modifications
+		- Mitigate the consequences of failure by devising emergency procedures and evacuation plans
+	- **Reliability:** The probability of a component or system performing without failure over its product life
+	- **Human Interface:** Must consider what human operators might do to make a system work more safely and effectively
 
 ---
