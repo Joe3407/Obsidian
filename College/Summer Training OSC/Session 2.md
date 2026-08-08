@@ -1,0 +1,73 @@
+- **Network:**
+	- **Meaning:** Two or more computers that are linked to share resources, exchange files or allow electronic communication
+	- **Types:** 
+		- **Geographical Area:** PAN, LAN, WLAN, CAN, MAN, WAN, VPN, SAN
+		- **Transmission Media:** 
+			- **Wired (Guided):** Data travels through physical cables
+			- **Wireless (Unguided):** Data travels through the air using electromagnetic waves, eg. Wi-Fi, Bluetooth
+		- **Network Architecture:** 
+			- **Overview:**
+				- $\text{Client}\xrightleftharpoons[\text{Response}]{\text{Request}}\text{Server}$
+			- **Types:**
+				- **Peer-to-Peer(P2P):** Any of the two devices can either be client or server and vice versa 
+				- **Client-Server:** One device is always client and other is server 
+- **IP Address:**
+	- **Overview:** Each device has its own IP Address, so that devices can know which device is which 
+	- **Note:** local host means the current in use device 
+- Ports:
+	- **Overview:** An IP Address gets you to the right machine, while a port gets you to the right program on that machine 
+	- **Example:** 192.168.1.100:3000 $\to$ (IP Address):(Port)
+- **DNS(Domain Name System):**
+	- **Overview:** Internet phone book, it has all the IP Addresses in human friendly names (Google.com $\to$ 142.250.190.14)
+	- You type Google.com $\to$ Computer asks DNS $\to$ DNS replies with IP Address $\to$ Browser connects to the IP Address 
+- **Data Travel:**
+	- **OSI Model:**
+		- **Application Layer:**
+			- Providing the interface for user applications (browsers) to access network services
+			- **Protocols:** HTTP/HTTPS, FTP, DNS, WS
+		- **Transport Layer:**
+			- **Protocols:** TCP, UDP, SCTP , QUIC
+				- **TCP:** Resend lost data, Keep order, Slow, eg. Web page, API
+				- **UDP:** Fire & Forget, Doesn't keep order, Fast, eg. Video calls, Games 
+			- **Note:** HTML runs on top of TCP, so we don't need to worry about losing files 
+- **HTTP (Hypertext Transfer Protocol):**
+	- It allows web browsers and servers to communicate using a request–response model
+	- **Types:**
+		- **HTTP:** Data travels in plain text, anyone intercepting the connection can read it 
+		- **HTTPS:** It's HTTP + Encryption, even if data is intercepted, it can't be read as it's encrypted 
+	- **HTTP Anatomy:**
+		- **Request:**
+			- **Request line:** Method + Path + Version $\to$ `GET`  + `/index.httml` (URL) + `HTTP/1.1` 
+			- **Headers:** Key-value metadata
+			- **Body:** Optional, Only for (POST/PUT/PATCH)
+		- **Response:**
+			- **Status line:** Version + status code + text $\to$ `HTTP/1.1` + `201` + `Created` 
+			- **Headers:** Metadata about response
+			- **Body:** The actual data: HTML, JSON, ect... 
+	- **JSON(JavaScript Object Notation):**
+		- **Meaning:** JSON is a common data format used as a standard way for different programming languages and applications to represent and exchange structured data. It is easy for humans and machines to understand, and is commonly used for **storing, reading, and sending data** 
+		- **How it Works:**
+			- JavaScript code is in server, (Even if I wrote TS, the server accesses the JS file)
+			- Client requests this object by method `GET /profile`
+			- Server decides which data to return 
+			- In Server JavaScript Object is translated to JSON by **Serialization**
+			- `JSON.stringify()` converts the Object into a **JSON-formatted string** 
+			- The JSON-formatted string is included in the HTTP Response and travels through the network
+			- Client receives an HTTP response containing the  JSON-formatted string data
+			-  JSON-formatted string gets **Parsed** into JSON, (after parsing the client gets a new object containing the same data, it's not the actual same object from server)
+			- Client receives Object
+	- **HTTP Methods:**
+		- **Get:** Read Data, **POST:** Create Data, **PUT:** Replace Data, **DELETE:** Remove Data 
+		- **Status Code:** 
+			- **2xx:** Success 
+			- **3xx:** Redirection 
+			- **4xx:** Client Error
+			- **5xx:** Server Error
+	- **URL (Uniform Resource Locator):**
+		- `https://` `ocs.events` `/sindbad/backend_of_atlantis` `?name=youssef&role=president` `#top` 
+		- Protocol     Domain          Path                                                Query String                                   Fragment
+- **API (Application Programming Interface):**
+	- An API is an interface/contract that defines what operations a client can request from a server, how those requests should be made, and what kind of responses the server will return, When a request arrives, the server/API routing system can check whether the requested endpoint and method exist. If they don't, the server may return an error such as `404 Not Found` 
+
+
+
