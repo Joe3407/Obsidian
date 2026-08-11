@@ -1,0 +1,95 @@
+- API  (Application Programming Interface):
+	- Meaning: A contract that defines how two applications communicate through structured requests and responses
+	- Types: REST, GraphQL, SOAP, gRPC
+- Rest API (Representational State Transfer):
+	- Overview: It's a design style, not a library or a rule enforced by code, using HTTP
+	- Conventions:
+		- Use Resources:
+			- `/students` $\to$ A resource that represents a **collection** of students 
+			- `/students/5` $\to$ A resource that represents one specific student 
+		- Use HTTP Methods: GET, POST, PUT, PATCH, DELETE 
+		- Use Nouns, Not Verbs: Use `GET /students`, Not `/getStudents` 
+		- Use Plural Resource Names: Use `/students`, Not `/student` 
+		-  Use Path Parameters for specific resources → `/students/5` 
+		- Use Query Parameters for filtering/searching → `/students?age=20` 
+		- Use appropriate status codes: 
+			- Overview: `res.status(200).send()` 
+			- $200\to$ Request was successful (OK)
+			- $201\to$ A new resource was created successfully (Created)
+			- $400\to$ Invalid or missing data (Bad Request)
+			- $404\to$ The requested resource could not be found (Not Found)
+			- $500\to$ An unexpected error occurred on the server (Internal Server Error)
+		- Use JSON commonly for request/response bodies
+		- Keep Naming Consistent
+- How Client Sends Data:
+	- URL Parameters:
+		- Overview: Used to identify a specific resource Through endpoints
+		- `https://localhost:3000/students/5` 
+		- `app.get("/students/:id",(req,res)=> res.send(req.param.id););` 
+	- Query Params:
+		- Overview: Used for filtering, searching, sorting, or pagination
+		- `https://localhost/students?level=3&major=CS`
+		- `app.get('/api',(req,res)=>{res.status(200).send({level: req.param.level, major: req.param.major});});` 
+	- Request Body:
+		- Overview: Used to send the actual data when creating or updating resources
+		- `app.post("/students",(req,res)=> res.send(req.body));` 
+		- Problem: `const name = req.body.name; const age = req.body.age` 
+		- Solution: `const{name,age}=req.body;` 
+- Project Structure:
+	- Routes:
+		- Define the application's API endpoints (URLs)
+		- Map incoming HTTP requests to the appropriate controller
+		- Handle request methods such as GET, POST, PUT, and DELETE
+		- Should contain minimal logic and delegate work to controllers
+	- Controllers:
+		- Contain the application's business logic
+		- Receive requests from routes and process them
+		- Interact with models to retrieve or modify data
+		- Return the appropriate HTTP response to the client
+	- Model:
+		- Define the structure of the application's data
+		- Represent collections or tables in the database
+		- Handle database operations such as creating, reading, updating, and deleting data
+		- Enforce data validation and relationships
+	- Note:
+		- They all link together with `import` & `export` 
+		- Request flow: Client $\to$ Route $\to$ Controller $\to$ Model $\to$ Database $\to$ Controller $\to$ Response 
+- **
+**
+	- Create (POST), Read (GET), Update (PUT), Delete (DELETE)
+- **In-memory data store for development:**
+	- **Overview:** Instead of storing our data in a real database, we temporarily store it inside our application's memory (RAM)
+	- **Advantages:**
+		- Fast because no database connection is required
+		- Great for learning, prototyping, and testing
+		- Suitable only for small development projects
+	- **Disadvantages:**
+		- Data is lost when the server restarts
+		- Not suitable for production or large applications
+		- Data is only available while the server is running
+		- No database features like persistent storage, querying, or data relationships
+		- Uses the server's RAM, which is limited
+- **Validating Request:**
+	-  Ensures required fields are provided
+	- Verifies data types and formats
+	- Prevents invalid or malicious data from entering the application
+	- Improves application reliability and security
+- **Middleware:**
+	- **Functions:**
+		- Some inspect the request
+		- Some record what happened
+		- Some verify the user's identity
+		- Others decide whether the request is allowed to continue
+	- **Types:**
+		- **Built-in:**
+			- `app.use(express.json())`
+			- Reads JSON data sent in the request body
+			- Converts it into a JavaScript object
+			- Stores it in `req.body`
+			- Without it `req.body` will be undefined because Express doesn't parse JSON automatically
+		- **Custom:**
+			- **Overview:** Custom middleware is a middleware function created by the developer to perform application-specific tasks before a request reaches the route handler
+			- **Functions:**
+				- Log incoming requests
+				- Validate request data
+				- Check authentication or authorization

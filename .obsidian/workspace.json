@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding/Level 2.md",
+                "file": "College/Summer Training OSC/Session 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Level 2"
+              "title": "Session 3"
+            }
+          },
+          {
+            "id": "e1a8af636c891eeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/Summer Training OSC/Session 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Session 3"
             }
           },
           {
@@ -27,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Summer Training OSC/Session 2.md",
+                "file": "College/Summer Training OSC/Session 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 2"
+              "title": "Session 3"
             }
           }
         ],
@@ -197,18 +211,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52615a6af11ce18f",
+  "active": "e1a8af636c891eeb",
   "lastOpenFiles": [
+    "Internships/CIB.md",
+    "Coding/Level 2.md",
+    "College/Summer Training OSC/Session 3.md",
+    "College/Summer Training OSC/Session 2.md",
+    "Internships",
     "College/Semester 1/Physics 1.md",
     "College/Semester 1/Probability & Statistics.md",
     "College/Semester 1/Intro to CS.md",
     "College/Semester 1/Calculus 1.md",
-    "College/Summer Training OSC/Session 2.md",
     "College/Semester 2/Electronics.md",
     "College/Summer Training OSC/Session 1.md",
     "College/Summer Training OSC",
     "Coding/Problems/Number Theory/Practice.md",
-    "Coding/Level 2.md",
     "College/Semester 2/Calculus 2.md",
     "Coding/Notes.md",
     "Coding/Calculator Notes.md",
@@ -227,15 +244,12 @@
     "Coding/Problems/Number Theory.md",
     "Coding/Problems",
     "Coding/Git.md",
-    "Coding/Algorithms/KMP.md",
     "Attachments/Screenshot_4.png",
     "Attachments",
     "attachments",
     "New folder",
     "Screenshot_4.png",
     "College/Semester 2",
-    "Welcome.md",
-    "College/Semester 1",
-    "College/New folder"
+    "College/Semester 1"
   ]
 }
