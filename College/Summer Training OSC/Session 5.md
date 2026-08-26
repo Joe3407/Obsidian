@@ -1,0 +1,51 @@
+- **Authentication (Who Are You?):**
+	- **Problem:**
+		- HTTP is Stateless, meaning the server doesn't automatically remember previous HTTP requests 
+	- **Solution:**
+		- **Session:**
+			- **Steps:**
+				- After login, the server creates a session
+				- The session data is stored on the server (memory or database)
+				- A session ID is generated (SID) 
+				- The session ID is sent to the client as a cookie 
+				- Session ID is sent with every request 
+			- **Problem:** 
+				- This handles small traffic only, so what if we have a huge traffic 
+		- **Token:** 
+			- **Steps:**
+				- After login, the server creates token
+				- The token contains user data
+				- The token is sent to the client 
+				- The client stores it (in cookie or local storage)
+	- **Cookies:**
+		- **Overview:**
+			- Where token lives
+			- Small pieces of data stored in the user's browser 
+			- Size up to 4KB
+			- The browser automatically sends the cookie with every request 
+			- Can have information like HTTPOnly where it can't be read by JS, which prevents hacking using JS 
+	- **Local Storage:** 
+		- **Overview:**
+			- The frontend must manually send the token in the authorization header 
+			- Data remains until is manually removed 
+			- Less secure 
+	- **Json Web Token (JWT):**
+		- **Overview:** It's commonly used to carry information about an authenticated user, it consists of 3 parts 
+		- **Parts:**
+			- **Header:** token type & algorithm 
+			- **Payload:** user data (id, email)
+			- **Signature:** ensures token is not tampered 
+		- **Operations:**
+			- **Signing:** It's the process of creating JWT by combining the payload with a secret key, it ensures that the token can't be modified without being detected 
+			- **Verifying:** It's the process of checking whether the received JWT is valid, has not been modified, and has not expired 
+	- **Password Hashing:** It's the process of converting a plain-text password into a fixed-length encrypted-looking string that cannot be reversed, bcrypt is a hashing library 
+	- **Flow:**
+		- **Register:** User Enters Their Information $\to$ Server Validates the input $\to$ Password is Hashed $\to$ Data is Stored in DB
+		- **Login:** User Enters Their Information $\to$ Server Searches for the User $\to$ Compare Password $\to$ Generate JWT $\to$ Send Token Back to the Client 
+- **Authorization (What Are You Allowed To Do?):**
+	- **Types:** 
+		- **Attribute Based Access (ABAC):** He must finish steps 1,2,3,4 first before getting the access to step 5 
+		- **Role Based Access (RBAC):** He must be a specific role to access this function 
+	- **Status Code:**
+		- **401:** The user is not authenticated 
+		- **403:** The user is not authorized (Forbidden) 

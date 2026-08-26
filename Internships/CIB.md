@@ -53,3 +53,91 @@
 - Paypal, wise, payoneer
 
 ---
+## Door 3
+
+- **Financial Inclusion:** Providing access to financial services to the population, especially to the people at the bottom of the pyramid, Access-Usage-Quality 
+- **Financial Literacy:** It's  a process to improve the knowledge, skills and abilities of individuals, Knowledge-Behavior-Attitude 
+- **Mobile Payment:** Paying digitally, Mobility-Compatibility-Reachability-Convenience 
+
+- **Accountant:** It's a process for recording, organizing and analyzing financial information
+- **Accounting Equation:** $Assets = Liabilities + Owner\ Equity$ 
+- **Assets:** Any value the company has, and can be tangible or intangible
+- **Liability:** Debt that a company has, like giving the employees their salaries
+- **Owner Equity:** Money of Owner 
+
+--- 
+## Door 4
+
+- **Customer Service Excellence:** Understanding of customer's expectations, and going beyond in meeting their expectation 
+- **Stakeholder:** It's any person who may have interest in your business and how it run
+- **Dealing With Change:** Investigate, Integrate, Innovate, Initiate, Implement 
+
+---
+## Door 5
+
+---
+## Door 6
+
+- **Digital Banking:** Banking services that are accessed and performed electronically through digital platforms such as mobile apps and websites
+- **Blockchain:** A decentralized digital ledger that records transactions securely and transparently across a network of computers
+
+---
+## Door 7
+
+- **GenAI:**
+
+|GenAI can...|But GenAI can also...|
+|---|---|
+|Analyze sustainability data|Consume huge amounts of electricity|
+|Detect environmental risks|Consume large amounts of water|
+|Reduce factory energy usage|Displace some workers|
+|Improve renewable-energy management|Reinforce bias|
+|Make dangerous workplaces safer|Produce unreliable outputs|
+|Reduce waste|Be difficult to understand/explain|
+|Improve investment decisions|Create governance problems|
+
+- **Sustainable finance:** 
+	- **Overview:** It's making financial decisions while considering not only money/profit, but also the environmental and social impact of those decisions
+	- **ESG factors:** Environmental, Social, Governance
+
+---
+## Door 8
+
+- ESG (Environmental, Social, Governance): A framework for evaluating how responsibly a company operates regarding the environment, society, and corporate governance
+- CSR (Corporate Social Responsibility): A company’s voluntary efforts and actions to positively impact society and the environment beyond making profits
+
+---
+## Door 9 & 10
+
+- **Generative AI:** 
+	- **Overview:** AI which generates data based on user input 
+	- **Key Takeaways:**
+		- It transforms the interaction between human intelligence and artificial intelligence 
+		- It's much more than ChatGPT
+		- It's not ready to operate without human oversight 
+		- It can take text input, and give (text, image, audio, video/3D, code, task) output 
+- **Large Language Model (LLM):** A very powerful AI that learned patterns in language and can use them to understand and produce text
+- **AI and Analytics Life Cycle:**
+	- **Manage Data:** Access (access Data), Prepare (transform raw data), Govern (build trust in data) 
+	- **Develop Model:** Build (build models with multiple AI techniques), Optimize (embed models into operational systems and monitor them), Validate (ensures input & output align with business expectations)
+	- **Deploy Insights:** Automate (automate manual tasks for future engineering and model tuning), Monitor (monitor performance overtime), Retrain (ensure optimal performance)
+- **Data Supply Chain Steps:** Acquire, Store $\to$ Pre-process, Model Build $\to$ Model Deploy, Share/Sell, Dispose 
+- **Impact on Energy Consumption:** 
+	- **Hight Impact:** Generating a single image using powerful AI can consume energy equivalent to fully charging a smartphone 
+	- **Lower Impact:** Generating texts consumes only small fraction of a smartphone's charge 
+
+- Trustworthy AI Principals:
+	- Inclusivity: Ensures AI considers and involves different people and groups
+	- Transparency: Focuses on ensuring that AI systems are developed and used in a way that maintains explicability and clarifies how decisions are made
+	- Robustness: Ensures the AI is reliable, safe, and able to handle errors or unexpected situations
+	- Fairness: Focuses on avoiding unfair bias or discrimination
+- SAS Data Maker Process:
+	- Plan Phase: Focuses on defining goals and planning how synthetic data will be used
+	- Produce Phase: Focuses on configuring generation parameters and training models to create synthetic data
+	- Prepare Phase: Focuses on preparing and processing the original data before generation
+	- Evaluate Phase: Focuses on assessing the quality and usefulness of the generated synthetic data
+---
+## Door 11
+
+- CIA: Confidentiality, Integrity, Availability 
+- Firewall: It's a security system that monitors and controls network traffic 

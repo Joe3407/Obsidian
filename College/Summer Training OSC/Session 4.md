@@ -1,0 +1,41 @@
+- **Database:** It's a place where we store and organize data so we can easily manage and access it 
+- **SQL Database:** It stores data in tables made of rows and columns, It's also called relational databases because tables can be related to each other
+- **Schema:** Defines the structure of our data, before inserting data we decide what columns exist and what type of data they contain 
+
+- **SQL Problem:** 
+	- We may need to modify the database structure every time we want to add something new 
+	- **The Server may not be able to process the users:**
+		- **Vertical Scaling:** Increase or Decrease the capacity of server according to usage, but this solution is limited by expenses 
+		- **Horizontal Scaling:** Add more servers where each one is holding a group of tables, but this solution will get messy, as SQL Database tables can be related to each other
+- **NoSQL (Not Only SQL):** 
+	- **Overview:** It's designed for flexible data models and large-scale applications 
+	- **Types:** Documents $\to$ MongoDB, Key-Value $\to$ Redis, Column $\to$ Cassandra, Graph $\to$ Neo4j
+	- **Note:**
+		- NoSQL is not schema-less, yes it has flexibility in storing different data, but there must be at least some common data that must be in each user 
+- **Database:** The data itself
+- **DBMS (Data Base Management System):** 
+	- **Overview:** The software that manages the database,
+	- **SQL Examples:** PostgreSQL, MySQL, SQLite, Oracle 
+	- **NoSQL:** MongoDB, Redis, Cassandra, Neo4j
+- **MongoDB:**
+	- **Overview:** Uses JSON-like structure, widely used in modern applications
+	- **Structure:**
+		- **Overview:**
+			- **Collection (Table):** Group of related documents 
+			- **Document (Row):** Single record stored in JSON-like format
+			- **Field (Column)**
+		- Types:
+			- **Embedded:** Related data belongs closely to the parent, data isn't huge, need data together 
+			- **Reference:** Related data is large, data is shared by many documents, we want the related data stored separately
+		- **Note:**
+			- Every document has `_id`, This is MongoDB's primary key, and it's auto generated
+- **Mongoose:** 
+	- **Overview:**
+		- It's an ODM (Object Data Modeling), a layer between our Node.js application and MongoDB
+	- **Types:** 
+		- **Schema:** Defines the structure of the documents, including fields, data types and validation rules 
+		- **Model:** It's created from a schema and provides an interface to create, read, update, and delete documents in a MongoDB collection 
+- **ENV VARS:** Security, Separation of Concerns, Environment Specificity 
+- **dotenv:** It's a bridge between `.env` variables and Node.js by `process.env`, so it allows both, to both connect 
+- **JSDoc:** It's a lineup language, used to document JS code directly in the source files 
+- **Swagger:** It's used for describing RESTful APIs

@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Summer Training OSC/Session 3.md",
+                "file": "Coding/Level 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 3"
+              "title": "Level 2"
+            }
+          },
+          {
+            "id": "1a77f5225a4d7b1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/Summer Training OSC/Session 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Session 4"
             }
           },
           {
@@ -41,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Summer Training OSC/Session 3.md",
+                "file": "College/Summer Training OSC/Session 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 3"
+              "title": "Session 5"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -211,39 +225,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1a8af636c891eeb",
+  "active": "52615a6af11ce18f",
   "lastOpenFiles": [
-    "Internships/CIB.md",
-    "Coding/Level 2.md",
+    "College/Summer Training OSC/Session 4.md",
+    "College/Summer Training OSC/Session 5.md",
     "College/Summer Training OSC/Session 3.md",
     "College/Summer Training OSC/Session 2.md",
+    "College/Summer Training OSC/Session 1.md",
+    "Internships/CIB.md",
+    "Coding/Level 2.md",
+    "Coding/Problems/Number Theory/Sheet.md",
+    "Coding/Problems/Number Theory/Practice.md",
+    "Coding/Problems/Graph 1/Sheet.md",
+    "Coding/Problems/Graph 1/Practice.md",
+    "Coding/Notes.md",
+    "Coding/Algorithms/Taylor Series.md",
+    "Coding/Algorithms/KMP.md",
+    "Coding/Calculator Notes.md",
+    "Coding/Git.md",
     "Internships",
     "College/Semester 1/Physics 1.md",
     "College/Semester 1/Probability & Statistics.md",
     "College/Semester 1/Intro to CS.md",
     "College/Semester 1/Calculus 1.md",
     "College/Semester 2/Electronics.md",
-    "College/Summer Training OSC/Session 1.md",
     "College/Summer Training OSC",
-    "Coding/Problems/Number Theory/Practice.md",
     "College/Semester 2/Calculus 2.md",
-    "Coding/Notes.md",
-    "Coding/Calculator Notes.md",
     "College/Semester 2/Ethics.md",
     "College/Semester 2/Structured Programming.md",
     "College/Semester 2/Physics 2.md",
     "College/Semester 2/Business Administration.md",
-    "Coding/Problems/Graph 1/Sheet.md",
-    "Coding/Problems/Graph 1/Practice.md",
-    "Coding/Trees/Overview.md",
-    "Coding/Trees/Notes.md",
     "Coding/Problems/Graph 1",
-    "Coding/Algorithms/Taylor Series.md",
-    "Coding/Problems/Number Theory/Sheet.md",
     "Coding/Problems/Number Theory",
-    "Coding/Problems/Number Theory.md",
     "Coding/Problems",
-    "Coding/Git.md",
     "Attachments/Screenshot_4.png",
     "Attachments",
     "attachments",

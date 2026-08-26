@@ -1,9 +1,9 @@
-- API  (Application Programming Interface):
-	- Meaning: A contract that defines how two applications communicate through structured requests and responses
-	- Types: REST, GraphQL, SOAP, gRPC
-- Rest API (Representational State Transfer):
-	- Overview: It's a design style, not a library or a rule enforced by code, using HTTP
-	- Conventions:
+- **API  (Application Programming Interface):**
+	- **Meaning:** A contract that defines how two applications communicate through structured requests and responses
+	- **Types:** REST, GraphQL, SOAP, gRPC
+- **Rest API (Representational State Transfer):**
+	- **Overview:** It's a design style, not a library or a rule enforced by code, using HTTP
+	- **Conventions:**
 		- Use Resources:
 			- `/students` $\to$ A resource that represents a **collection** of students 
 			- `/students/5` $\to$ A resource that represents one specific student 
@@ -21,41 +21,40 @@
 			- $500\to$ An unexpected error occurred on the server (Internal Server Error)
 		- Use JSON commonly for request/response bodies
 		- Keep Naming Consistent
-- How Client Sends Data:
-	- URL Parameters:
-		- Overview: Used to identify a specific resource Through endpoints
+- **How Client Sends Data:**
+	- **URL Parameters:**
+		- **Overview:** Used to identify a specific resource Through endpoints
 		- `https://localhost:3000/students/5` 
 		- `app.get("/students/:id",(req,res)=> res.send(req.param.id););` 
-	- Query Params:
-		- Overview: Used for filtering, searching, sorting, or pagination
+	- **Query Params:**
+		- **Overview:** Used for filtering, searching, sorting, or pagination
 		- `https://localhost/students?level=3&major=CS`
 		- `app.get('/api',(req,res)=>{res.status(200).send({level: req.param.level, major: req.param.major});});` 
-	- Request Body:
-		- Overview: Used to send the actual data when creating or updating resources
+	- **Request Body:**
+		- **Overview:** Used to send the actual data when creating or updating resources
 		- `app.post("/students",(req,res)=> res.send(req.body));` 
-		- Problem: `const name = req.body.name; const age = req.body.age` 
-		- Solution: `const{name,age}=req.body;` 
-- Project Structure:
-	- Routes:
+		- **Problem:** `const name = req.body.name; const age = req.body.age` 
+		- **Solution:** `const{name,age}=req.body;` 
+- **Project Structure:**
+	- **Routes:**
 		- Define the application's API endpoints (URLs)
 		- Map incoming HTTP requests to the appropriate controller
 		- Handle request methods such as GET, POST, PUT, and DELETE
 		- Should contain minimal logic and delegate work to controllers
-	- Controllers:
+	- **Controllers:**
 		- Contain the application's business logic
 		- Receive requests from routes and process them
 		- Interact with models to retrieve or modify data
 		- Return the appropriate HTTP response to the client
-	- Model:
+	- **Model:**
 		- Define the structure of the application's data
 		- Represent collections or tables in the database
 		- Handle database operations such as creating, reading, updating, and deleting data
 		- Enforce data validation and relationships
-	- Note:
+	- **Note:**
 		- They all link together with `import` & `export` 
-		- Request flow: Client $\to$ Route $\to$ Controller $\to$ Model $\to$ Database $\to$ Controller $\to$ Response 
-- **
-**
+		- **Request flow:** Client $\to$ Route $\to$ Controller $\to$ Model $\to$ Database $\to$ Controller $\to$ Response 
+- **CRUD:** 
 	- Create (POST), Read (GET), Update (PUT), Delete (DELETE)
 - **In-memory data store for development:**
 	- **Overview:** Instead of storing our data in a real database, we temporarily store it inside our application's memory (RAM)
