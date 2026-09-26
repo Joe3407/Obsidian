@@ -75,6 +75,15 @@
 ---
 ## Door 5
 
+- **Risk:** A situation where outcomes are uncertain, but their probabilities can be estimated 
+- **Uncertainty:** A situation where outcomes are uncertain, and their probabilities can't be estimated 
+- **Types of Risks:**
+	- **Strategic Risk:** Threats to organization long term goals 
+	- **Financial Risk:** Uncertainties that affect companies financial performance 
+	- **Market Risk:** Risks arising from changes in market conditions 
+	- **Operational Risk:** Risks from failures in internal processes 
+	- **Political & Regularity Risks:** Risks arising from government actions
+
 ---
 ## Door 6
 
@@ -103,8 +112,8 @@
 ---
 ## Door 8
 
-- ESG (Environmental, Social, Governance): A framework for evaluating how responsibly a company operates regarding the environment, society, and corporate governance
-- CSR (Corporate Social Responsibility): A company’s voluntary efforts and actions to positively impact society and the environment beyond making profits
+- **ESG (Environmental, Social, Governance):** A framework for evaluating how responsibly a company operates regarding the environment, society, and corporate governance
+- **CSR (Corporate Social Responsibility):** A company’s voluntary efforts and actions to positively impact society and the environment beyond making profits
 
 ---
 ## Door 9 & 10
@@ -126,18 +135,30 @@
 	- **Hight Impact:** Generating a single image using powerful AI can consume energy equivalent to fully charging a smartphone 
 	- **Lower Impact:** Generating texts consumes only small fraction of a smartphone's charge 
 
-- Trustworthy AI Principals:
-	- Inclusivity: Ensures AI considers and involves different people and groups
-	- Transparency: Focuses on ensuring that AI systems are developed and used in a way that maintains explicability and clarifies how decisions are made
-	- Robustness: Ensures the AI is reliable, safe, and able to handle errors or unexpected situations
-	- Fairness: Focuses on avoiding unfair bias or discrimination
-- SAS Data Maker Process:
-	- Plan Phase: Focuses on defining goals and planning how synthetic data will be used
-	- Produce Phase: Focuses on configuring generation parameters and training models to create synthetic data
-	- Prepare Phase: Focuses on preparing and processing the original data before generation
-	- Evaluate Phase: Focuses on assessing the quality and usefulness of the generated synthetic data
+- **Trustworthy AI Principals:**
+	- **Inclusivity:** Ensures AI considers and involves different people and groups
+	- **Transparency:** Focuses on ensuring that AI systems are developed and used in a way that maintains explicability and clarifies how decisions are made
+	- **Robustness:** Ensures the AI is reliable, safe, and able to handle errors or unexpected situations
+	- **Fairness:** Focuses on avoiding unfair bias or discrimination
+- **SAS Data Maker Process:**
+	- **Plan Phase:** Focuses on defining goals and planning how synthetic data will be used
+	- **Produce Phase:** Focuses on configuring generation parameters and training models to create synthetic data
+	- **Prepare Phase:** Focuses on preparing and processing the original data before generation
+	- **Evaluate Phase:** Focuses on assessing the quality and usefulness of the generated synthetic data
+- **AI-Design:**
+	- **Human-centricity:** Designing AI systems with **human needs**
+	- **Scalability:** Concerns whether the system can handle increasing workloads or users
+	- **Security:** Concerns protecting data and systems from unauthorized access or attacks
+	- **Efficiency:** Focuses on completing tasks effectively with minimal resources; it doesn't address employee well-being
 ---
 ## Door 11
 
-- CIA: Confidentiality, Integrity, Availability 
-- Firewall: It's a security system that monitors and controls network traffic 
+- **CIA:** Confidentiality, Integrity, Availability 
+- **Firewall:** It's a security system that monitors and controls network traffic 
+
+---
+## Door 12 & 13
+
+- **ADKAR:** Awareness, Desire, Knowledge, Ability, Reinforcement 
+- **Attention is Biologically Limited:** The brain automatically loses attention after 7 minutes or so, that's why you as a speaker need to change your way of speaking often in a presentation
+- **Memory Curve:** Human brain remembers the first and last parts of a representations, so make sure to say the most important thing at the start and the end 

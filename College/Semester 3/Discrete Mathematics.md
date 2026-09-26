@@ -1,0 +1,54 @@
+## 📘Lec 1
+
+- **Proposition:** It's a declarative sentence (a sentence that declares a fact) that is either true or false, but not both
+- **Compound Propositions:** Simple propositions combined to form more complicated propositions
+- **Negation:** It's the opposite of a proposition ($¬p,\ ~p,\ \overline{p}$) $\to$ **It is not the case that p** 
+- **Conjunction (and):** $p∧q$ 
+- **Disjunction (or):** $p∨q$ 
+- **Condition Statement (Implication):** $p\to q$, if p, then q 
+- **Biconditional Statement:** $p↔q$, "if p then q, and conversely",    "p iff q",    “p if and only if ”
+- **Converse:** $(p → q) \to (q → p)$
+- **Contrapositive:** $(p → q) \to (¬q → ¬p)$
+- **Inverse:** $(p → q) \to (¬p → ¬q)$
+- **Precedence:** ¬, ∧, ∨, →, ↔  (higher $\to$ lower)
+- **Rules:**
+	- **Idempotent Laws:**
+		- $p ∧ p ≡ p$
+		- $p ∨ p ≡ p$
+	- **Commutative Laws:**
+		- $p ∧ q ≡ q ∧ p$
+		- $p ∨ q ≡ q ∨ p$
+		- $p \oplus q ≡ q \oplus p$
+		- $p ↔ q ≡ q ↔ p$
+	- **Associative Laws:**
+		- $(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)$
+		- $(p ∨ q) ∨ r ≡ p ∨ (q ∨ r)$
+		- $(p \oplus q) \oplus r ≡ p \oplus (q \oplus r)$ 
+		- $(p ↔ q) ↔ r ≡ p ↔ (q ↔ r)$
+	- **Absorption Laws:**
+		- $p ∧ (p ∨ q) ≡ p$
+		- $p ∨ (p ∧ q) ≡ p$
+	- **Distributive Laws:**
+		- $p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)$
+		- $p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)$
+	- **Involution Law:** 
+		- $¬(¬p) ≡ p$
+	- **De Morgan’s Laws:**
+		- $¬(p ∨ q) ≡ ¬p ∧ ¬q $
+		- $¬(p ∧ q) ≡ ¬p ∨ ¬q$
+	- **Identity Laws:**
+		- $p ∨ F ≡ p$
+		- $p ∧ T ≡ p$
+		- $p ∨ T ≡ T$
+		- $p ∧ F ≡ F$ 
+	- **Complement Laws:** 
+		- $p ∨ ¬p ≡ T$
+		- $p ∧ ¬p ≡ F$
+		- $¬F ≡ T$
+		- $¬T ≡ F$
+- **Exam Notes:**
+	- $p → q ≡ ¬p ∨ q$
+	- $p → q ≡ ¬q → ¬p$
+	- $p ↔ q ≡ (p → q) ∧ (q → p)$
+
+---
