@@ -1,0 +1,11 @@
+- **Data Science:** 
+	- **Meaning:** It analyzes large sets of data to provide new insights and information, e.g. Predicting videos users are most likely to watch to increase their time spent on YouTube
+	- **Types:** 
+		- **Structured Data:** Quantitative Data (Numerical and Measurable), Qualitative Data (Classification or Distinction)
+		- **Unstructured Data:** Doesn't fit into tables (Image, Video, Audio)
+	- **Data Collection Methods:** Open data (Public Datasets), Competition (Kaggle)
+	- **Workflow:**
+		- **Understanding Data:** Understand what data you have and what data is relevant
+		- **Preprocessing Data:** Clean and transform the relevant data into a form suitable for modeling
+		- **Model Building:** Select and train a suitable model using the prepared data so it can learn patterns and make predictions
+		- **Model Evaluation:** Test the trained model on unseen data and measure how well it achieves the objective

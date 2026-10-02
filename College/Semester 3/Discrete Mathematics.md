@@ -11,6 +11,9 @@
 - **Contrapositive:** $(p → q) \to (¬q → ¬p)$
 - **Inverse:** $(p → q) \to (¬p → ¬q)$
 - **Precedence:** ¬, ∧, ∨, →, ↔  (higher $\to$ lower)
+- **Tautology:** Compound proposition that is always true
+- **Contradiction:** Compound proposition that is always false
+- **Logically Equivalent:** Compound propositions that have the same truth values 
 - **Rules:**
 	- **Idempotent Laws:**
 		- $p ∧ p ≡ p$
