@@ -1,0 +1,11 @@
+# Obsidian UI and Workspace (prevents conflicts)
+.obsidian/workspace.json
+.obsidian/graph.json
+
+# Obsidian Trash Folder
+.trash/
+
+# Windows and Mac System Files
+Thumbs.db
+.DS_Store
+desktop.ini
