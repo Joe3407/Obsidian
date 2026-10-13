@@ -1,0 +1,1 @@
+- Data Science: It's the process of studying data using tools such as statistics and machine learning to discover patterns, gain useful insights, and use them to make predictions or solve problems
