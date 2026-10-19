@@ -1,0 +1,87 @@
+## 📘Lec 1
+
+- **Difference Between Prob. & Stat.:** 
+	- **Probability:** It studies how likely something is to happen or to be true, e.g. A class contains 20 students having 1 problematic student, it's likely that $\frac{1}{20}$ is a problematic student 
+	- **Statistics:** The science that deals with (collection, analysis) of numerical facts or data, e.g. From studying that 1 problematic student, we conclude that all the class is problematic 
+	- **Terminologies:** 
+		- **Population:** The entire group of individuals, objects or data 
+		- **Sample:** A specific subset chosen from the population to collect data from 
+		- **Parameter:** A numerical value that describes a characteristic of the entire population 
+		- **Statistic:** A numerical value that describes a characteristic of the entire sample to estimate the population parameter 
+- **Types of Stat:**
+	- **Descriptive:** Collecting, Organizing, Summarizing, Presenting 
+	- **Inferential:** Generalization from samples to population (testing on samples and observing what happens when doing it on population), Determine relations among variables, making predictions  
+- **Sampling (Collecting):**
+	- **Important:** Must collect UNBIASED data 
+	- **Types:**
+		- **Simple Random Sampling (SRS):**
+			- **Advantages:** Popular method, Simple method to get a sample
+			- **Disadvantages:** The generated sample can be related to a specific group 
+			- **Example:** $N=40,\ n=20$, so we could take any 20 students but at the risk that we take all students from the same group 
+		- **Systematic Sampling:** 
+			- Advantages: Generates the samples in a more systematic way than SRS, Guarantee that all groups are included in the chosen sample
+			- Example: $N=40,\ n=20\to k=\frac{N}{n}=2$, so we take every 2nd person 
+		- **Stratified Sampling:** 
+			- Data is divided into groups based on a specific criteria, and selecting equal number of samples from each group
+			- Group is called stratum (layer), Groups is called strata (layers)
+			- **Example:** $N=40,\ Male=20,\ Female=20,\ n=10$, so we take 5 from the males and 5 from the females
+		- **Cluster Sampling:** 
+			- Data is divided into groups based on a specific criteria, and selecting one whole group as your sample 
+			- **Example:** $N=40,\ Street1=20,\ Street2=20,\ n=20$, so we take our sample from Street1 
+- **Exploring Data (Organizing):**
+	- **Terminologies:**
+		- **Cases:** Students
+		- **Variables:** Grades, It must be mostly distinct, meaning we can't have country as the variable in the student example 
+		- **Observations:** The value of the grades 
+		- **Levels of Measurement:** Datatype in coding
+	- **Types of Variables:**
+		- **Qualitative (non-numerical):**
+			- **Ordinal:** Grades, GPA, Rank
+			- **Nominal:** Color, Nationality
+			- **Ratio:** Percentage 
+			- **Interval:** From..... To.....
+		- **Quantitative (numerical):**
+			- **Discrete:** No. of students or classes
+			- **Continuous:** Height, Weight, Temperature
+	- **Data Matrix:**
+		- It's an overview on Cases and Variables:
+			-                      Age
+			- Student1       10
+			- Student2       12
+			- Student3       15
+		- **Note:**
+			- Here Student is the case, age is the variable, 10, 12, and 15 are the observations 
+			- If there is a missing observation in one case then it's best to either find it or delete the whole case as data matrix tends to perfection
+- **Summarizing Data:**
+	- **Overview:** What if we have a huge data set, do we still use data matrix? Yes but using frequency table
+	- **Frequency Table:**
+		- Meaning: It's a matrix table that summarizes large data 
+		- Relative Frequency: If we have 100 having the same observation value from 1000, so we get the percentage which is $\frac{100}{1000} * 100$ 
+		- Cumulative Frequency: It's the sum of current relative frequency and the previous cumulative frequency 
+	- **Note:**
+		- Frequency Table is only used with qualitative data, and to use it with quantitative data we need to change it to qualitative by (Quantitative Data Recoding)
+	- **Quantitative Data Recoding:**
+		- We change the quantitative data into qualitative by grouping them in intervals so we say from 60 to 70 we have frequency x 
+- **Visualizing Data:**
+	- **Pie Chart:**
+		- Qualitative (Nominal)
+		- Small number of categories to show their relative frequencies, $Angle=\frac{f}{N}*360$ 
+	- **Bar Graph:** 
+		- Ordinal or Discrete
+		- Small number of categories to show the number of samples of each category 
+	- **Dot plot:**
+		- Quantitative
+		- Small number of samples 
+	- **Histogram:**
+		- Large Quantitative Samples
+		- Similar to bar graph but the bars must touch each other, Intervals must be equal 
+		- **Rules to Solve:**
+			- Get the range using $R=max-min$  
+			- Get the number of samples $N$ 
+			- Calculate the number of intervals $k=ceil(\sqrt{N})$ 
+			- Calculate the interval range $w=ceil(\frac{R}{k})$ 
+			- **Note:**
+				- $h=\frac{f}{w}$, the height of interval, and if the graph is between the height and $w$, then the area is the frequency $f$ 
+				- X-axis $\to$ observation, Y-axis $\to$ cases 
+
+---
