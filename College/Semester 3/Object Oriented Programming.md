@@ -35,5 +35,57 @@
 		- **Polymorphism:** The same concept/interface can be used with different forms or behaviors depending on the situation (Overloading, Overriding)
 
 ---
+## 📘Lec 2
 
+- **Java Syntax:**
+	- **Similar to C++:**
+		- `if-else`
+		- `switch`
+		- `for`, `while`, `do-while`
+		- `for each` 
+		- `break`, `continue` 
+	- **Difference:**
+		-                                                   C++                                Java
+		- Output:                                     `cout<<`                         `System.out.print()`, `System.out.println()`$\to$ leaves a line 
+		- Boolean:                                   `bool`                             `boolean`
+		- String:                                       `string`                         `String`
+		- String size:                                `s.size()`                     `s.length()`
+		- Array declaration:                     `int arr[4]`                 `int[] arr = new int[n]`, `int[] arr = new int[]{1,3,6}` 
+	- **Class:**
+		- **Semi colon:** In C++ there is a semi colon after the class, but in Java there is no semi colon 
+		- **Access modifiers:** In Java each attribute and method have its own access modifier before it, and the default is package-private, while C++ have access modifier sections, and the default of it is private
+	- **Note:**
+		- The `new` in Java is similar to that in C++, meaning it allocates dynamic memory in the heap, but the huge difference is that from Java properties it's **Garbage Collector**, which means unlike C++ it doesn't need the `delete[] arr` it deletes it automatically 
+		- **Float:** 
+			- C++: In C++ the decimal value is double by default, so when doing `float x = 1.5` it automatically allows the conversion of double to float, it might loose precision while doing so. Another way of writing it is `float x = 1.5f` or `float x = 1.5F`, the only difference is that there is no conversion step from double to float
+			- Java: In Java the decimal value is also double by default, but when doing `float x = 1.5`, this action is refused, because it doesn't allow to convert double to float to avoid loosing precision, so it must be written either `float x = 1.5f` or `float x = 1.5F` 
+- **Unified Modeling Language (UML):**
+	- **Meaning:** It's a standard visual language used to represent a software system's structure and relationships
+	- **Uses:**
+		- Helps plan and understand a system before implementing
+		- It's language independent meaning same diagram applies for different languages
+	- **Class diagram:** 
+		- Represented by a rectangle having 3 parts: Class name, Attributes, Methods 
+		- $+ \to$ public, $-\to$ private, # $\to$ protected
+	- **Relation:**
+		- **Inheritance:** It means that a class is a type of this parent, and is drawn by an arrow head line pointing to parent, e.g. Dog $\to$ Animal 
+		- **Association:** It means that a class is not the parent but shares some roles with it, and is drawn by a solid line, e.g. Student $-$ Course 
+- **Packages:**
+	- **Meaning:** A container for related classes used to organize code, improve readability and maintainability, and avoid naming conflicts between classes in different packages
+	- **Purpose:** Organizes classes and avoids naming conflicts
+	- **Naming:** Package names are usually written in lowercase and can contain multiple levels separated by dots
+	- **Declaration:** Use `package` at the beginning of the source file
+- **Access Modifiers:** 
+	- `private`: Accessible within the same class only
+	- `public`: Accessible from anywhere
+	- None (package-private): Accessible within the same package, it's used when we don't use any modifier 
+	- `protected`: Accessible within the same package and subclasses
+	- `static`: Belongs to the class, not to a specific object
+	- `final` (Attribute): Can be assigned only once, gives compilation error when trying to change the value 
+	- `final` (method): Cannot be overridden
+	- `final` (class): Cannot be inherited from
+	- `extends`: Inherits from another class
+	- `super`: Refers to the parent class; can call its constructor or methods
+	- `this`: Refers to the current object
 
+---

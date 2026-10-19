@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Semester 3/Logic Design.md",
+                "file": "College/Semester 3/Object Oriented Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logic Design"
+              "title": "Object Oriented Programming"
             }
           },
           {
@@ -213,13 +213,13 @@
   },
   "active": "e1a8af636c891eeb",
   "lastOpenFiles": [
-    "College/Semester 3/Object Oriented Programming.md",
-    "College/Semester 3/Logic Design.md",
-    "College/Semester 3/Discrete Mathematics.md",
     "College/Semester 3/Database Management System.md",
-    "Coding/Level 2.md",
+    "College/Semester 3/Logic Design.md",
     "Programs & Trainings/GCI World 2026 September/Session 1.md",
     "Programs & Trainings/GCI World 2026 September/Prerequisites.md",
+    "College/Semester 3/Object Oriented Programming.md",
+    "College/Semester 3/Discrete Mathematics.md",
+    "Coding/Level 2.md",
     "Internships/CIB.md",
     "Programs & Trainings/GCI World 2026 September",
     "Programs & Trainings",
