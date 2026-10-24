@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Semester 3/Statistical Analysis.md",
+                "file": "Coding/Level 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Statistical Analysis"
+              "title": "Level 2"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Semester 3/Logic Design.md",
+                "file": "College/Semester 3/Statistical Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logic Design"
+              "title": "Statistical Analysis"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "College/Semester 3/Logic Design.md",
+                "file": "College/Calculus 1/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Notes"
             }
           },
           {
@@ -173,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "College/Semester 3/Logic Design.md",
+                "file": "College/Semester 2/Calculus 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Calculus 2"
             }
           },
           {
@@ -211,16 +211,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1a8af636c891eeb",
+  "active": "1a77f5225a4d7b1f",
   "lastOpenFiles": [
     "College/Semester 3/Object Oriented Programming.md",
     "College/Semester 3/Statistical Analysis.md",
-    "College/Semester 3/Database Management System.md",
     "College/Semester 3/Logic Design.md",
     "Programs & Trainings/GCI World 2026 September/Session 1.md",
-    "Programs & Trainings/GCI World 2026 September/Prerequisites.md",
     "College/Semester 3/Discrete Mathematics.md",
-    "Coding/Level 2.md",
+    "College/Semester 3/Database Management System.md",
+    "Programs & Trainings/GCI World 2026 September/Prerequisites.md",
     "Internships/CIB.md",
     "Programs & Trainings/GCI World 2026 September",
     "Programs & Trainings",
@@ -238,6 +237,7 @@
     "College/Summer Training OSC/Session 3.md",
     "College/Summer Training OSC/Session 2.md",
     "College/Summer Training OSC/Session 1.md",
+    "Coding/Level 2.md",
     "Coding/Problems/Number Theory/Sheet.md",
     "Coding/Problems/Number Theory/Practice.md",
     "Coding/Problems/Graph 1/Sheet.md",

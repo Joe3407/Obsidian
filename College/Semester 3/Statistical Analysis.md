@@ -85,3 +85,107 @@
 				- X-axis $\to$ observation, Y-axis $\to$ cases 
 
 ---
+- **Descriptive Statistics:**
+	- **Central Tendency:** 
+		- **Overview:** Measures the center or a single number that best represents dataset 
+		- **Mean ($\bar{x}$):** 
+			- **Overview:** 
+				- It's the sum divide number
+				- It doesn't give you the middle value of the data, it gives you the point where the total weight is balaced on both sides, $\sum(x-\bar{x})=0$ 
+				- It works on Quantitative and Interval data 
+				- It doesn't work for Nominal data or Ordinal data
+				- It gets affected by extreme values (ouliers)
+			- **Ungrouped Data:**
+				- $\bar{x}=\frac{\sum x}{n}$
+			- **Grouped Data (Interval):**
+				- $\bar{x}=\frac{\sum(x.f)}{\sum{f}}$, where $x$ is the mid of an interval 
+		- **Median:**
+			- **Overview:**
+				- Data must be sorted then we get the middle number, or the mean of the two middle numbers
+				- It works on Raw data and Ordinal data
+				- It doesn't work for Grouped data or Nominal data 
+				- Doesn't get affected by extreme values (outliers)
+			- **Rules:**
+				- **n is Even:** $Median=\frac{T(\frac{n}{2})+T(\frac{n}{2}+1)}{2}$, where $T()$ is the value of the element in that position 
+				- **n is Odd:** $Median=T(\frac{n+1}{2})$ 
+		- **Mode:**
+			- **Overview:**
+				- Gives the most values that's repeated
+				- It works for Raw data and Qualitative data
+				- It doesn't work for Grouped data 
+		- **Notes:**
+			- Normal Distribution (Bell Curve) $\to$ Mean = Median = Mode
+			- Skewed to the right $\to$ Mean > Median > Mode
+			- Skewed to the left $\to$ Mode> Median > Mean 
+	- **Measure of Dispersion:** 
+		- **Overview:** Measures how the data is spread around the center 
+		- **Range:**
+			- $Range= Highest - Lowest$
+			- Range decrease $\to$ Data is close to each other 
+			- Range increase $\to$ Data is widely spread
+		- **Inter Quartile Range (IQR):**
+			- **Overview:**
+				-  Tells us how spread out the middle 50% of our data is (focus only on the center of the data)
+				- The outliers doesn't affect it 
+			- **Steps:**
+				- Get the median of the sample $Q_2$ 
+				- Get the median for the first half $Q_1$ 
+				- Get the median for the second half $Q_3$ 
+			- **Rules:**
+				- $IQR=Q_3-Q_1$ 
+				- $upper\ limit=Q_3+1.5IQR$
+				- $lower\ limit =Q_1-1.5IQR$ 
+			- **Box Plot:**
+				- **Normal Distribution:** $Q_2$ in the middle and both outliers are equal 
+				- **Positively Skewed:** $Q_2$ is shifted to the left and the left outlier is smaller than the right outlier 
+				- **Negatively Skewed:** $Q_2$ is shifted to the right and the rigth outlier is smaller than the left outlier 
+
+---
+## 📘Lec 3
+
+- **Measure of Dispersion:**
+	- **Standard Deviation ($s,\ \sigma$):**
+		- **Overview:**
+			- It's the average spread of the data around the mean
+			- It's always positive
+			- high $s\to$ more variation and spread, low $s\to$ data spread close to mean 
+			- It's affected by outliers 
+			- It works on grouped or ungrouped data, and it's better to use the rule with mean as it could be already a requirement 
+		- **Rules:**
+			- **Ungrouped:**
+				- $s=\sqrt{\frac{\sum(x-\bar{x})^2}{n-1}}$ 
+				- $s=\sqrt{\frac{\sum x^2-\frac{(\sum x)^2}{n}}{n-1}}$ 
+			- **Grouped:**
+				- $s=\sqrt{\frac{\sum f(x-\bar{x})^2}{N-1}}$ 
+				- $s=\sqrt{\frac{\sum fx^2-\frac{(\sum fx)^2}{N}}{N-1}}$ 
+				- $N=\sum f$ 
+	- **Variance ($var,\ s^2$):**
+		- **Overview:**
+			- More affected by outliers 
+		- **Rules:**
+			- $var=s^2$ 
+	- **Z-score:**
+		- **Overview:**
+			- Tells you how many standard deviations a data point is above or below mean
+			- + $\to$ after the mean, - $\to$ before the mean 
+			- It's used to compare between two datasets with different mean and standard deviation, e.g. two students in different years score different scores in different enviroments, the z-score give who's better relative to the other students of this year 
+		- **Rules:**
+			- **General:** 
+				- $z=\frac{x-\bar{x}}{s}$  
+			- **Empirical Rule:** 
+				- 68% of the data falls in ($\bar{x}-s,\ \bar{x}+s$) 
+				- 95% of the data falls in ($\bar{x}-2s,\ \bar{x}+2s$)
+				- 99.7% of the data falls in ($\bar{x}-3s,\ \bar{x}+3s$)
+				- **Note:** 
+					- Works only on Normal Distribution 
+					- Z-score is the coffiecent of $s$, meaning that in ($\bar{x}-s$) $z=-1$ 
+			- **Chebyshev's Rule:**
+				- $k=\frac{(x-\bar{x})}{s}$ 
+				- $Data\ Range= 1-\frac{1}{k^2}$, where $k>1$ 
+				- At least 75% of the data falls in $\bar{x} \pm 2s$ 
+				- At least 89% of the data falls in $\bar{x}\pm 3s$ 
+				- **Note:**
+					- It works on any Non-Normal Distribution graphs
+					- $k$ is not the z-score, it's only used to calculate the Data Range 
+
+---
