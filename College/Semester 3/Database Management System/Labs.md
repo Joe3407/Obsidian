@@ -13,7 +13,7 @@
 - **In:** Matches any values in a list, e.g. `IN (100, 101, 102)` 
 - **Like:** 
 	- `%` $\to$ zero or many chars, e.g. `LIKE 'o%'` which means any data containing o as first char
-	- `_` $\to$ exactly one char, e.g. `LIKE _o%` which means any data containing o as its second char 
+	- `_` $\to$ exactly one char, e.g. `LIKE '_o%'` which means any data containing o as its second char 
 - **Order by:** Always last clause, its `ASC` by default can be desending by `DESC`, e.g. `ORDER BY hire_date DESC` 
 
 ---
