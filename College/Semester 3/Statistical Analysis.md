@@ -189,3 +189,93 @@
 					- $k$ is not the z-score, it's only used to calculate the Data Range 
 
 ---
+## 📘Lec 4
+
+- **Correlation:**
+	- **Definition:** Measures the strength and direction of the linear relationship between two quantitative variables
+	- **Pearson's Correlation Coefficient ($r$):**
+		- $r=\frac{\sum Z_xZ_y}{n-1}$ 
+		- $Z_x=\frac{X-\bar X}{S_x}$ 
+		- $Z_y=\frac{Y-\bar Y}{S_y}$ 
+	- **Range:($-1\le r\le 1$):** 
+	    - **(r>0):** Positive relationship (both increase together)
+	    - **(r<0):** Negative relationship (one increases as the other decreases)
+	    - **(r=0):** No _linear_ relationship
+	- **Strength:**
+		- $(0,\ 0.3] \to$ weak 
+		- $(0.3,\ 0.6]\to$ moderate 
+		- $(0.6,\ 1] \to$ strong
+	- **Notes:** 
+		- **($r=+1$):** Perfect positive linear relationship
+		- **($r=-1$):** Perfect negative linear relationship
+		- **($r=0$):** Doesn't necessarily mean no relationship; the relationship may be nonlinear
+		- Always inspect the scatter plot before interpreting $r$, as the relationship may not be linear 
+		- Correlation doesn't imply causation, as two variables being related does not prove that one causes the other, meaning that ice cream sales increase, and swimming accidents increase, that doesn't mean that eating more ice cream makes swimming accidents increase 
+	- **Coefficient of Determination ($r^2$):**
+		- Measures the proportion of variation in (Y) explained by its linear relationship with (X), meaning how much percent does the scatter plot explain the variation 
+		- Range $\to$ ($0\le r^2\le1$)
+		- e.g. ($r^2=0.86$) means 86% of the variation in (Y) is explained by the linear model using (X)
+- **Simple Linear Regression:**
+	- **Definition:** Finds the best-fitting straight line to describe the relationship between (X) and (Y), and predict (Y) from a given (X)
+	- **Rules:**
+		- $\hat Y=b_0+b_1X$ 
+		- $b_1=r\frac{S_y}{S_x}$  
+		- $b_0=\bar Y-b_1\bar X$
+		- $\epsilon=|Y_i-\hat Y_i|$ 
+
+---
+## 📘Lec 5
+
+- **Remember:**
+	- **Rules:**
+		- $P(A-B)=P(A)-P(A\cap B)$ 
+		- $P(A\cap B)=P(A)P(B)$, if A and B are mutualy exclusive or disjoint  
+		- $P(A\cup B)=P(A)+P(B)$, if A and B are mutualy exclusive or disjoint 
+		- $P(A|B)=\frac{P(A\cap B)}{P(B)}$ 
+		-  $P(A \cap B \cap C | D)=P(A|D)P(B|D)P(C|D)$ 
+	- **Notes:**
+		- **Mutual Exclusive:** It means that two events can never happen together, e.g. rolling dice once so probability of getting 3 or 5 are both mutualy exclusive, $P(A \cap B)=0$ 
+		- **Independent:** It means that the probability of A to happen doesn't rely on B, e.g. rolling dice twice, the probability to get 3 on the first and 2 in the second roll
+		- **Dependent:** It means that the probability of A to happen relies on B to happen first, e.g. drawing two cards without returning the cards 
+- **Bayes Rule:**
+	- Making tree diagram having the event and the conditional probabilities 
+    - Calculating the intersection of each event 
+    - Taking the sum to know the probability of the defective itself
+	- Use Conditional Probability rule to get unknown
+- **Sum Rule:**
+	- When we have multiple Mutualy Exclusive events (A,B,C). And one event (X) having parts of each event then by getting the summation of the intersection parts gets X 
+	- $P(X)=P(X\cap A)+P(X\cap B)+P(X\cap C)$ 
+
+---
+## 📘Lec 6
+
+- **Probability Distribution:**
+	- $f(x)=P(X=x)$ 
+	- Random Variable: It's a variable that represents the outcome of a trail, e.g. A coin is tossed twice how much can a head appeare $\to$ $X={0,1,2}$ 
+	- The probability of a random variable is in this e.g. $P(X=0)=\frac{1}{4} ,\ P(X=1)=\frac{2}{4},\ P(X=2)=\frac{1}{4}$ 
+	- $\sum P(X) =1$,     $0\le P(X)\le 1$ 
+- **Remember:**
+	- **Mean ($\mu$):**
+		- Average value
+		- $\mu = \sum X.P(X)$ 
+	- **Variance ($\sigma^2$):**
+		- How does the data vary from the mean 
+		- $\sigma^2=\sum (X^2.P(X))-\mu^2$ 
+	- **Standard Deviation ($\sigma$):**
+		- $\sigma=\sqrt{\sum (X^2.P(X))-\mu^2}$ 
+- **Binomial Distribution:**
+	- **Overview:** When we have a probability that has two outcomes instead of using distribution probability, we could use some shortcuts with binomial rules 
+	- **Conditions:**
+		- Have repeated Bernoulli trails
+         - Fixed number of trails (n)
+         - Each trail has two outcomes (0, 1)
+         - Probability of success remains constant 
+         - Repeated trails are independent 
+     - **Rules:**
+	     -  $f(x)=p(X=x)=\binom{n}{x}p^xq^{n-x}$ 
+		 - $\binom{n}{x}=\frac{n!}{(n-x)!x!}$ 
+         - $\mu=np$ 
+         - $\sigma^2=npq$
+         - $\sigma=\sqrt{npq}$ 
+
+---
