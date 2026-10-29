@@ -61,4 +61,39 @@
 	- **Delete:** `DELETE FROM departments` `WHERE condtion` 
 
 ---
+## 📘Lab 4
 
+- **Data Definition Language (DDL):**
+	- **Create:** 
+		- **Data Types:**
+			- `VARCHAR2()` Variable length character data 
+			- `CHAR()` Fixed length character data 
+			- `NUMBER(x,y)` Variable length numeric data, x for the digits count & decimal count, y is decimal digit count 
+			- `DATE` Date and TIme 
+		- **E.g.:** 
+				- `CREATE TABLE dept` `(deptno NUMBER(2),` `dname VARCHAR2(50),` `loc VARCHAR(40));` 
+	- **Alter:**
+		- **Add:** `ALTER TABLE dept` `ADD (job_id VARCHAR2(9));`  
+		- **Modify:** `ALTER TABLE dept` `MODIFY (last_name VAECHAR2(20));` 
+		- **Drop:** `ALTER TABLE dept` `DROP COLUMN job_id;` 
+- **Table Constraint:**
+	- **Constraints Types:**
+		- `NOT NULL`, `UNIQUE`, `PRIMARY KEY`, `FOREIGN KEY`, `CHECK` 
+	- **Define Constraints:**
+		- **Column Constraint Level:** 
+			- `CREATE TABLE dept` `(dept_id NUMBER(3) PRIMARY KEY,` `last_name VARCHAR2(50) NOT NULL UNIQUE,` `salary NUMBER(2) CHECK(salary>0));` 
+		- **Table Constraint Level:**
+			- `CREATE TABLE dept` `(dept_id NUMBER(3),` `last_name VARCHAR(30),` `UNIQUE(last_name)` `PRIMARY KEY(dept_id));` 
+- **Sequence:**
+	- **E.g.:**
+		- `CREATE SEQUENCE seq_id` `START WITH 1` `INCREMENT BY 1` `MAXVALUE 200;`   
+	- **Nextval:** 
+		- `INSERT INTO dept VALUES(seq_id.nextval, 'Cairo',200);` 
+	- **Drop:**
+		- `DROP SEQUENCE seq_id;` 
+- **Transaction Control Language (TCL):**
+	- `COMMIT` Saves 
+	- `ROLLBACK` Goes back to the last commit 
+	- `SAVEPOINT A`  
+
+---
