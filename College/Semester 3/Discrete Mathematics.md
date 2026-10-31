@@ -55,3 +55,87 @@
 	- $p ↔ q ≡ (p → q) ∧ (q → p)$
 
 ---
+##  📘Lec 2
+
+- **Quantifiers:** 
+	- **Overview:** They are used to express the meaning of English words including all and some
+	- **Universal Quantigier ($\forall$):**
+		- For a statment to be true all values must be true 
+		- $\forall xP(x) \to P(x_1)∧P(x_2)∧P(x_3)\dots$ 
+		- $\forall x(P(x)∧Q(x))\to \forall xP(x)∧\forall xQ(x)$ 
+	- **Existential Quantifier ($\exists$):**
+		- For a statment to be true at least on value must be true 
+		- $\exists xP(x) \to P(x_1)∨P(x_2)∨P(x_3) \dots$ 
+	- **Negation:**
+		- $¬(\forall xP(x))\to \exists x¬P(x)$ 
+		- $¬(P(x_1)∧P(x_2)∧P(x_3))\to ¬P(x_1)∨¬P(x_2)∨¬P(x_3)$ 
+		- $¬(\exists xP(x))\to \forall x¬P(x)$ 
+		- $¬(P(x_1)∨P(x_2)∨P(x_3))\to ¬P(x_1)∧¬P(x_2)∧¬P(x_3)$ 
+	- **Domain:**
+		- $\forall(x>0)(x^2>0)$  same as $\forall x(x>0 \to x^2>0)$, in the first expresion we had the domain as $x>0$ so then the condition is always true, but when changing the domain to a more general domain like $x$ then we need to add a condition that states if $x>0$ then $x^2>0$ 
+	- **Uniqueness Quantifier ($\exists ! \cong \exists 1$):**
+		- There is exactly one 
+	- **Nested Quantifier:**
+		- $\forall x\forall y (x>0∧y>0\to x+y>0)$, this means that each x with each y if they are positive then there sum is always greater than zero
+	- **Note:**
+		- $\forall,\ \exists$ has higher precedence than $∨,\ ∧$ 
+
+---
+## 📘Lec 3
+
+- **Overview:**
+	- Premises (Statments), If we could apply some rule that garantees the correctness of premises then we could have a valid conclusion 
+- **Rules of Inference:**
+	- **Modus Ponens:** 
+		- $p\to q$, and $p$                         then $q$ is true
+	- **Modus Tollens:**
+		- $p\to q$, and $¬q$                      then $¬p$ is true                   e.g. If the alarm is active, the lights are on, The light is not on therefore the alarm is not active 
+	- **Hypothetical Syllogism:**
+		- $p\to q$, and $q\to r$                then $p\to r$                          e.g. If i study i understand, if i understand i pass 
+	- **Disjunctive Syllogism:**
+		- $p∨q$, and $¬q$                        then $p$ is true                     e.g. I'll study at home or library. I didn't study at home, then i studied at library 
+	- **Addition:**
+		- $p$                                              then $p∨q$ is true, or $p∨anything$ is true 
+	- **Simplification:**
+		- $p∧q$                                       then $p$ is true, and $q$ is true 
+	- **Conjunction:**
+		- $p$, $q$                                          then $p∧q$ is true 
+	- **Resolution:**
+		- $p∨q$, $¬p∨r$                         then $p∨r$ is true 
+	- **Universal Instantiation:**
+		- $\forall xP(x)$                                  then $P(c)$
+	- **Universal Generalization:**
+		- $P(c)$ for an arbitary $c$        then $\forall xP(x)$ 
+	- **Existential Instantiation:**
+		- $\exists xP(x)$                                  then P(c) for some element
+	- **Existential Generalization:**
+		- $P(c)$ some element $c$        then $\exists xP(x)$ 
+	
+---
+## 📘Lec 4
+
+- **Proof Techniques:**
+	- **Notes:**
+		- $n$ is even $\to$  $n=2k$ 
+		- $n$ is odd $\to$  $n=2k+1$ 
+		- $n$ is perfect square $\to$  $n=a^2$ 
+		- $n$ is rational $\to$    $n=\frac{p}{q}$  where $q \neq 0$ 
+	- **Trivial Proof:**
+		- $q$ is true             then $p\to q$ is true 
+	- **Vacuos Proof:**
+		- $p$ is false           then $p\to q$ is true 
+	- **Direct Proof:**
+		- The direct proof of a conditional statement $p\to q$ is constructed when we first assume that $p$ is true and try to drive the conclusion that $q$ must be true 
+	- **Indirect Proof:**
+		- **Contrapositive ($p\to q \cong ¬q\to ¬p$):**
+			- We use it when it's easier to assume that $¬q$ is true than to assume $p$ is true 
+		- **Contradiction:**
+			- We try and prove the negation of the statment, e.g. instead of proving $p\to q \cong ¬p∨q$, we prove $¬(p\to q) \cong p∧¬q$ 
+	- **Proofs of Equivalence:**
+		- To prove $p ↔ q$ we need to prove $p\to q ∧ q\to p$ 
+		- **Note:**
+			- If we have $p,\ q,\ r$ then we prove $p\to q,\ q\to r,\ r\to q$ then the rest is drived by Hypothetical Syllogism
+	- **Counterexample:**
+		- e.g. If $\forall x (x=a^2+b^2)$, so we try and get a case where it makes the statement false, here $x=3$ can't be represented by sum of two squares 
+
+---

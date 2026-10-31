@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "College/Semester 3/Database Management System/Labs.md",
+                "file": "College/Semester 3/Discrete Mathematics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Labs"
+              "title": "Discrete Mathematics"
             }
           }
         ],
@@ -199,9 +199,10 @@
   },
   "active": "1a77f5225a4d7b1f",
   "lastOpenFiles": [
-    "College/Semester 3/Statistical Analysis.md",
-    "College/Semester 3/Database Management System/Labs.md",
+    "College/Semester 3/Untitled.md",
     "College/Semester 3/Discrete Mathematics.md",
+    "College/Semester 3/Database Management System/Labs.md",
+    "College/Semester 3/Statistical Analysis.md",
     "Coding/Notes.md",
     "College/Semester 2/Structured Programming.md",
     "College/Semester 1/Intro to CS.md",
@@ -228,7 +229,6 @@
     "Linux.md",
     "Coding/OOP.md",
     "Coding/Git.md",
-    "College/Summer Training OSC/Session 5.md",
     "Internships",
     "College/Summer Training OSC",
     "Coding/Problems/Graph 1",
