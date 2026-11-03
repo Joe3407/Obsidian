@@ -139,3 +139,40 @@
 		- e.g. If $\forall x (x=a^2+b^2)$, so we try and get a case where it makes the statement false, here $x=3$ can't be represented by sum of two squares 
 
 ---
+## 📘Lec 5
+
+- Set: 
+	- Introduction:
+		- Overview: It's an unordered collection of elements 
+		- Typing Ways:
+			- $O=\{1,3,5,7,9\}$ 
+			- $O=\{x\in Z^+ \  | x\ is\ odd\ and\ x<10\}$,    -->  Set builder notation 
+		- Empty Set: It's represented by $\phi$ 
+		- Belong:
+			- Overview: It means that this element is inside the set
+			- E.g.:
+				- $3\in \{1,2,3\}$          
+				- $\{3\}\notin \{1,2,3\}$    
+				- $\{3\}\in \{1,2,\{3\}\}$ 
+		- Subset:
+			- Overview: It means what's inside the $\{\}$ 
+			- E.g.:
+				- $3\nsubseteq \{1,2,3\}$ 
+				- $\{3\}\subseteq \{1,2,3\}$ 
+				- $\{\{3\}\}\subseteq \{1,2,\{3\}\}$ 
+			- Quantifiers:
+				- $A\subseteq B$            $\forall x (x\in A \to x\in B)$ 
+				- $A\nsubseteq B$            $\forall x(x\in A \to x\in B) \exists x (x\in A ∧ x\notin B)$ 
+				- $A\subset B$            $\forall x (x\in A \to x\in B)∧\exists x (x\in B ∧ x\notin A)$ 
+				- $A=B$            $\forall x (x\in A \to x\in B)∧\forall x(x\in B \to x\in A)$              $\forall x (x\in A ↔ x\in B)$ 
+			- Notes:
+				- Sets are distinct, meaning $\{1,2,3\}\cong \{1,1,2,3,3,3,3,3\}$ 
+				- Every set $S$ has these two properties   $\phi \subseteq S$,    $S\subseteq S$ 
+			- Cardinality ($|S|$):  
+				- Overview: It's the number of distinct elements inside a set. The cardinality of $\phi$ is zero 
+	- Power Set:
+		- It's all the possible subsets that can be obtained including the set itself and the empty set ($\phi$)
+		- $n$ is the cardinality of $S$, then the power set has $2^n$ sets 
+	- Cartesian Product:
+		- It's the multiplication of the cardinality of all given sets
+		- $A=\{1,2\}$ $B=\{3,4\}$, then $Ax B=\{(1,3), (1,4), (2,3), (2,4)\}$ 
