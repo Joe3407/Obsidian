@@ -141,6 +141,7 @@
 ---
 ## 📘Lec 5
 
+- 
 - Set: 
 	- Introduction:
 		- Overview: It's an unordered collection of elements 
@@ -176,3 +177,16 @@
 	- Cartesian Product:
 		- It's the multiplication of the cardinality of all given sets
 		- $A=\{1,2\}$ $B=\{3,4\}$, then $Ax B=\{(1,3), (1,4), (2,3), (2,4)\}$ 
+	- Set Operations:
+		- Union:
+			- $A\cup B=\{x|x\in A ∨x\in B\}$ 
+			- $A\cup B=|A| +|B|-|A\cap B|$ 
+		- Intersect:
+			- $A\cap B=\{x|x\in A ∧x\in B\}$, Two sets are called disjoint if their intersection is an empty set
+		- Difference:
+			- $A-B=\{x|x\in A ∧x\notin B\}$ 
+			- $|A-B|=|A|-|A\cap B|$ 
+		- Complement:
+			- $\bar{A} =\{x|x\notin A\}$ 
+		- Note:
+			- $A-B=B-A$, is true only when $A=B$, as both $A-B$ and $B-A$ will be $\phi$ 
