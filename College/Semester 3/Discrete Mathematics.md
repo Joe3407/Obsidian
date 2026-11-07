@@ -24,7 +24,7 @@
 		- $p \oplus q ≡ q \oplus p$
 		- $p ↔ q ≡ q ↔ p$
 	- **Associative Laws:**
-		- $(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)$
+		- $(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)$ 
 		- $(p ∨ q) ∨ r ≡ p ∨ (q ∨ r)$
 		- $(p \oplus q) \oplus r ≡ p \oplus (q \oplus r)$ 
 		- $(p ↔ q) ↔ r ≡ p ↔ (q ↔ r)$
@@ -37,8 +37,8 @@
 	- **Involution Law:** 
 		- $¬(¬p) ≡ p$
 	- **De Morgan’s Laws:**
-		- $¬(p ∨ q) ≡ ¬p ∧ ¬q $
-		- $¬(p ∧ q) ≡ ¬p ∨ ¬q$
+		- $¬(p ∨ q) ≡ ¬p ∧ ¬q$ 
+		- $¬(p ∧ q) ≡ ¬p ∨ ¬q$ 
 	- **Identity Laws:**
 		- $p ∨ F ≡ p$
 		- $p ∧ T ≡ p$
@@ -101,9 +101,9 @@
 	- **Conjunction:**
 		- $p$, $q$                                          then $p∧q$ is true 
 	- **Resolution:**
-		- $p∨q$, $¬p∨r$                         then $p∨r$ is true 
+		- $p∨q$, $¬p∨r$                         then $q∨r$ is true 
 	- **Universal Instantiation:**
-		- $\forall xP(x)$                                  then $P(c)$
+		- $\forall xP(x)$                                  then $P(c)$ 
 	- **Universal Generalization:**
 		- $P(c)$ for an arbitary $c$        then $\forall xP(x)$ 
 	- **Existential Instantiation:**
@@ -141,52 +141,166 @@
 ---
 ## 📘Lec 5
 
-- 
-- Set: 
-	- Introduction:
-		- Overview: It's an unordered collection of elements 
-		- Typing Ways:
+- **Functions:**
+	- **Overview:**
+		- **Domain:** All of the preimages must have one image
+		- **Codomain:** All the possible images
+		- **Range:** The images of domain, we can change every $y$ with $x$ and vice versa
+	- **Note:**
+		- $(f_1+f_2)(x)=f_1(x)+f_2(x)$ 
+		- $(f_1f_2)(x)=f_1(x)f_2(x)$ 
+	- **One-to-One (Injections):**
+		- Assume that $f(a)=f(b)$ and it must result in $a=b$ 
+		- $\forall a\forall b(f(a)=f(b)\to a=b)$ 
+	- **Onto (surjection):**
+		- Codomain = Range
+		- $\forall b\exists a(f(a)=b)$ 
+	- **One-to-One Correspondence (bijection):**
+		- Must be both One-to-One and Onto
+	- **Inverse Function:**
+		- Must be One-to-One Correspondence 
+		- Change all $x$ with $y$, then get $y$ alone
+		- To prove that it's inverse, we could get the inverse and if $fof'(x)=x$ then it's inverse 
+	- **Composition:**
+		- Domain is calculated by the intersection of $fog$ and $g(x)$ 
+	- **Note:**
+		- Increasing: $\forall x\forall y(x<y\to f(x)\leq f(y))$ 
+		- Decreasing: $\forall x\forall y(x<y\to f(x)\geq f(y))$ 
+- **Set:** 
+	- **Introduction:**
+		- **Overview:** It's an unordered collection of elements 
+		- **Typing Ways:**
 			- $O=\{1,3,5,7,9\}$ 
 			- $O=\{x\in Z^+ \  | x\ is\ odd\ and\ x<10\}$,    -->  Set builder notation 
-		- Empty Set: It's represented by $\phi$ 
-		- Belong:
-			- Overview: It means that this element is inside the set
-			- E.g.:
+		- **Empty Set:** It's represented by $\phi$ 
+		- **Belong:**
+			- **Overview:** It means that this element is inside the set
+			- **E.g.:**
 				- $3\in \{1,2,3\}$          
 				- $\{3\}\notin \{1,2,3\}$    
 				- $\{3\}\in \{1,2,\{3\}\}$ 
-		- Subset:
-			- Overview: It means what's inside the $\{\}$ 
-			- E.g.:
+		- **Subset:**
+			- **Overview:** It means what's inside the $\{\}$ 
+			- **E.g.:**
 				- $3\nsubseteq \{1,2,3\}$ 
 				- $\{3\}\subseteq \{1,2,3\}$ 
 				- $\{\{3\}\}\subseteq \{1,2,\{3\}\}$ 
-			- Quantifiers:
+			- **Quantifiers:**
 				- $A\subseteq B$            $\forall x (x\in A \to x\in B)$ 
 				- $A\nsubseteq B$            $\forall x(x\in A \to x\in B) \exists x (x\in A ∧ x\notin B)$ 
 				- $A\subset B$            $\forall x (x\in A \to x\in B)∧\exists x (x\in B ∧ x\notin A)$ 
 				- $A=B$            $\forall x (x\in A \to x\in B)∧\forall x(x\in B \to x\in A)$              $\forall x (x\in A ↔ x\in B)$ 
-			- Notes:
+			- **Notes:**
 				- Sets are distinct, meaning $\{1,2,3\}\cong \{1,1,2,3,3,3,3,3\}$ 
 				- Every set $S$ has these two properties   $\phi \subseteq S$,    $S\subseteq S$ 
-			- Cardinality ($|S|$):  
+			- **Cardinality ($|S|$):**  
 				- Overview: It's the number of distinct elements inside a set. The cardinality of $\phi$ is zero 
-	- Power Set:
+	- **Power Set:**
 		- It's all the possible subsets that can be obtained including the set itself and the empty set ($\phi$)
 		- $n$ is the cardinality of $S$, then the power set has $2^n$ sets 
-	- Cartesian Product:
+	- **Cartesian Product:**
 		- It's the multiplication of the cardinality of all given sets
 		- $A=\{1,2\}$ $B=\{3,4\}$, then $Ax B=\{(1,3), (1,4), (2,3), (2,4)\}$ 
-	- Set Operations:
-		- Union:
+	- **Set Operations:**
+		- **Union:**
 			- $A\cup B=\{x|x\in A ∨x\in B\}$ 
 			- $A\cup B=|A| +|B|-|A\cap B|$ 
-		- Intersect:
+		- **Intersect:**
 			- $A\cap B=\{x|x\in A ∧x\in B\}$, Two sets are called disjoint if their intersection is an empty set
-		- Difference:
+		- **Difference:**
 			- $A-B=\{x|x\in A ∧x\notin B\}$ 
 			- $|A-B|=|A|-|A\cap B|$ 
-		- Complement:
+		- **Complement:**
 			- $\bar{A} =\{x|x\notin A\}$ 
-		- Note:
+		- **Note:**
 			- $A-B=B-A$, is true only when $A=B$, as both $A-B$ and $B-A$ will be $\phi$ 
+
+---
+## 📘Lec 6
+
+- **Mathematical Induction:**
+	- **Steps:**
+		- Verify $P(1)\to true$ 
+		- Assume $P(k)\to true$ 
+		- See if $P(k+1)\to true$, from $P(k)\to P(k+1)$ 
+		- Then $P(n)\to true$ for all $n\ge 1$ 
+	- **Note:**
+		- In inequality try and multiply or add to both sides as this doesn't change the inequality 
+
+---
+## 📘Lec 7
+
+- **Sequence ($\{a_n\}$):**
+	- **Overview:**
+		- It's an ordered list 
+		- $a_n$ denotes an element of the sequence 
+	- **Geometric Progression:**
+		- It's the sequence that gets multiplied each time by $r$ 
+		- $f(x)=ar^x$ 
+	- **Arithmetic progression:**
+		- It's the sequence that gets addition each time by $d$ 
+		- $f(x)=a+dx$ 
+	- **Remember:**
+		- **Convergent:** 
+			- It means that as we approch $\infty$ from the x-axis, we get closer to a finite number from the y-axis 
+			- E.g: $lim_{x\to \infty}\frac{1}{x}=0$, therefore we say that its convergent is $0$ 
+		- **Divergent:**
+			- It means that as we approach $\infty$ from the x-axis, we get further and further to $\infty$ from the y-axis 
+			- E.g: $lim_{x\to\infty}x=\infty$, so this means that its divergent 
+		- **Fraction:**
+			- If we have a fraction and wanted to see the limit to $\infty$ we then see the degree of numerator and denominator:
+				- $num<den\to 0$
+				- $num=den\to \frac{cof_{num}}{cof_{den}}$ 
+				- $num>den\to \pm \infty$ 
+		- **Geometric ($\{ar^n\}_{n=1}^\infty$):**
+			- $|r|<1\to$ convergent to $0$ 
+			- $r=1\to$ convergent to $a$ 
+			- $|r|>1\to$ divergence 
+			- $r=-1\to$ divergence, as it's alternatiing 
+		- **Squeeze Theorm:**
+			- We get the limit of both left and right function and if equal, then the middle is convergent to the same value 
+		- **L'hopital Rule:**
+			- Only if we have $\frac{\infty}{\infty}$, $\frac{0}{0}$, or $0.\infty$ 
+			- We differentiate the upper function and lower function and then get the limit 
+		- **Note:**
+			- $cos(n\pi)_{n=1}^\infty \cong (-1)^n$ as it keeps alternating between $-1$ & $1$, and it's divergent 
+			- $sin(n\pi)_{n=1}^\infty$ it's convergent as its value is always $0$ 
+- **Series:**
+	- **Overview:**
+		- The sum of the terms of a sequence
+	- **Double Summation:** take the outer variable as a constant for the inner series 
+	- **Rules:**
+		- $\sum_{k=0}^nar^k = \frac{ar^{n+1}-a}{r-1}$ 
+		- $\sum_{k=1}^nk=\frac{n(n+1)}{2}$ 
+		- $\sum_{k=1}^nk^2=\frac{n(n+1)(2n+1)}{6}$ 
+		- $\sum_{k=0}^{\infty}x^k=\frac{1}{1-x}$, we can differentiate it 
+		- $\sum_{k=0}^\infty kx^{k-1}=\frac{1}{(1-x)^2}$ 
+	- **Shifting:**
+		- $\sum_{k=0}^n(k+1)$    we could say that j=k+1, but then we must change the intervals, so lower limit is $j=1$, and upper is $j=n+1$ so $\sum_{j=1}^{n+1}j$ 
+	- **Types of Series:**
+		- **Geometric ($\sum_{n=1}^\infty ar^n$):**
+			- $|r|<1\to$ Convergent, The sum can be calculated by $\frac{a}{1-r}$ 
+			- $|r|\ge 1\to$ Divergent
+		- **P-Series ($\sum_{n=1}^\infty \frac{1}{n^p}$):**
+			- $p>1\to$ Convergent
+			- $p\le 1\to$ Divergent
+		- **Harmonic Series ($\sum_{n=1}^\infty \frac{1}{n} = \infty$):**
+			- It's Divergent 
+		- **Telescoping Series:**
+			- $\sum_{n=1}^\infty (a_n-a_{n+1})=a_1-lim_{n\to \infty}a_{n+1}$ 
+		- **Note:**
+			- $div+conv=div$
+			- $div+div=div$
+			- $conv+conv=conv$ 
+	- **Test for Convergence:**
+		- **Divergence Test:**
+			- **$\sum a_n\to lim_{n\to \infty} a_n$:**
+				- $\neq 0\to$ Divergent
+				- $=0\to$ Another test 
+		- **Integral Test:**
+			- It's used if Divergence test gives $0$ 
+			- **$\sum_{n=1}^\infty a_n \to \int_1^\infty a_n$:**
+				- Number $\to$ Convergent
+				- $\pm \infty\to$ Divergent 
+
+---

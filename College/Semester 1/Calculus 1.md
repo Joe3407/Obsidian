@@ -47,13 +47,13 @@
  - **Trigonometric:** $lim_{x \to 0}\frac{sin(ax)}{bx}=\frac{a}{b}$, (this rule came from squeeze theorem), $lim_{x\to a}\frac{1-cos(x)}{x}=0$, (it came from multiplying by the conjugate)
  - **Oscillating Behavior:** $lim_{x \to 0}sin(\frac{1}{x}) = DNE$, (as the limit approach 0 it starts to oscillate crazy between -1 & 1), but $lim_{x \to 0}xsin(\frac{1}{x}) = 0$, (from squeeze theorem)
  - **Unbounded Behavior:** $lim_{x \to 0}\frac{1}{x^2} = \infty$, (as we get closer to 0 y increases without bounds so its value is infinity)
- - Asymptotes:
-     - Vertical Asymptote:
+ - **Asymptotes:**
+     - **Vertical Asymptote:**
          - Factorize function
          - Cancel, (if we cancel then the canceled x is a hole)
-         - set denominator=0
-     - Horizontal Asymptote:
-         - take the limit of the function when x tends to +ve and -ve infinity, and all the values that come is a HA, except if the value is +ve or -ve infinity 
+         - Set denominator=0
+     - **Horizontal Asymptote:**
+         - Take the limit of the function when x tends to +ve and -ve infinity, and all the values that come is a HA, except if the value is +ve or -ve infinity 
  - **Note:** 
      - $f(x)=undefined$, but $lim_{x \to a}f(x)=DNE$
      - $\frac{1}{0^+}=\infty$, $\frac{1}{0^-}=-\infty$  
