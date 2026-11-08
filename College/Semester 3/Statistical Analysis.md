@@ -55,10 +55,10 @@
 - **Summarizing Data:**
 	- **Overview:** What if we have a huge data set, do we still use data matrix? Yes but using frequency table
 	- **Frequency Table:**
-		- Meaning: It's a matrix table that summarizes large data 
-		- Relative Frequency: If we have 100 having the same observation value from 1000, so we get the percentage which is $\frac{100}{1000} * 100$ 
-		- Cumulative Frequency: It's the sum of current relative frequency and the previous cumulative frequency 
-	- **Note:**
+		- **Meaning:** It's a matrix table that summarizes large data 
+		- **Relative Frequency:** If we have 100 having the same observation value from 1000, so we get the percentage which is $\frac{100}{1000} * 100$ 
+		- **Cumulative Frequency:** It's the sum of current relative frequency and the previous cumulative frequency 
+	- **Note:** 
 		- Frequency Table is only used with qualitative data, and to use it with quantitative data we need to change it to qualitative by (Quantitative Data Recoding)
 	- **Quantitative Data Recoding:**
 		- We change the quantitative data into qualitative by grouping them in intervals so we say from 60 to 70 we have frequency x 
@@ -94,7 +94,7 @@
 				- It doesn't give you the middle value of the data, it gives you the point where the total weight is balaced on both sides, $\sum(x-\bar{x})=0$ 
 				- It works on Quantitative and Interval data 
 				- It doesn't work for Nominal data or Ordinal data
-				- It gets affected by extreme values (ouliers)
+				- It gets affected by extreme values (outliers)
 			- **Ungrouped Data:**
 				- $\bar{x}=\frac{\sum x}{n}$
 			- **Grouped Data (Interval):**
@@ -131,11 +131,18 @@
 				- Get the median of the sample $Q_2$ 
 				- Get the median for the first half $Q_1$ 
 				- Get the median for the second half $Q_3$ 
+				- **Note:**
+					- When getting the medians if the set contains even number of elements then we get the first half and last half for $Q_1$ and $Q_3$ 
+					- When getting the medians if the set contains odd number then we exclude the middle number when getting $Q_1$ and $Q_3$ 
 			- **Rules:**
 				- $IQR=Q_3-Q_1$ 
 				- $upper\ limit=Q_3+1.5IQR$
 				- $lower\ limit =Q_1-1.5IQR$ 
 			- **Box Plot:**
+				- **Overview:**
+					- The min and max values are he values of the lowest and highest elements after removing outliers, they are called lower and upper whisker 
+					- The start of the box is $Q_1$
+					- The end of the box is $Q_3$ 
 				- **Normal Distribution:** $Q_2$ in the middle and both outliers are equal 
 				- **Positively Skewed:** $Q_2$ is shifted to the left and the left outlier is smaller than the right outlier 
 				- **Negatively Skewed:** $Q_2$ is shifted to the right and the rigth outlier is smaller than the left outlier 
@@ -184,6 +191,8 @@
 				- $Data\ Range= 1-\frac{1}{k^2}$, where $k>1$ 
 				- At least 75% of the data falls in $\bar{x} \pm 2s$ 
 				- At least 89% of the data falls in $\bar{x}\pm 3s$ 
+				- At least $93.75$% of the data falls in $\bar{x}\pm 4s$ 
+				- At least $\frac{1}{k^2}*100$% within $k$ standard deviations $\bar{x}\pm k$ 
 				- **Note:**
 					- It works on any Non-Normal Distribution graphs
 					- $k$ is not the z-score, it's only used to calculate the Data Range 
@@ -202,9 +211,11 @@
 	    - **(r<0):** Negative relationship (one increases as the other decreases)
 	    - **(r=0):** No _linear_ relationship
 	- **Strength:**
+		- $0\to$ No Correlation 
 		- $(0,\ 0.3] \to$ weak 
 		- $(0.3,\ 0.6]\to$ moderate 
-		- $(0.6,\ 1] \to$ strong
+		- $(0.6,\ 1) \to$ strong
+		- $1\to$ Perfect Correlation
 	- **Notes:** 
 		- **($r=+1$):** Perfect positive linear relationship
 		- **($r=-1$):** Perfect negative linear relationship
