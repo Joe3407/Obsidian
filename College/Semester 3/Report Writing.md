@@ -1,0 +1,125 @@
+## 📘Lec 1
+
+- **Soft Skills:**
+	- **Communication:** Listening, speaking, writing, presenting, and teamwork
+	- **Thinking Skills:** Problem-solving, critical thinking, creativity, and analytical thinking
+	- **Personal & Social Skills:** Time management, leadership, flexibility, motivation, empathy, and negotiation
+- **Technical Writing:**
+	- **Definition:** Communicating complex technical information clearly and simply to help readers achieve a specific goal
+	- **How to be a good Technical Writer:**
+		- **Clarity:** Use simple, clear language and avoid complicated words
+		- **Efficiency:** Deliver information directly without unnecessary details, Don't waste time
+		- **Reader-focused:** Understand your audience and organize information so it's easy to understand
+- **The Writing Process & Tips:**
+	- **Planning:** Identify your audience, purpose, organize ideas, and prepare materials
+	- **Drafting:** Write using simple, direct sentences
+	- **Revision:** Review and improve your writing through self-review, peer review, and expert feedback
+	- **Finalizing:** Remove unnecessary words, redundant expressions, and passive voice. Focus on clarity and readability
+- **Common Clutter:**
+	- **Dead-Weight Phrases:**                                               As it is well known, As it has been shown 
+	- **Empty Words:**                                                               Basic principles of, methodologic, important
+	- **Long Words:**                                                                  Muscular and Cardiorespiratory performance
+	- **Unnecessary Jargon and Acronyms:**                    Muscular and Cardiorespiratory performance, Gliomagenesis, miR
+	- **Repetitive Words or Phrases:**                                 Studies/Examples, Illustrate/Demonstrate
+	- **Adverbs:**                                                                          Very, Really, Quite, Basically, Generally
+- **Notes:**
+	- Long Words Alternatives: A majorty of $\to$ most,    A number of $\to$ many 
+	- Eliminate Negatives: Not honest $\to$ Dishonest 
+
+---
+## 📘Lec 2
+
+- **Email:**
+	- **Overview:**
+		- **One Thing Rule:** Each email should focus on one topic only
+		- **Practice Empathy:** Write from the reader's perspective. Respect their time, and be polite
+		- **Know Your Purpose:** Why you're sending the email, what you need from the recipient, and whether the email is necessary
+	- **Structure:**
+		- **From/ To:** Use professional email addresses containing your real name, Don't put your nickname 
+		- **Subject:** Brief & Descriptive, always include a subject to avoid it being flagged to spam, e.g. `Technology Expenses Report Q2 2007` 
+		- **Body:**
+			- **Salutation:** 
+				- Always start with a proper greeting, Spell the recipient's name correctly
+				- E.g. `To Whom It May Concern`, `Dear Dr. Smith,` 
+			- **Content:**
+				- **Introduction & Purpose:** Briefly intorduce yourself stating the purpose 
+				- **Tone:** Use a formal tone when contacting, Use expressions such as `Please`, `Kindly`, and `Thank you`, Don't use all CAPS,it implies shouting
+			- **Closing & Signature:** 
+				- End politely and include your professional information, e.g. `Best Regards,` 
+	- **Attachments:**
+	    - Keep antivirus and security scanners updated, and never open attachments from unknown senders
+	    - Keep attachments small; compress large files
+	    - Never send an attachment alone without body text; always explain what the attachment contains and try using descriptive file names 
+	- **CC (Carbon Copy):** All recipients can see each other's email addresses, Place people with higher or equal seniority (FYI$\to$ For Your Information)
+	- **BCC (Blind Carbon Copy):** Hides recipients' email addresses from each other
+	- **RR (Read Receipt):** Sends a notification when the recipient opens your email
+	- **Replying:** Reply to known senders within 48 hours, even if only to acknowledge receiving the email
+	- **Forwarding Guidelines:**
+	    - Never forward chain emails or unverified information; remove unnecessary old headers and comments
+		- For mass forwarding, use BCC to protect recipients' privacy
+	- **Instant Messaging (IM) & Texting:**
+	    - Use IM for brief messages; use email or phone for formal or complex discussions
+	    - Ask if the recipient is available and maintain professional language
+
+---
+## 📘Lec 3
+
+- **CV (Curriculum Vitae):**
+	- **Overview:** 
+		- A personal document that summarizes your education, experience, skills, and achievements to sell yourself to employers and obtain an interview
+		- **CV Formats:** Traditional/Professional (formal jobs) and Creative (media, advertising, and creative fields)
+	- **CV Sections:** 
+	    - **Header:**
+	        - Includes full name, present and permanent address, professional email, and phone number
+	    - **Objective Statement:** 
+	        - Clearly states the specific position or career you are applying for
+	        - Avoid vague objectives; mention the targeted position and relevant skills
+	    - **Education:** 
+	        - Includes institution name, degree, major, and graduation/expected graduation date
+			- List qualifications in reverse chronological order (most recent first), meaning Phd $\to$ Msc $\to$ Bachelor $\to$ Thanawya Amma
+	    - **Experience:** 
+	        - Includes jobs, volunteering, internships, workshops, and other relevant practical experience
+	        - Mention job title, company, location, and employment dates.
+	        - Use short bullet points starting with action verbs, quantify achievements, and use present tense for current jobs and past tense for previous jobs
+	    - **Honors, Awards & Affiliations:**
+	        - Include awards, professional memberships, and activities, ordered by date or relevance
+	        - Highlight leadership roles and write full organization names instead of abbreviations
+	    - **Additional Sections:**
+	        - **Skills:** Technical/IT skills and languages
+	        - **Activities & Interests:** Relevant extracurricular activities and interests (Student Activities)
+	        - **References:** Contact details or "Available on request." 
+
+---
+## 📘Lec 4
+
+- **Reports:**
+	- **The 6 Cs of Technical Writing:** Completeness, Correctness, Credibility, Clarity, Conciseness, and Consideration
+	- **Technical Report Structure:**
+		- **Front Matter:**
+			- **Title Page:** Contains tilte, who is the report prepared by/for 
+			- **Abstract (Present Tense):** 
+			    - A brief summary of the entire report, located in the Front Matter, to attract readers and give them an overview
+			    - Includes the topic, purpose, objectives, methods, scope, and key findings
+			    - Avoid citations, acronyms, figures, tables, first-person pronouns, and future tense
+			- **Table of Contents:** Shows covered topics and the page numbers where Front Matter is numbered with roman (i,ii,..), while rest with Arabic numbers (1,2,..)
+			- **List of Figures and Tables:** It's used to find the illustrated diagrams and tables easily 
+		- **Report Body:**
+		    - **Introduction:**
+			    - The first section of the Report Body; answers: "What is the problem?"
+			    - Introduces the topic and its importance, and summarizes previous research
+			    - Identifies the problem or knowledge gap and explains the purpose of the work
+			    - Provides a roadmap of the report and its organization
+		    - **Background:** Reviews previous research and provides the information needed to understand the topic
+		    - **Results:** Presents the findings of the work clearly, using text, tables, or figures when needed
+		    -  **Conclusion (Present Perfect Tense):**
+			    - The final section of the Report Body; answers: "What was done?"
+			    - Summarizes the objectives, methods, and major findings
+			    - Highlights the importance and implications of the work
+			    - May include recommendations and future research, but NEVER introduce new information
+	- **Notes:**
+	    - **Information Grouping:** Use synthesis grids, mind maps, and concept maps to organize information from different sources
+	    - **Paragraph Writing:** One main idea (**Unity**), connected sentences (**Coherence**), and topic, development, and concluding sentences
+	    - **Visual Aids:** Tables for data/comparisons; figures for trends/relationships. Number separately, cite in text, and title tables above and figures below
+	    - **Document Formatting & Back Matter:** Use consistent professional fonts, bold headings, and white space. Back Matter includes References and Appendices
+
+---
