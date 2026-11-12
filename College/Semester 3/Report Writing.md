@@ -123,3 +123,6 @@
 	    - **Document Formatting & Back Matter:** Use consistent professional fonts, bold headings, and white space. Back Matter includes References and Appendices
 
 ---
+## 📘Lec 5
+
+- 

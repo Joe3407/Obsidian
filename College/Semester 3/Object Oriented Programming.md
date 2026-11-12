@@ -14,7 +14,7 @@
 			- JDK = JRE + Development Tools
 			- JRE = JVM + Java Libraries + Other Runtime Components
 	- **Properties:**
-		- **Object-oriented:** It supports concepts such as classes, objects, inheritance, polymorphism, encapsulation, and abstraction
+		- **Object-Oriented:** It supports concepts such as classes, objects, inheritance, polymorphism, encapsulation, and abstraction
 		- **Interpreted:** Java is both compiled and interpreted, It's compiled when it compiles the `.java` file to `.class` file, and It's interpreted when JVM executes the bytecode 
 		- **Portable:** Java bytecode is platform-independent and can run on different operating systems through platform-specific JVM implementations
 		- **Secure & Robust:** It restricts direct memory manipulation unlike C/C++, which reduces certain memory-related errors and makes programs safer and more robust
@@ -49,8 +49,8 @@
 		- Output:                                     `cout<<`                         `System.out.print()`, `System.out.println()`$\to$ leaves a line 
 		- Boolean:                                   `bool`                             `boolean`
 		- String:                                       `string`                         `String`
-		- String size:                                `s.size()`                     `s.length()`
-		- Array declaration:                     `int arr[4]`                 `int[] arr = new int[n]`, `int[] arr = new int[]{1,3,6}` 
+		- String size:                               `s.size()`                    `s.length()`
+		- Array declaration:                 `int arr[4]`                `int[] arr = new int[n]`, `int[] arr = new int[]{1,3,6}` 
 	- **Class:**
 		- **Semi colon:** In C++ there is a semi colon after the class, but in Java there is no semi colon 
 		- **Access modifiers:** In Java each attribute and method have its own access modifier before it, and the default is package-private, while C++ have access modifier sections, and the default of it is private
@@ -87,5 +87,61 @@
 	- `extends`: Inherits from another class
 	- `super`: Refers to the parent class; can call its constructor or methods
 	- `this`: Refers to the current object
+
+---
+## 📘Lec 3
+
+
+---
+## 📘Lec 4
+
+- **Class Reusability:**
+	- **Composition:** Making an object of a class inside another class 
+	- **Inheritance:** Extend a class with another class 
+- **Inheritance:**
+	- **Subclass Constructor:**
+		- It calls the parent constructor by default if the parent has a default constructor, but if the parent has parameterized constructor then compile error occurs 
+		- We can call the constructor of the parent using `super()`, at the start of the child constructor
+	- **Note:**
+		- It can only have one parent, meaning it can't extend from multiple parents 
+		- `final` prevents class inheritance, e.g. `public final class person{}` 
+- **Method Overriding:**
+	- **Overview:**
+		- Access modifier for an overriding method can be same or more, meaning if parent is `protected`, then the child can have `protected` or `public` 
+		- `final` doesn't allow overriding, e.g. `public final void display(){}` 
+		- Both the child and parent class must have same signature, meaning they must have same name, parameters and same return type 
+	- **Overloading Vs Overriding:**
+		- Overloading is between methods in the same class, while Overriding is between methods in parent and child class 
+		- Overloading method has same name but different parameter number & type also different return type, while overloading only differs in the body 
+- **Abstract:**
+	- **Class:**
+		- **Overview:**
+			- Abstract class provides basic implementation that has to be extended to make it complete 
+			- Must be Inherited 
+			- Can never be instantiated, as it doesn't have any concrete functionality by itself 
+		- **E.g:**
+			- `public abstract class person{}` 
+	- **Method:**
+		- **Overview:**
+			- It's declared in parent but has no body, needs extend to be complete 
+			- If a class has atleast one abstract method, then the class must be abstract 
+		- **E.g:**
+			- `public abstract void clear();` 
+	- **Upcasting:**
+		- **Overview:**
+			- Since we can't create an object of an abstract class `Vehical v = new Vehical();` is an error so we can use upcasting
+			- `Vehical v = new Truck();` this works as `Truck` is part of `Vehical`, but the other way around gives error 
+		- **Types:**
+			- **Reference type:** Determines which methods and attributes you can access, meaning the ones inside parent class,  `Vehical` is reference type 
+			- **Actual object type:** Determines which overridden method implementation executes at runtime, and can't access normal methods, `Truck` is actual object type 
+- **Polymorphism:**
+	- It contains the Overriding & Overloading, Upcasting & Downcasting, which is explained above
+	- **Downcasting:**
+		- We can workaround and do it by casting, e.g. `Person p = new Student();`, then `Student s;`, we can cast it and say `s=(Student)p;` 
+		- This works but could lead to alot of runtime errors such as runtime exceptions, which occures when `p` is't upcasted and has a `Person` type
+	- **`instanceof` Operator:**
+		- A child class is `instanceof` child & parent 
+		- A parent is only `instanceof` parent 
+		- An upcasted class parent is `instanceof` parent & child
 
 ---
