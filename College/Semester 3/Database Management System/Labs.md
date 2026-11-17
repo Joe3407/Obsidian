@@ -2,10 +2,10 @@
 
 - **Null:** 
 	- It's never tested with `=NULL`, but it's tested with `IS NULL` 
-	- Null mulitply with anything gives null
+	- Null multiply with anything gives null
 - **Alias:**
 	- Using `AS` is optional
-	- Witout Double Quotes, it can't contain special characters, and the name will be Lower case by default 
+	- Without Double Quotes, it can't contain special characters, and the name will be Lower case by default 
 	- Use Double Quotes for special characters, and customized case 
 	- Double Quotes is only used for alias 
 - **Distinct:** Removes duplicate rows, and is written after select, e.g. `SELET DISTINCT last_name` 
@@ -40,8 +40,8 @@
 - **Sub-Queries:**
 	- **Single Row:**
 		- Operator is `=`, `<>`, `>`, `<`, `>=`, `<=` 
-		- If we want the salaries of all employees which have greater than employeeA but all we know is the id of employeeA
-		- So we can do a sub-query where we get the salary of employeeA using his id, then comparing the result with the first query 
+		- If we want the salaries of all employees which have greater than `employeeA` but all we know is the id of `employeeA`
+		- So we can do a sub-query where we get the salary of `employeeA` using his id, then comparing the result with the first query 
 	- **Multiple Row:**
 		- Operator is `IN` 
 		- Used when the return value of the sub-query is multiple rows 
@@ -69,9 +69,9 @@
 			- `VARCHAR2()` Variable length character data 
 			- `CHAR()` Fixed length character data 
 			- `NUMBER(x,y)` Variable length numeric data, x for the digits count & decimal count, y is decimal digit count 
-			- `DATE` Date and TIme 
+			- `DATE` Date and Time 
 		- **E.g.:** 
-				- `CREATE TABLE dept` `(deptno NUMBER(2),` `dname VARCHAR2(50),` `loc VARCHAR(40));` 
+			- `CREATE TABLE dept` `(deptno NUMBER(2),` `dname VARCHAR2(50),` `loc VARCHAR(40));` 
 	- **Alter:**
 		- **Add:** `ALTER TABLE dept` `ADD (job_id VARCHAR2(9));`  
 		- **Modify:** `ALTER TABLE dept` `MODIFY (last_name VAECHAR2(20));` 

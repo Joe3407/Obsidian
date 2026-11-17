@@ -23,7 +23,7 @@
 	- **Repetitive Words or Phrases:**                                 Studies/Examples, Illustrate/Demonstrate
 	- **Adverbs:**                                                                          Very, Really, Quite, Basically, Generally
 - **Notes:**
-	- Long Words Alternatives: A majorty of $\to$ most,    A number of $\to$ many 
+	- Long Words Alternatives: A majority of $\to$ most,    A number of $\to$ many 
 	- Eliminate Negatives: Not honest $\to$ Dishonest 
 
 ---
@@ -42,8 +42,8 @@
 				- Always start with a proper greeting, Spell the recipient's name correctly
 				- E.g. `To Whom It May Concern`, `Dear Dr. Smith,` 
 			- **Content:**
-				- **Introduction & Purpose:** Briefly intorduce yourself stating the purpose 
-				- **Tone:** Use a formal tone when contacting, Use expressions such as `Please`, `Kindly`, and `Thank you`, Don't use all CAPS,it implies shouting
+				- **Introduction & Purpose:** Briefly introduce yourself stating the purpose 
+				- **Tone:** Use a formal tone when contacting, Use expressions such as `Please`, `Kindly`, and `Thank you`, Don't use all CAPS, it implies shouting
 			- **Closing & Signature:** 
 				- End politely and include your professional information, e.g. `Best Regards,` 
 	- **Attachments:**
