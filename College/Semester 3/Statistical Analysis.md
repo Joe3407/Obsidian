@@ -55,10 +55,10 @@
 - **Summarizing Data:**
 	- **Overview:** What if we have a huge data set, do we still use data matrix? Yes but using frequency table
 	- **Frequency Table:**
-		- Meaning: It's a matrix table that summarizes large data 
-		- Relative Frequency: If we have 100 having the same observation value from 1000, so we get the percentage which is $\frac{100}{1000} * 100$ 
-		- Cumulative Frequency: It's the sum of current relative frequency and the previous cumulative frequency 
-	- **Note:**
+		- **Meaning:** It's a matrix table that summarizes large data 
+		- **Relative Frequency:** If we have 100 having the same observation value from 1000, so we get the percentage which is $\frac{100}{1000} * 100$ 
+		- **Cumulative Frequency:** It's the sum of current relative frequency and the previous cumulative frequency 
+	- **Note:** 
 		- Frequency Table is only used with qualitative data, and to use it with quantitative data we need to change it to qualitative by (Quantitative Data Recoding)
 	- **Quantitative Data Recoding:**
 		- We change the quantitative data into qualitative by grouping them in intervals so we say from 60 to 70 we have frequency x 
@@ -77,28 +77,232 @@
 		- Similar to bar graph but the bars must touch each other, Intervals must be equal 
 
 ---
-## 📘Lec 2
+## 📘Lec 2 
 
-- Histogram:
-	- Overview: The histogram is originally a dot graph but with large data it becomes complicated so we do the frequency of a specific range 
-	- Raw Ungrouped Data:
-		- Steps:
+- **Histogram:**
+	- **Overview:** The histogram is originally a dot graph but with large data it becomes complicated so we do the frequency of a specific range 
+	- **Raw Ungrouped Data:**
+		- **Steps:**
 			- Get the range using $R=max-min$ 
 			- Get the number of samples $n$ 
 			- Calculate the number of intervals $no.\ of\ intervals=ceil(\sqrt{n})$ 
 			- Calculate the interval range $w=ceil(\frac{R}{no.\ of\ interval})$ 
 			- Calculate the mid point for every interval to know the shape of the distribution  
-	- Grouped Data:
-		- Interval Range is Equal: Same steps as Raw Ungrouped Data 
-		- Steps:
+	- **Grouped Data:**
+		- **Interval Range is Equal:** Same steps as Raw Ungrouped Data 
+		- **Steps:**
 			- $width=upper-lower$ 
 			- $Height=\frac{frequency}{width}$ 
-		- Note:
+		- **Note:**
 			- We use the height as we always want the area to be the frequency, so when the width was equal the frequency was the height the the width was constant, but since the width isn't equal then if we try to take the area the ratios won't be correct, so we use the height to guarantee that the area will still be the correct frequency 
-	- Graph Shapes:
+	- **Graph Shapes:**
 		- Bell Shaped: 1 mode, Unimodal 
 		- Positive Skewing: Skewed to the right, longer right tail 
 		- Negative Skewing: Skewed to the left, longer left tail 
 		- Bimodal: 2 modes
-- Descriptive Statistics:
-	- Central Tendency: 
+- **Descriptive Statistics:**
+	- **Central Tendency:** 
+		- **Overview:** Measures the center or a single number that best represents dataset 
+		- **Mean ($\bar{x}$):** 
+			- **Overview:** 
+				- It's the sum divide number
+				- It doesn't give you the middle value of the data, it gives you the point where the total weight is balaced on both sides, $\sum(x-\bar{x})=0$ 
+				- It works on Quantitative and Interval data 
+				- It doesn't work for Nominal data or Ordinal data
+				- It gets affected by extreme values (outliers)
+			- **Ungrouped Data:**
+				- $\bar{x}=\frac{\sum x}{n}$
+			- **Grouped Data (Interval):**
+				- $\bar{x}=\frac{\sum(x.f)}{\sum{f}}$, where $x$ is the mid of an interval 
+		- **Median:**
+			- **Overview:**
+				- Data must be sorted then we get the middle number, or the mean of the two middle numbers
+				- It works on Raw data and Ordinal data
+				- It doesn't work for Grouped data or Nominal data 
+				- Doesn't get affected by extreme values (outliers)
+			- **Rules:**
+				- **n is Even:** $Median=\frac{T(\frac{n}{2})+T(\frac{n}{2}+1)}{2}$, where $T()$ is the value of the element in that position 
+				- **n is Odd:** $Median=T(\frac{n+1}{2})$ 
+		- **Mode:**
+			- **Overview:**
+				- Gives the most values that's repeated
+				- It works for Raw data and Qualitative data
+				- It doesn't work for Grouped data 
+		- **Notes:**
+			- Normal Distribution (Bell Curve) $\to$ Mean = Median = Mode
+			- Skewed to the right $\to$ Mean > Median > Mode
+			- Skewed to the left $\to$ Mode> Median > Mean 
+	- **Measure of Dispersion:** 
+		- **Overview:** Measures how the data is spread around the center 
+		- **Range:**
+			- $Range= Highest - Lowest$
+			- Range decrease $\to$ Data is close to each other 
+			- Range increase $\to$ Data is widely spread
+		- **Inter Quartile Range (IQR):**
+			- **Overview:**
+				-  Tells us how spread out the middle 50% of our data is (focus only on the center of the data)
+				- The outliers doesn't affect it 
+			- **Steps:**
+				- Get the median of the sample $Q_2$ 
+				- Get the median for the first half $Q_1$ 
+				- Get the median for the second half $Q_3$ 
+				- **Note:**
+					- When getting the medians if the set contains even number of elements then we get the first half and last half for $Q_1$ and $Q_3$ 
+					- When getting the medians if the set contains odd number then we exclude the middle number when getting $Q_1$ and $Q_3$ 
+			- **Rules:**
+				- $IQR=Q_3-Q_1$ 
+				- $upper\ limit=Q_3+1.5IQR$
+				- $lower\ limit =Q_1-1.5IQR$ 
+			- **Box Plot:**
+				- **Overview:**
+					- The min and max values are he values of the lowest and highest elements after removing outliers, they are called lower and upper whisker 
+					- The start of the box is $Q_1$
+					- The end of the box is $Q_3$ 
+				- **Normal Distribution:** $Q_2$ in the middle and both outliers are equal 
+				- **Positively Skewed:** $Q_2$ is shifted to the left and the left outlier is smaller than the right outlier 
+				- **Negatively Skewed:** $Q_2$ is shifted to the right and the rigth outlier is smaller than the left outlier 
+
+---
+## 📘Lec 3
+
+- **Measure of Dispersion:**
+	- **Standard Deviation ($s,\ \sigma$):**
+		- **Overview:**
+			- It's the average spread of the data around the mean
+			- It's always positive
+			- high $s\to$ more variation and spread, low $s\to$ data spread close to mean 
+			- It's affected by outliers 
+			- It works on grouped or ungrouped data, and it's better to use the rule with mean as it could be already a requirement 
+		- **Rules:**
+			- **Ungrouped:**
+				- $s=\sqrt{\frac{\sum(x-\bar{x})^2}{n-1}}$ 
+				- $s=\sqrt{\frac{\sum x^2-\frac{(\sum x)^2}{n}}{n-1}}$ 
+			- **Grouped:**
+				- $s=\sqrt{\frac{\sum f(x-\bar{x})^2}{N-1}}$ 
+				- $s=\sqrt{\frac{\sum fx^2-\frac{(\sum fx)^2}{N}}{N-1}}$ 
+				- $N=\sum f$ 
+	- **Variance ($var,\ s^2$):**
+		- **Overview:**
+			- More affected by outliers 
+		- **Rules:**
+			- $var=s^2$ 
+	- **Z-score:**
+		- **Overview:**
+			- Tells you how many standard deviations a data point is above or below mean
+			- + $\to$ after the mean, - $\to$ before the mean 
+			- It's used to compare between two datasets with different mean and standard deviation, e.g. two students in different years score different scores in different enviroments, the z-score give who's better relative to the other students of this year 
+		- **Rules:**
+			- **General:** 
+				- $z=\frac{x-\bar{x}}{s}$  
+			- **Empirical Rule:** 
+				- 68% of the data falls in ($\bar{x}-s,\ \bar{x}+s$) 
+				- 95% of the data falls in ($\bar{x}-2s,\ \bar{x}+2s$)
+				- 99.7% of the data falls in ($\bar{x}-3s,\ \bar{x}+3s$)
+				- **Note:** 
+					- Works only on Normal Distribution 
+					- Z-score is the coffiecent of $s$, meaning that in ($\bar{x}-s$) $z=-1$ 
+			- **Chebyshev's Rule:**
+				- $k=\frac{(x-\bar{x})}{s}$ 
+				- $Data\ Range= 1-\frac{1}{k^2}$, where $k>1$ 
+				- At least 75% of the data falls in $\bar{x} \pm 2s$ 
+				- At least 89% of the data falls in $\bar{x}\pm 3s$ 
+				- At least $93.75$% of the data falls in $\bar{x}\pm 4s$ 
+				- At least $\frac{1}{k^2}*100$% within $k$ standard deviations $\bar{x}\pm k$ 
+				- **Note:**
+					- It works on any Non-Normal Distribution graphs
+					- $k$ is not the z-score, it's only used to calculate the Data Range 
+
+---
+## 📘Lec 4
+
+- **Correlation:**
+	- **Definition:** Measures the strength and direction of the linear relationship between two quantitative variables
+	- **Pearson's Correlation Coefficient ($r$):**
+		- $r=\frac{\sum Z_xZ_y}{n-1}$ 
+		- $Z_x=\frac{X-\bar X}{S_x}$ 
+		- $Z_y=\frac{Y-\bar Y}{S_y}$ 
+	- **Range:($-1\le r\le 1$):** 
+	    - **(r>0):** Positive relationship (both increase together)
+	    - **(r<0):** Negative relationship (one increases as the other decreases)
+	    - **(r=0):** No _linear_ relationship
+	- **Strength:**
+		- $0\to$ No Correlation 
+		- $(0,\ 0.3] \to$ weak 
+		- $(0.3,\ 0.6]\to$ moderate 
+		- $(0.6,\ 1) \to$ strong
+		- $1\to$ Perfect Correlation
+	- **Notes:** 
+		- **($r=+1$):** Perfect positive linear relationship
+		- **($r=-1$):** Perfect negative linear relationship
+		- **($r=0$):** Doesn't necessarily mean no relationship; the relationship may be nonlinear
+		- Always inspect the scatter plot before interpreting $r$, as the relationship may not be linear 
+		- Correlation doesn't imply causation, as two variables being related does not prove that one causes the other, meaning that ice cream sales increase, and swimming accidents increase, that doesn't mean that eating more ice cream makes swimming accidents increase 
+	- **Coefficient of Determination ($r^2$):**
+		- Measures the proportion of variation in (Y) explained by its linear relationship with (X), meaning how much percent does the scatter plot explain the variation 
+		- Range $\to$ ($0\le r^2\le1$)
+		- e.g. ($r^2=0.86$) means 86% of the variation in (Y) is explained by the linear model using (X)
+- **Simple Linear Regression:**
+	- **Definition:** Finds the best-fitting straight line to describe the relationship between (X) and (Y), and predict (Y) from a given (X)
+	- **Rules:**
+		- $\hat Y=b_0+b_1X$ 
+		- $b_1=r\frac{S_y}{S_x}$  
+		- $b_0=\bar Y-b_1\bar X$
+		- $\epsilon=|Y_i-\hat Y_i|$ 
+
+---
+## 📘Lec 5
+
+- **Remember:**
+	- **Rules:**
+		- $P(A-B)=P(A)-P(A\cap B)$ 
+		- $P(A\cap B)=P(A)P(B)$, if A and B are mutually exclusive or disjoint  
+		- $P(A\cup B)=P(A)+P(B)$, if A and B are mutually exclusive or disjoint 
+		- $P(A|B)=\frac{P(A\cap B)}{P(B)}$ 
+		-  $P(A \cap B \cap C | D)=P(A|D)P(B|D)P(C|D)$ 
+	- **Notes:**
+		- **Mutual Exclusive:** It means that two events can never happen together, e.g. rolling dice once so probability of getting 3 or 5 are both mutualy exclusive, $P(A \cap B)=0$ 
+		- **Independent:** It means that the probability of A to happen doesn't rely on B, e.g. rolling dice twice, the probability to get 3 on the first and 2 in the second roll
+		- **Dependent:** It means that the probability of A to happen relies on B to happen first, e.g. drawing two cards without returning the cards 
+- **Bayes Rule:**
+	- Making tree diagram having the event and the conditional probabilities 
+    - Calculating the intersection of each event 
+    - Taking the sum to know the probability of the defective itself
+	- Use Conditional Probability rule to get unknown
+- **Sum Rule:**
+	- When we have multiple Mutually Exclusive events (A,B,C). And one event (X) having parts of each event then by getting the summation of the intersection parts gets X 
+	- $P(X)=P(X\cap A)+P(X\cap B)+P(X\cap C)$ 
+
+---
+## 📘Lec 6
+
+- **Probability Distribution:**
+	- $f(x)=P(X=x)$ 
+	- Random Variable: It's a variable that represents the outcome of a trail, e.g. A coin is tossed twice how much can a head appeare $\to$ $X={0,1,2}$ 
+	- The probability of a random variable is in this e.g. $P(X=0)=\frac{1}{4} ,\ P(X=1)=\frac{2}{4},\ P(X=2)=\frac{1}{4}$ 
+	- $\sum P(X) =1$,     $0\le P(X)\le 1$ 
+- **Remember:**
+	- **Mean ($\mu$):**
+		- Average value
+		- $\mu = \sum X.P(X)$ 
+	- **Variance ($\sigma^2$):**
+		- How does the data vary from the mean 
+		- $\sigma^2=\sum (X^2.P(X))-\mu^2$ 
+	- **Standard Deviation ($\sigma$):**
+		- $\sigma=\sqrt{\sum (X^2.P(X))-\mu^2}$ 
+- **Binomial Distribution:**
+	- **Overview:** When we have a probability that has two outcomes instead of using distribution probability, we could use some shortcuts with binomial rules 
+	- **Conditions:**
+		- Have repeated Bernoulli trails
+         - Fixed number of trails (n)
+         - Each trail has two outcomes (0, 1)
+         - Probability of success remains constant 
+         - Repeated trails are independent 
+     - **Rules:**
+	     -  $f(x)=p(X=x)=\binom{n}{x}p^xq^{n-x}$ 
+		 - $\binom{n}{x}=\frac{n!}{(n-x)!x!}$ 
+         - $\mu=np$ 
+         - $\sigma^2=npq$
+         - $\sigma=\sqrt{npq}$ 
+
+---
+

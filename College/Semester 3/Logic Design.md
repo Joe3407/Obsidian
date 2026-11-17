@@ -81,3 +81,114 @@
 			- **Maxterm:** $x\to 1$,  $x'\to 0$     Notation $\to$ $\prod()$ 
 
 ---
+## 📘Lec 4
+
+ - **K-Map Rules:**
+	- Number of squares = $2^n$, where ($n$) = number of variables
+	- Group only adjacent (1)'s (for SOP)
+	- Group size must be ($2^k$): ($1, 2, 4, 8, 16, \ldots$)
+	- Make groups as large as possible
+	- Overlapping is allowed
+- **Variable Position:**
+	- **2 Variables:** $X\to$ row, $Y\to$ column
+	- **3 Variables:** $X\to$ row, $Y\to$ two columns on the right, $Z\to$ two columns in the middle 
+	- **4 Variables:** $W\to$ bottom two rows, $X\to$ middle two rows, $Y\to$ two columns on the right, $Z\to$ two columns in the middle 
+- **Notes:**
+	- The first and last rows/columns are adjacent
+	- The four corners are adjacent and can form one group
+- **Product of Sum (POS):**
+	- Group the 0's instead of the 1's
+	- Extract (F') in SOP form
+	- Take the complement: (F=(F')')
+	- Apply De Morgan's Law to obtain the final POS form
+- **Don't-Care Conditions ($X$):**
+	- Can be treated as either 0 or 1
+	- Include X's only if they help create larger groups
+	- X's do not have to be covered
+	- Never create a group using only X's
+
+---
+## 📘Lec 5
+
+- **NAND-Only Implementation:**
+	- **NOT:** Connect both inputs together, ($x \text{ NAND } x = x'$)
+	- **AND:** NAND followed by a NAND inverter, $((xy)')'=xy$
+	- **OR:** Invert both inputs using NAND, then NAND them, $(x'y')'=x+y$
+- **Notes:**
+	- NAND-only implementation is best suited for **SOP expressions** 
+- **NOR-Only Implementation:**
+	- **NOT:** Connect both inputs together, $(x \text{ NOR } x = x')$ 
+	- **OR:** NOR followed by a NOR inverter, $((x+y)')'=x+y$ 
+	- **AND:** Invert both inputs using NOR, then NOR them, $(x'+y')'=xy$ 
+- **Notes:**
+	- NOR-only implementation is best suited for **POS expressions** 
+- **XOR & XNOR:** 
+	- **XOR ($\oplus$):**
+		- $x\oplus y=xy'+x'y$ 
+	- **XNOR ($\odot$):**
+		- $x\odot y=xy+x'y'$ 
+		- $x\odot y=(x\oplus y)'$ 
+	- **Properties of XOR:** 
+		- $x\oplus x=0$ 
+		- $x\oplus x'=1$
+		- $x\oplus 0=x$
+		- $x\oplus 1=x'$
+		- $x\oplus y=y\oplus x$ (Commutative)
+		- $(x\oplus y)\oplus z=x\oplus(y\oplus z)$ (Associative)
+		- $x\oplus y'=(x\oplus y)'=x'\oplus y$ 
+	- **Notes:**
+		- XOR of multiple variables = 1, when an **odd number of inputs are 1**
+		- XNOR of multiple variables = 1, when an **even number of inputs are 1** 
+- **Parity Generator & Checker:**
+	- **Parity Bit:** An additional bit sent with data to detect transmission errors
+	- **Even-Parity Generator:** Generates a parity bit that makes the total number of 1's even, $P=x\oplus y\oplus z$n
+	- **Odd-Parity Generator:** Generates a parity bit that makes the total number of 1's odd, $P=(x\oplus y\oplus z)'$ 
+	- **Even-Parity Checker:**
+		- $C=x\oplus y\oplus z\oplus P$ 
+		- $C=0\to$ No error detected
+		- $C=1\to$ Parity error detected
+	- **Odd-Parity Checker:**
+		- $C=x\oplus y\oplus z\oplus P$
+		- (C=1) → No error detected
+		- (C=0) → Parity error detected
+- **Combinational Logic Circuits:**
+	- **Combinational Circuit:**
+		- Consists of logic gates only (no memory or feedback)
+		- Outputs depend ONLY on present inputs
+		- For (n) inputs → (2^n) possible combinations
+		- Can be represented using a Truth Table or Boolean Functions
+	- **Notes:** 
+		- Combinational $\to$ Depends on present inputs only
+		- Sequential $\to$ Depends on present inputs AND previous state (memory)
+- **Analysis:** 
+	- **Overview:** Given a logic diagram, find its Boolean functions or Truth Table
+	- **Methods:** 
+		- **Boolean Functions:**
+			- Label intermediate gate outputs $(T_1,T_2,\ldots)$
+			- Write the Boolean expression for each gate
+			- Substitute intermediate expressions until the final outputs depend only on the original inputs
+		- **Truth Table:**
+			- Count inputs $(n)\to$ Create ($2^n$) rows
+			- Label intermediate gate outputs
+			- Calculate each gate's output step by step
+			- Continue until all final outputs are obtained
+
+---
+## 📘Lec 6
+
+- **Design Procedure:**
+	- Determine the required number of input and output
+	- Derive the truth table 
+	- Obtain the Simplified Boolean function, Using K-map
+	- Draw the logic diagram 
+- **Code Conversion:**
+	- **BCD:** Binary-Coded Decimal 
+	- **Excess-3:** We add 3 to the dedimal numbers
+- **Adder:**
+	- **Half Adder:** Summation of two bits 
+	- **Full Adder:** Summation of three bits, If we have T shape in k-map then we could take the diagonl ones and make it xor buy taking each one alone 
+	- **4 Bit Adder:** We use 3 Full adders and the first addition is a half adder because there is no carry, but we can make the carray with 0 and use 4 full adders
+	- **4 Bit Subtractor:** We use the 2's complement where we get the negation of the second number and add one at first (which is the carry=1)
+	- **4 Bit Adder-Subtractor:** We can use Xor as when the carry is 1 at first then we want the second number to be negation and if carry is 0, then this is addition which gives the same number without negation as any number Xor 0 gives the same number 
+
+---

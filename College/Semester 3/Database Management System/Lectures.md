@@ -1,7 +1,7 @@
 ## 📘Lec 1 
 
 - **Database:** A collection of related data 
-- **Transaction:** Multiple database accesses, but together they form one transaction, e.g. Transfer $100 from Ahmed → Joe
+- **Transaction:** Multiple database accesses, but together they form one transaction, e.g. Transfer $100 from Ahmed(-100)→ Joe(+100)
 - **📝Types of Databases:** 
 	- **Traditional:** Stores textual or numeric information
 	- **Multimedia:** Stores images, audio clips, and video streams digitally
@@ -108,5 +108,23 @@
 		- **Mapping of Weak Entities:**
 			- Create a relation (table) that includes all the simple attributes of entity
 			- Include a foreign key that contains a combination of partial key from the weak entity and primary key from strong entity
+
+---
+## 📘Lec 4
+
+- **ER-to-(Relational/Schema) Mapping:**
+	- **Steps:**
+		- **Mapping of Binary 1:1 Relation types:**
+			- **Foriegn Key Approach:** It's to add a foriegn key in the entity as a new column, it's better to choose the entity with total participation to reduce null values 
+			- **Merged Relation Approach:** Only when both entities participation is total
+			- **Cross-Reference Approach:** Create a new table containing the primary keys of both entities as a composite key 
+		- **Mapping of Binary 1:N Relation types:**
+			- Add the foriegn key in the side of many, and an arrow points to the primary key of other entity, and any attributes in the relation is added 
+		- **Mapping of Binary M:N Relation types:**
+			- Creating a table having both primary keys of the two entities as foreign key and any attributes related to the relation is added in the table 
+		- **Mapping of Multivalued Attributes :**
+			- Create a table having both the primary key of entity and the multivalued attribute as the foreign key
+		- **Mapping of N-ary Relation types:**
+			- Create a table containing all the primary keys of the entities as the foreign key, and any attributes in the relation is included 
 
 ---
