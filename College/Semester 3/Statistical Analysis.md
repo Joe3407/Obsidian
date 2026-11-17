@@ -33,9 +33,9 @@
 		- **Cases:** Students
 		- **Variables:** Grades, It must be mostly distinct, meaning we can't have country as the variable in the student example 
 		- **Observations:** The value of the grades 
-		- **Levels of Measurement:** Datatype in coding
+		- **Levels of Measurement:** Datatype in coding, Qualitative & Quantitative types, e.g. Ordinal, Nominal, Discrete, Continuous
 	- **Types of Variables:**
-		- **Qualitative (non-numerical):**
+		- **Qualitative (non-numerical):** 
 			- **Ordinal:** Grades, GPA, Rank
 			- **Nominal:** Color, Nationality
 			- **Ratio:** Percentage 
@@ -75,16 +75,31 @@
 	- **Histogram:**
 		- Large Quantitative Samples
 		- Similar to bar graph but the bars must touch each other, Intervals must be equal 
-		- **Rules to Solve:**
-			- Get the range using $R=max-min$  
-			- Get the number of samples $N$ 
-			- Calculate the number of intervals $k=ceil(\sqrt{N})$ 
-			- Calculate the interval range $w=ceil(\frac{R}{k})$ 
-			- **Note:**
-				- $h=\frac{f}{w}$, the height of interval, and if the graph is between the height and $w$, then the area is the frequency $f$ 
-				- X-axis $\to$ observation, Y-axis $\to$ cases 
 
 ---
+## 📘Lec 2 
+
+- **Histogram:**
+	- **Overview:** The histogram is originally a dot graph but with large data it becomes complicated so we do the frequency of a specific range 
+	- **Raw Ungrouped Data:**
+		- **Steps:**
+			- Get the range using $R=max-min$ 
+			- Get the number of samples $n$ 
+			- Calculate the number of intervals $no.\ of\ intervals=ceil(\sqrt{n})$ 
+			- Calculate the interval range $w=ceil(\frac{R}{no.\ of\ interval})$ 
+			- Calculate the mid point for every interval to know the shape of the distribution  
+	- **Grouped Data:**
+		- **Interval Range is Equal:** Same steps as Raw Ungrouped Data 
+		- **Steps:**
+			- $width=upper-lower$ 
+			- $Height=\frac{frequency}{width}$ 
+		- **Note:**
+			- We use the height as we always want the area to be the frequency, so when the width was equal the frequency was the height the the width was constant, but since the width isn't equal then if we try to take the area the ratios won't be correct, so we use the height to guarantee that the area will still be the correct frequency 
+	- **Graph Shapes:**
+		- Bell Shaped: 1 mode, Unimodal 
+		- Positive Skewing: Skewed to the right, longer right tail 
+		- Negative Skewing: Skewed to the left, longer left tail 
+		- Bimodal: 2 modes
 - **Descriptive Statistics:**
 	- **Central Tendency:** 
 		- **Overview:** Measures the center or a single number that best represents dataset 
@@ -240,8 +255,8 @@
 - **Remember:**
 	- **Rules:**
 		- $P(A-B)=P(A)-P(A\cap B)$ 
-		- $P(A\cap B)=P(A)P(B)$, if A and B are mutualy exclusive or disjoint  
-		- $P(A\cup B)=P(A)+P(B)$, if A and B are mutualy exclusive or disjoint 
+		- $P(A\cap B)=P(A)P(B)$, if A and B are mutually exclusive or disjoint  
+		- $P(A\cup B)=P(A)+P(B)$, if A and B are mutually exclusive or disjoint 
 		- $P(A|B)=\frac{P(A\cap B)}{P(B)}$ 
 		-  $P(A \cap B \cap C | D)=P(A|D)P(B|D)P(C|D)$ 
 	- **Notes:**
@@ -254,7 +269,7 @@
     - Taking the sum to know the probability of the defective itself
 	- Use Conditional Probability rule to get unknown
 - **Sum Rule:**
-	- When we have multiple Mutualy Exclusive events (A,B,C). And one event (X) having parts of each event then by getting the summation of the intersection parts gets X 
+	- When we have multiple Mutually Exclusive events (A,B,C). And one event (X) having parts of each event then by getting the summation of the intersection parts gets X 
 	- $P(X)=P(X\cap A)+P(X\cap B)+P(X\cap C)$ 
 
 ---
@@ -290,3 +305,4 @@
          - $\sigma=\sqrt{npq}$ 
 
 ---
+
